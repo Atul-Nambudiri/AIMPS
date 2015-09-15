@@ -6,8 +6,8 @@ class stack(object):
 	def init(self):
 		m_stack = []
 
-	def push(value):
+	def push(self, value):
 		m_stack.append(value)
 
-	def pop():
+	def pop(self):
 		m_stack.pop()

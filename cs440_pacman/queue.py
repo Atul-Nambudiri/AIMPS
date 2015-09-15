@@ -1,13 +1,13 @@
 class queue(object):
-	# a typical stack with an init, pop and push method
+	# a typical queue with an init, enqueue and dequeue method
 
 	list m_queue
 
 	def init(self):
-		m_stack = []
+		m_queue = []
 
-	def push(value):
-		m_stack.append(value)
+	def enqueue(self, value):
+		m_queue.append(value)
 
-	def pop():
-		m_stack.popleft()
+	def dequeue(self):
+		m_queue.popleft()
