@@ -11,3 +11,6 @@ class queue(object):
 
 	def dequeue(self):
 		m_queue.popleft()
+
+	def isEmpty(self):
+		return m_queue == 0;
