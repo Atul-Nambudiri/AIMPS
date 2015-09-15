@@ -4,13 +4,13 @@ class queue(object):
 	list m_queue = []
 
 	def init(self):
-		m_queue = []
+		self.m_queue = []
 
 	def enqueue(self, value):
-		m_queue.append(value)
+		self.m_queue.append(value)
 
 	def dequeue(self):
-		m_queue.popleft()
+		self.m_queue.popleft()
 
 	def isEmpty(self):
-		return m_queue == 0;
+		return self.m_queue == 0;
