@@ -1,3 +1,6 @@
+from queue import queue
+import copy
+
 def bfs(maze, start, end, walls):
 	m_queue = queue()
 	visited = copy.deepcopy(walls)

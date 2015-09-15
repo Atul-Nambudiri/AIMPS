@@ -1,7 +1,7 @@
 class queue(object):
 	# a typical queue with an init, enqueue and dequeue method
 
-	list m_queue
+	list m_queue = []
 
 	def init(self):
 		m_queue = []
