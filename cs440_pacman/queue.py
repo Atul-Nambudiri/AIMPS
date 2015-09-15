@@ -8,7 +8,7 @@ class queue(object):
 		self.m_queue.append(value)
 
 	def dequeue(self):
-		return self.m_queue.popleft()
+		return self.m_queue.pop(0)
 
 	def isEmpty(self):
 		return self.m_queue == 0;
