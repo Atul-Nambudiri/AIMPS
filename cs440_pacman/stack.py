@@ -10,5 +10,5 @@ class stack(object):
 	def pop(self):
 		return self.m_stack.pop()
 
-	def empty(self):
+	def isEmpty(self):
 		return len(self.m_stack) == 0
