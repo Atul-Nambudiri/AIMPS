@@ -15,9 +15,9 @@ def main():
 				char = lines[i][j]
 				toInsertToMaze.append(char)
 				if char == '.':
-					start = [i, j]
-				elif char == 'P':
 					end = [i, j]
+				elif char == 'P':
+					start = [i, j]
 				if char == '.' or char == 'P' or char == ' ':
 					toInsertToWalls.append(False)
 				else:
