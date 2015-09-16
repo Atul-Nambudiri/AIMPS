@@ -6,11 +6,13 @@ def bfs(maze, start, end, walls):
 	visited = copy.deepcopy(walls)
 	prev = copy.deepcopy(walls)
 	steps = 0
+	nodesExpanded = 0
 
 	m_queue.enqueue(start)
 
 	while not m_queue.isEmpty():
 		currentPoint = m_queue.dequeue()
+		nodesExpanded += 1
 		if(currentPoint[0] == end[0] and currentPoint[1] == end[1]):
 			break
 
@@ -34,16 +36,15 @@ def bfs(maze, start, end, walls):
 				m_queue.enqueue([currentPoint[0], currentPoint[1] + 1])
 
 			if not (currentPoint[0] - 1) < 0 and not visited[currentPoint[0] - 1][currentPoint[1]]:
-				print(currentPoint)
 				prev[currentPoint[0] - 1][currentPoint[1]] = [currentPoint[0], currentPoint[1]]
 				m_queue.enqueue([currentPoint[0] - 1, currentPoint[1]])
 
 			steps += 1
-			if maze[currentPoint[0]][currentPoint[1]] is not 'P':
+			if maze[currentPoint[0]][currentPoint[1]] is not '.':
 				maze[currentPoint[0]][currentPoint[1]] = 'g'
 			visited[currentPoint[0]][currentPoint[1]] = True
 
-	return steps
+	return [steps, nodesExpanded]
 
 if __name__ == "__main__":
 	maze = [['%', '%', '%', '%', '%'], 
