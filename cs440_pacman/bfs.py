@@ -2,9 +2,10 @@ from queue import queue
 import copy
 
 def bfs(maze, start, end, walls):
+	maze2 = copy.deepcopy(maze)
 	m_queue = queue()
 	visited = copy.deepcopy(walls)
-	prev = copy.deepcopy(walls)
+	prev = copy.deepcopy(maze)
 	steps = 0
 	nodesExpanded = 0
 
@@ -18,7 +19,7 @@ def bfs(maze, start, end, walls):
 
 		if visited[currentPoint[0]][currentPoint[1] - 1] is True and visited[currentPoint[0] + 1][currentPoint[1]] is True and visited[currentPoint[0]][currentPoint[1] + 1] is True and visited[currentPoint[0] - 1][currentPoint[1]] is True:
 			steps -= 1
-			maze[currentPoint[0]][currentPoint[1]] = ''
+			maze2[currentPoint[0]][currentPoint[1]] = ''
 			visited[currentPoint[0]][currentPoint[1]] = True
 			currentPoint = prev[currentPoint[0]][currentPoint[1]]
 
@@ -42,10 +43,10 @@ def bfs(maze, start, end, walls):
 			steps += 1
 
 			if maze[currentPoint[0]][currentPoint[1]] is not '.':
-				maze[currentPoint[0]][currentPoint[1]] = 'g'
+				maze2[currentPoint[0]][currentPoint[1]] = 'g'
 			visited[currentPoint[0]][currentPoint[1]] = True
 
-	return [steps, nodesExpanded]
+	return [maze2, steps, nodesExpanded]
 
 if __name__ == "__main__":
 	maze = [['%', '%', '%', '%', '%'], 
