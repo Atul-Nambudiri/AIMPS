@@ -40,6 +40,7 @@ def bfs(maze, start, end, walls):
 				m_queue.enqueue([currentPoint[0] - 1, currentPoint[1]])
 
 			steps += 1
+
 			if maze[currentPoint[0]][currentPoint[1]] is not '.':
 				maze[currentPoint[0]][currentPoint[1]] = 'g'
 			visited[currentPoint[0]][currentPoint[1]] = True
