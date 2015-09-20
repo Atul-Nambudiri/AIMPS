@@ -15,15 +15,14 @@ def greedy(maze, start, end, walls):
 		if(currentPoint[0] == end[0] and currentPoint[1] == end[1]):
 			break
 
+		nodesExpanded += 1
+
 		if visited[currentPoint[0]][currentPoint[1] - 1] is True and visited[currentPoint[0] + 1][currentPoint[1]] is True and visited[currentPoint[0]][currentPoint[1] + 1] is True and visited[currentPoint[0] - 1][currentPoint[1]] is True:
 			steps -= 1
-			nodesExpanded += 1
 			maze2[currentPoint[0]][currentPoint[1]] = ''
 			visited[currentPoint[0]][currentPoint[1]] = True
 			currentPoint = prev[currentPoint[0]][currentPoint[1]]
 		else:
-			nodesExpanded += 1
-
 			if not (currentPoint[1] - 1) < 0 and not visited[currentPoint[0]][currentPoint[1] - 1]:
 				prev[currentPoint[0]][currentPoint[1] - 1] = [currentPoint[0], currentPoint[1]]
 				minManhattanDistance.append([math.fabs(currentPoint[0] - end[0]) + math.fabs(currentPoint[1] - 1 - end[1]), [currentPoint[0], currentPoint[1] - 1]])
@@ -54,6 +53,8 @@ def greedy(maze, start, end, walls):
 							currentPoint = [pair[1][0], pair[1][1]]
 							steps += 1
 
+	maze2[start[0]][start[1]] = 'P'
+	maze2[end[0]][end[1]] = '.'
 	return [maze2, steps, nodesExpanded]
 
 if __name__ == "__main__":
@@ -61,7 +62,7 @@ if __name__ == "__main__":
 			['%', '%', '%', '%', '%', '%'],
 			['%', '', '', '', '', '%'],
 			['%', '', '%', '', '%', '%'],
-			['%', '.', '%', '', 'P', '%'],
+			['%', 'P', '%', '', '.', '%'],
 			['%', '%', '%', '%', '%', '%']]
 	walls = [[True, True, True, True, True, True], 
 			[True, True, True, True, True, True],
@@ -72,4 +73,3 @@ if __name__ == "__main__":
 
 	resp = greedy(maze, [4, 1], [4, 4], walls)
 	print(resp)
-	print(maze)
