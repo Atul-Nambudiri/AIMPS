@@ -63,5 +63,5 @@ if __name__ == "__main__":
 	for line in path:
 		print(line)
 
-	print(steps)
-	print(opened)
+	print("Steps: %s" % (steps))
+	print("Nodes Visited: %s" % (opened))
