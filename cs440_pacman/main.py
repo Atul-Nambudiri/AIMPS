@@ -4,8 +4,8 @@ from dfs import dfs
 def main():
 	maze = []
 	walls = []
-	start = []
-	end = []
+	start = ()
+	end = ()
 	with open('mediumMaze.txt', 'r') as mazeText:
 		lines = [x.strip('\r\n') for x in mazeText.readlines()]
 		for i in range(len(lines)):
@@ -15,9 +15,9 @@ def main():
 				char = lines[i][j]
 				toInsertToMaze.append(char)
 				if char == '.':
-					end = [i, j]
+					end = (i, j)
 				elif char == 'P':
-					start = [i, j]
+					start = (i, j)
 				if char == '.' or char == 'P' or char == ' ':
 					toInsertToWalls.append(False)
 				else:
@@ -33,15 +33,6 @@ def main():
 
 	print(start)
 	print(end)
-
-	#print("BFS:")
-	#resp = bfs(maze, start, end, walls)
-	#print(resp)
-
-	#print("DFS:")
-	#resp = dfs(maze, start, end, walls)
-	#for row in resp:
-	#	print(row)
 
 if __name__ == "__main__":
 	main()
