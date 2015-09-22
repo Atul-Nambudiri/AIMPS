@@ -28,7 +28,7 @@ def a_star(maze, start, end, walls):
 	shouldBreak = False
 	for i in range(len(walls)):
 		for j in range(len(walls[i])):
-			if walls[i][j] is False:
+			if walls[i][j] is False and maze[i][j] is not 'P' and maze[i][j] is not '.':
 				ghostPos = [i, j]
 				shouldBreak = True
 				break
@@ -39,6 +39,7 @@ def a_star(maze, start, end, walls):
 	#set the initial Ghost square to be G
 	ghostDirection = 'R'
 	maze2[ghostPos[0]][ghostPos[1]] = 'G'
+	firstTurn = True
 
 	while not p_queue.empty():
 		current = p_queue.get()
@@ -46,10 +47,22 @@ def a_star(maze, start, end, walls):
 		x_pos = current.pos[0]
 		y_pos = current.pos[1]
 
-		#check if pacman's position is the same as the ghost's position: game over
+		#if pacman's position is equal to ghosts
 		if(x_pos == ghostPos[0] and y_pos == ghostPos[1]):
 			print("GAME OVER")
 			break
+
+		if not firstTurn:
+			#check if you pass through it
+			if(prev[x_pos][y_pos][0] == x_pos and prev[x_pos][y_pos][1] == y_pos - 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] - 1 and ghostDirection is 'L'):
+				print("GAME OVER")
+				break
+
+			if(prev[x_pos][y_pos][0] == x_pos and prev[x_pos][y_pos][1] == y_pos + 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] + 1 and ghostDirection is 'R'):
+				print("GAME OVER")
+				break
+
+		firstTurn = False
 
 		#check if pacman's position is the same as the end position: game over
 		if x_pos == end[0] and y_pos == end[1]:
@@ -63,18 +76,20 @@ def a_star(maze, start, end, walls):
 		if(ghostDirection is 'R'):
 			if(walls[ghostPos[0]][ghostPos[1] + 1]):
 				ghostDirection = 'L'
+				ghostPos = [ghostPos[0], ghostPos[1] - 1]
 			else:
 				ghostPos = [ghostPos[0], ghostPos[1] + 1]
 		else:
 			if(walls[ghostPos[0]][ghostPos[1] - 1]):
 				ghostDirection = 'R'
+				ghostPos = [ghostPos[0], ghostPos[1] + 1]
 			else:
 				ghostPos = [ghostPos[0], ghostPos[1] - 1]
 
 		#check if pacman's will pass through the ghost on it's next iteration
-		if(x_pos == ghostPos[0] and y_pos == ghostPos[1]):
-			print("GAME OVER")
-			break
+		# if(x_pos == ghostPos[0] and y_pos == ghostPos[1]):
+		# 	print("GAME OVER")
+		# 	break
 
 		if(maze2[ghostPos[0]][ghostPos[1]] != 'G' and maze2[ghostPos[0]][ghostPos[1]] != 'P'):
 			maze2[ghostPos[0]][ghostPos[1]] = 'g'
@@ -93,6 +108,7 @@ def a_star(maze, start, end, walls):
 						cost[new.pos] = cost_so_far[(x_pos, y_pos)] + 1 + manhattan_distance(neighbor, end)
 						prev[new.pos] = [x_pos, y_pos]
 						p_queue.put(new)
+
 
 	path = copy.deepcopy(maze2)
 	current = end
