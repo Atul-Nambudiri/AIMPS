@@ -1,12 +1,14 @@
 from bfs import bfs
 from dfs import dfs
+from a_star import a_star
+from a_star12 import a_star12
 
 def main():
 	maze = []
 	walls = []
 	start = ()
 	end = ()
-	with open('mediumMaze.txt', 'r') as mazeText:
+	with open('smallTurns.txt', 'r') as mazeText:
 		lines = [x.strip('\r\n') for x in mazeText.readlines()]
 		for i in range(len(lines)):
 			toInsertToMaze = []
@@ -34,7 +36,7 @@ def main():
 	print(start)
 	print(end)
 
-	path, steps, opened = dfs(maze, start, end, walls)
+	path, steps, opened = a_star12(maze, start, end, walls)
 	for line in path:
 		print(line)
 
