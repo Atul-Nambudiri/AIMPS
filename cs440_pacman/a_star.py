@@ -9,7 +9,6 @@ def manhattan_distance(current, dest):
 def a_star(maze, start, end, walls):
 	opened = 0
 	p_queue = PriorityQueue(maxsize=0)
-	visited = copy.deepcopy(walls)
 
 	cost_so_far = {}
 	cost = {}
@@ -26,7 +25,6 @@ def a_star(maze, start, end, walls):
 		current = p_queue.get()
 		x_pos = current.pos[0]
 		y_pos = current.pos[1]
-		visited[x_pos][y_pos] = True
  
 		if x_pos == end[0] and y_pos == end[1]:
 			break
@@ -34,8 +32,8 @@ def a_star(maze, start, end, walls):
 		neighbors = [(x_pos -1, y_pos), (x_pos, y_pos + 1), (x_pos + 1, y_pos), (x_pos, y_pos - 1)]
 
 		for neighbor in neighbors:
-			if not neighbor[0] < 0 and not neighbor[1] < 0 and not neighbor[0] >= len(visited) and not neighbor[1] >= len(visited[0]):
-				if not visited[neighbor[0]][neighbor[1]]:
+			if not neighbor[0] < 0 and not neighbor[1] < 0 and not neighbor[0] >= len(walls) and not neighbor[1] >= len(walls[0]):
+				if not walls[neighbor[0]][neighbor[1]]:
 					if neighbor not in cost or cost[neighbor] > (cost_so_far[(x_pos, y_pos)] + 1 + manhattan_distance(neighbor, end)):
 						new = Position(neighbor, cost_so_far[(x_pos, y_pos)] + 1 + manhattan_distance(neighbor, end))
 						cost_so_far[new.pos] = cost_so_far[(x_pos, y_pos)] + 1

@@ -15,7 +15,6 @@ def a_star12(maze, start, end, walls):
 def a_star(maze, start, end, walls, distance_function, straight, turn):
 	opened = 0
 	p_queue = PriorityQueue(maxsize=0)
-	visited = copy.deepcopy(walls)
 
 	cost_so_far = {}
 	cost = {}
@@ -34,7 +33,6 @@ def a_star(maze, start, end, walls, distance_function, straight, turn):
 		current = p_queue.get()
 		x_pos = current.pos[0]
 		y_pos = current.pos[1]
-		visited[x_pos][y_pos] = True
 		cur_dir = direction_facing[current.pos]
 
 		if x_pos == end[0] and y_pos == end[1]:
@@ -43,8 +41,8 @@ def a_star(maze, start, end, walls, distance_function, straight, turn):
 		neighbors = {(x_pos -1, y_pos) : 1, (x_pos, y_pos + 1) : 2, (x_pos + 1, y_pos) : 3, (x_pos, y_pos - 1) : 4}
 
 		for neighbor, new_dir in neighbors.iteritems():
-			if not neighbor[0] < 0 and not neighbor[1] < 0 and not neighbor[0] >= len(visited) and not neighbor[1] >= len(visited[0]):
-				if not visited[neighbor[0]][neighbor[1]]:
+			if not neighbor[0] < 0 and not neighbor[1] < 0 and not neighbor[0] >= len(walls) and not neighbor[1] >= len(walls[0]):
+				if not walls[neighbor[0]][neighbor[1]]:
 					extra_cost = 0
 					if new_dir == cur_dir:
 						extra_cost = straight
