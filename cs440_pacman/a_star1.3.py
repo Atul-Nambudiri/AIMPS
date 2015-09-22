@@ -25,11 +25,13 @@ def a_star(maze, start, end, walls):
 
 	#initialize the position of the ghost by checking for the first instance where there is no wall
 	ghostPos = [0, 0]
+	initGhostPos = [0, 0]
 	shouldBreak = False
 	for i in range(len(walls)):
 		for j in range(len(walls[i])):
 			if walls[i][j] is False and maze[i][j] is not 'P' and maze[i][j] is not '.':
 				ghostPos = [i, j]
+				initGhostPos = [i, j]
 				shouldBreak = True
 				break
 		if(shouldBreak):
@@ -49,17 +51,20 @@ def a_star(maze, start, end, walls):
 
 		#if pacman's position is equal to ghosts
 		if(x_pos == ghostPos[0] and y_pos == ghostPos[1]):
-			print("GAME OVER")
+			print("GAME OVER1")
+			end = current.pos
 			break
 
 		if not firstTurn:
 			#check if you pass through it
-			if(prev[x_pos][y_pos][0] == x_pos and prev[x_pos][y_pos][1] == y_pos - 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] - 1 and ghostDirection is 'L'):
-				print("GAME OVER")
+			if(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos - 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] + 1 and ghostDirection is 'L'):
+				print("GAME OVER2")
+				end = current.pos
 				break
 
-			if(prev[x_pos][y_pos][0] == x_pos and prev[x_pos][y_pos][1] == y_pos + 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] + 1 and ghostDirection is 'R'):
-				print("GAME OVER")
+			if(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos + 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] - 1 and ghostDirection is 'R'):
+				print("GAME OVER3")
+				end = current.pos
 				break
 
 		firstTurn = False
@@ -109,23 +114,26 @@ def a_star(maze, start, end, walls):
 						prev[new.pos] = [x_pos, y_pos]
 						p_queue.put(new)
 
-
-	path = copy.deepcopy(maze2)
 	current = end
 	steps = 0
-	while maze[current[0]][current[1]] != '.' and maze[current[0]][current[1]] != 'G' and maze[current[0]][current[1]] != 'P':
+
+	while maze[current[0]][current[1]] != 'P':
 		current = prev[(current[0], current[1])]
-		path[current[0]][current[1]] = '.'
+		if maze[current[0]][current[1]] != 'G':
+			maze2[current[0]][current[1]] = '.'
 		steps += 1
 
-	return path, steps, opened
+	maze2[start[0]][start[1]] = 'P'
+	maze2[initGhostPos[0]][initGhostPos[1]] = 'G'
+
+	return maze2, steps, opened
 	
 
 
 if __name__ == "__main__":
 	maze = [['%', '%', '%', '%', '%'], 
 			['%', '%', '%', '%', '%', '%'],
-			['%', '', '', '', '', '%'],
+			['%', '', '', '', '%', '%'],
 			['%', '', '%', '', '%', '%'],
 			['%', '.', '%', '', 'P', '%'],
 			['%', '%', '%', '%', '%', '%']]
@@ -136,9 +144,9 @@ if __name__ == "__main__":
 			[True, False, True, False, False,True],
 			[True, True, True, True, True, True]]
 
-	path, steps, opened = a_star(maze, (4, 1), (4, 4), walls)
+	path, steps, opened = a_star(maze, (4, 4), (4, 1), walls)
 	for line in path:
-		print(line)
+	 	print(line)
 
 	print(steps)
 	print(opened)
