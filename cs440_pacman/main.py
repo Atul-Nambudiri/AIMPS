@@ -25,14 +25,26 @@ def main():
 			maze.append(toInsertToMaze)
 			walls.append(toInsertToWalls)
 	
-	for i in maze:
+	"""for i in maze:
 		print i
 
 	for i in walls:
-		print i
+		print i"""
 
 	print(start)
 	print(end)
+
+	path, steps, opened = dfs(maze, start, end, walls)
+	for line in path:
+		print(line)
+
+	with open('output', 'w') as out:
+		for line in path:
+			output_line = "".join(line)
+			out.write("%s\n" % output_line) 
+
+	print("Steps: %s" % (steps))
+	print("Nodes Visited: %s" % (opened))
 
 if __name__ == "__main__":
 	main()

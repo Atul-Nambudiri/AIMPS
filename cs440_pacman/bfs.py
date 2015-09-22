@@ -19,7 +19,7 @@ def bfs(maze, start, end, walls):
 
 		if visited[currentPoint[0]][currentPoint[1] - 1] is True and visited[currentPoint[0] + 1][currentPoint[1]] is True and visited[currentPoint[0]][currentPoint[1] + 1] is True and visited[currentPoint[0] - 1][currentPoint[1]] is True:
 			steps -= 1
-			maze2[currentPoint[0]][currentPoint[1]] = ''
+			maze2[currentPoint[0]][currentPoint[1]] = ' '
 			visited[currentPoint[0]][currentPoint[1]] = True
 			currentPoint = prev[currentPoint[0]][currentPoint[1]]
 
@@ -42,11 +42,11 @@ def bfs(maze, start, end, walls):
 
 			steps += 1
 
-			if maze[currentPoint[0]][currentPoint[1]] is not '.':
+			if maze[currentPoint[0]][currentPoint[1]] is not 'P':
 				maze2[currentPoint[0]][currentPoint[1]] = '.'
 			visited[currentPoint[0]][currentPoint[1]] = True
 
-	return [maze2, steps, nodesExpanded]
+	return maze2, steps, nodesExpanded
 
 if __name__ == "__main__":
 	maze = [['%', '%', '%', '%', '%'], 
@@ -62,10 +62,14 @@ if __name__ == "__main__":
 			[True, False, True, False, False,True],
 			[True, True, True, True, True, True]]
 
-	resp = bfs(maze, [4, 1], [4, 4], walls)
+	"""resp = bfs(maze, [4, 1], [4, 4], walls)
 	for line in resp[0]:
+		print(line)"""
+
+	maze2, steps, nodesExpanded = bfs(maze, (4, 1), (4, 4), walls)
+	for line in maze2:
 		print(line)
 
-	print("Steps: %s" % (resp[1]))
-	print("Nodes Visited: %s" % (resp[2]))
+	print("Steps: %s" % (steps))
+	print("Nodes Visited: %s" % (nodesExpanded))
 
