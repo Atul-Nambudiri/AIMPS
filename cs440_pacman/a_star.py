@@ -45,13 +45,11 @@ def a_star(maze, start, end, walls):
 
 	path = copy.deepcopy(maze)
 	current = end
-	steps = 0
 	while maze[current[0]][current[1]] != '.':
 		current = prev[(current[0], current[1])]
 		path[current[0]][current[1]] = '.'
-		steps += 1
 
-	return path, steps, opened
+	return path, cost_so_far[end], opened
 	
 
 
@@ -69,9 +67,9 @@ if __name__ == "__main__":
 			[True, False, True, False, False,True],
 			[True, True, True, True, True, True]]
 
-	path, steps, opened = a_star(maze, (4, 1), (4, 4), walls)
+	path, cost, opened = a_star(maze, (4, 1), (4, 4), walls)
 	for line in path:
 		print(line)
 
-	print(steps)
+	print(cost)
 	print(opened)
