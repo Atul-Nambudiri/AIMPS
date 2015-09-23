@@ -11,38 +11,41 @@ def greedy(maze, start, end, walls):
 	currentPoint = start
 	minimumPoint = []
 
-	timeout = time.time() + 90
+	timeout = time.time() + 15
 
 	while True:
-		#print(currentPoint)
+		print(currentPoint)
 		minManhattanDistance = []
 
 		if(time.time() > timeout):
-			end = current
+			end = currentPoint
 			print("There was a loop")
 			break
 
-		nodesExpanded += 1
 		if(currentPoint[0] == end[0] and currentPoint[1] == end[1]):
 			break
 
 		else:
 			visited[currentPoint[0]][currentPoint[1]] = True
 
-			if not (currentPoint[1] - 1) < 0 and not visited[currentPoint[0]][currentPoint[1] - 1]:
-				prev[currentPoint[0]][currentPoint[1] - 1] = [currentPoint[0], currentPoint[1]]
+			if not (currentPoint[1] - 1) < 0 and not walls[currentPoint[0]][currentPoint[1] - 1]:
+				if not visited[currentPoint[0]][currentPoint[1] - 1]:
+					prev[currentPoint[0]][currentPoint[1] - 1] = [currentPoint[0], currentPoint[1]]
 				minManhattanDistance.append([math.fabs(currentPoint[0] - end[0]) + math.fabs(currentPoint[1] - 1 - end[1]), [currentPoint[0], currentPoint[1] - 1]])
 
-			if not (currentPoint[0] + 1) >= len(walls) and not visited[currentPoint[0] + 1][currentPoint[1]]:
-				prev[currentPoint[0] + 1][currentPoint[1]] = [currentPoint[0], currentPoint[1]]
+			if not (currentPoint[0] + 1) >= len(walls) and not walls[currentPoint[0] + 1][currentPoint[1]]:
+				if not visited[currentPoint[0] + 1][currentPoint[1]]:
+					prev[currentPoint[0] + 1][currentPoint[1]] = [currentPoint[0], currentPoint[1]]
 				minManhattanDistance.append([math.fabs(currentPoint[0] + 1 - end[0]) + math.fabs(currentPoint[1] - end[1]), [currentPoint[0] + 1, currentPoint[1]]])
 
-			if not (currentPoint[1] + 1) >= len(walls) and not visited[currentPoint[0]][currentPoint[1] + 1]:
-				prev[currentPoint[0]][currentPoint[1] + 1] = [currentPoint[0], currentPoint[1]]
+			if not (currentPoint[1] + 1) >= len(walls) and not walls[currentPoint[0]][currentPoint[1] + 1]:
+				if not visited[currentPoint[0]][currentPoint[1] + 1]:
+					prev[currentPoint[0]][currentPoint[1] + 1] = [currentPoint[0], currentPoint[1]]
 				minManhattanDistance.append([math.fabs(currentPoint[0] - end[0]) + math.fabs(currentPoint[1] + 1 - end[1]), [currentPoint[0], currentPoint[1] + 1]])
 
-			if not (currentPoint[0] - 1) < 0 and not visited[currentPoint[0] - 1][currentPoint[1]]:
-				prev[currentPoint[0] - 1][currentPoint[1]] = [currentPoint[0], currentPoint[1]]
+			if not (currentPoint[0] - 1) < 0 and not walls[currentPoint[0] - 1][currentPoint[1]]:
+				if not visited[currentPoint[0] - 1][currentPoint[1]]:
+					prev[currentPoint[0] - 1][currentPoint[1]] = [currentPoint[0], currentPoint[1]]
 				minManhattanDistance.append([math.fabs(currentPoint[0] - 1 - end[0]) + math.fabs(currentPoint[1] - end[1]), [currentPoint[0] - 1, currentPoint[1]]])
 
 			#print(prev)
@@ -50,6 +53,7 @@ def greedy(maze, start, end, walls):
 			#	print(line)
 			
 			if len(minManhattanDistance) != 0:
+				nodesExpanded += 1
 				minimumVal = minManhattanDistance[0][0]
 				for pair in minManhattanDistance:
 					if(pair[0] < minimumVal):
@@ -57,7 +61,11 @@ def greedy(maze, start, end, walls):
 
 				for pair in minManhattanDistance:
 					if(pair[0] == minimumVal):
-						currentPoint = [pair[1][0], pair[1][1]]
+						if prev[currentPoint[0]][currentPoint[1]] == [pair[1][0], pair[1][1]]:
+							timeout = time.time()
+						else:
+						 	currentPoint = [pair[1][0], pair[1][1]]
+						 	nodesExpanded += 1
 				#print(currentPoint)
 
 	current = end
