@@ -49,19 +49,19 @@ def a_star13(maze, start, end, walls):
 		#if pacman's position is equal to ghosts
 		if(x_pos == ghostPos[0] and y_pos == ghostPos[1]):
 			print("GAME OVER1")
-			end = current.pos
+			end = prev[(current.pos[0], current.pos[1])]
 			break
 
 		if not firstTurn:
-			#check if you pass through it
+			#check if you've passed through it
 			if(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos - 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] + 1 and ghostDirection is 'L'):
 				print("GAME OVER2")
-				end = current.pos
+				end = prev[(current.pos[0], current.pos[1])]
 				break
 
 			if(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos + 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] - 1 and ghostDirection is 'R'):
 				print("GAME OVER3")
-				end = current.pos
+				end = prev[(current.pos[0], current.pos[1])]
 				break
 
 		firstTurn = False
@@ -103,7 +103,7 @@ def a_star13(maze, start, end, walls):
 		for neighbor in neighbors:
 			if not neighbor[0] < 0 and not neighbor[1] < 0 and not neighbor[0] >= len(walls) and not neighbor[1] >= len(walls[0]):
 				if not walls[neighbor[0]][neighbor[1]]:
-					if neighbor not in cost or cost[neighbor] > (cost_so_far[(x_pos, y_pos)] + 1 + manhattan_distance(neighbor, end)):
+					if not neighbor in cost or cost[neighbor] > (cost_so_far[(x_pos, y_pos)] + 1 + manhattan_distance(neighbor, end)):
 						new = Position(neighbor, cost_so_far[(x_pos, y_pos)] + 1 + manhattan_distance(neighbor, end))
 						cost_so_far[new.pos] = cost_so_far[(x_pos, y_pos)] + 1
 						cost[new.pos] = cost_so_far[(x_pos, y_pos)] + 1 + manhattan_distance(neighbor, end)
@@ -115,9 +115,11 @@ def a_star13(maze, start, end, walls):
 
 	while maze[current[0]][current[1]] != 'P':
 		current = prev[(current[0], current[1])]
-		if maze[current[0]][current[1]] != 'G' and maze[current[0]][current[1]] != 'g':
+		print(current)
+		if maze[current[0]][current[1]] != 'G':
 			maze2[current[0]][current[1]] = '.'
-		steps += 1
+		if maze[current[0]][current[1]] != 'P':
+			steps += 1
 
 	maze2[start[0]][start[1]] = 'P'
 	maze2[initGhostPos[0]][initGhostPos[1]] = 'G'

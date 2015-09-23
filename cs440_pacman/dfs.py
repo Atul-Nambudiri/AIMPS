@@ -40,7 +40,8 @@ def dfs(maze, start, end, walls):
 	while maze[current[0]][current[1]] != 'P':
 		current = prev[current[0]][current[1]]
 		path[current[0]][current[1]] = '.'
-		steps += 1
+		if maze[current[0]][current[1]] != 'P':
+			steps += 1
 	path[start[0]][start[1]] = 'P'
 
 	return path, steps, opened
