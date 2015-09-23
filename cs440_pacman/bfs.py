@@ -45,8 +45,7 @@ def bfs(maze, start, end, walls):
 	while maze[current[0]][current[1]] != 'P':
 		current = prev[current[0]][current[1]]
 		maze2[current[0]][current[1]] = '.'
-		if maze[current[0]][current[1]] != 'P':
-			steps += 1
+		steps += 1
 	maze2[start[0]][start[1]] = 'P'
 
 	return maze2, steps, nodesExpanded
