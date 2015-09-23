@@ -47,6 +47,8 @@ def a_star(maze, start, end, walls):
 		current = prev[(current[0], current[1])]
 		path[current[0]][current[1]] = '.'
 
+	path[start[0]][start[1]] = 'P'
+
 	return path, cost_so_far[end], opened
 	
 

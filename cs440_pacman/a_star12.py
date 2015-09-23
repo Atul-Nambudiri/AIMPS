@@ -10,7 +10,7 @@ def distance(current, dest):
 	return math.sqrt(math.pow(math.fabs(current[0] - dest[0]), 2) + math.pow(math.fabs(current[1] - dest[1]), 2))
 
 def a_star12(maze, start, end, walls):
-	return a_star(maze, start, end , walls, distance, 1, 2)
+	return a_star(maze, start, end , walls, distance, 2, 1)
 
 def a_star(maze, start, end, walls, distance_function, straight, turn):
 	opened = 0
@@ -63,6 +63,8 @@ def a_star(maze, start, end, walls, distance_function, straight, turn):
 	while maze[current[0]][current[1]] != 'P':
 		current = prev[(current[0], current[1])]
 		path[current[0]][current[1]] = '.'
+
+	path[start[0]][start[1]] = 'P'
 
 	return path, cost_so_far[end], opened
 	
