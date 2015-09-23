@@ -9,7 +9,7 @@ def main():
 	walls = []
 	start = ()
 	end = ()
-	with open('openMaze.txt', 'r') as mazeText:
+	with open('bigTurns.txt', 'r') as mazeText:
 		lines = [x.strip('\r\n') for x in mazeText.readlines()]
 		for i in range(len(lines)):
 			toInsertToMaze = []
@@ -37,17 +37,34 @@ def main():
 	print(start)
 	print(end)
 
-	path, steps, opened = greedy(maze, start, end, walls)
-	for line in path:
-		print(line)
+	'''i = 0
+	results = a_star12(maze, start, end, walls)
+	for item in results:
+		for line in item[0]:
+			print(line)
 
-	with open('output', 'w') as out:
-		for line in path:
-			output_line = "".join(line)
-			out.write("%s\n" % output_line) 
+		file_name = "output%d" % i
+		with open(file_name, 'w') as out:
+			for line in item[0]:
+				output_line = "".join(line)
+				out.write("%s\n" % output_line)
 
-	print("Steps: %s" % (steps))
-	print("Nodes Visited: %s" % (opened))
+		i += 1
+
+		print("Cost: %s" % (item[1]))
+		print("Nodes Visited: %s" % (item[2]))
+	'''
+
+	#path, steps, opened = a_star12(maze, start, end, walls)
+	#for line in path:
+	#	print(line)
+
+	#with open('output', 'w') as out:
+	#	for line in path:
+	#		output_line = "".join(line)
+	#		out.write("%s\n" % output_line) 
+
+
 
 if __name__ == "__main__":
 	main()

@@ -3,14 +3,20 @@ import math
 from position import Position
 from Queue import PriorityQueue
 
-def manhattan_distance(current, dest):
+def manhattan_distance(current, dest, straight, turn):
 	return math.fabs(current[0] - dest[0]) + math.fabs(current[1] - dest[1])
 
-def distance(current, dest):
+def distance(current, dest, straight, turn):
 	return math.sqrt(math.pow(math.fabs(current[0] - dest[0]), 2) + math.pow(math.fabs(current[1] - dest[1]), 2))
 
+def new(current, dest, straight, turn):
+	change_x = math.fabs(current[0] - dest[0])
+	change_y =  math.fabs(current[1] - dest[1])
+
+	return (change_x + change_y) * straight + turn
+
 def a_star12(maze, start, end, walls):
-	return a_star(maze, start, end , walls, distance, 2, 1)
+	return [a_star(maze, start, end , walls, manhattan_distance, 1, 2), a_star(maze, start, end , walls, manhattan_distance, 2, 1), a_star(maze, start, end , walls, new, 1, 2), a_star(maze, start, end , walls, new, 2, 1)]
 
 def a_star(maze, start, end, walls, distance_function, straight, turn):
 	opened = 0
@@ -50,10 +56,10 @@ def a_star(maze, start, end, walls, distance_function, straight, turn):
 						extra_cost = 2 * turn + straight
 					else:
 						extra_cost = straight + turn
-					if neighbor not in cost or cost[neighbor] > (cost_so_far[(x_pos, y_pos)] + extra_cost + distance_function(neighbor, end)):
-						new = Position(neighbor, cost_so_far[(x_pos, y_pos)] + extra_cost + distance_function(neighbor, end))
+					if neighbor not in cost or cost[neighbor] > (cost_so_far[(x_pos, y_pos)] + extra_cost + distance_function(neighbor, end, straight, turn)):
+						new = Position(neighbor, cost_so_far[(x_pos, y_pos)] + extra_cost + distance_function(neighbor, end, straight, turn))
 						cost_so_far[new.pos] = cost_so_far[(x_pos, y_pos)] + extra_cost
-						cost[new.pos] = cost_so_far[(x_pos, y_pos)] + extra_cost + distance_function(neighbor, end)
+						cost[new.pos] = cost_so_far[(x_pos, y_pos)] + extra_cost + distance_function(neighbor, end, straight, turn)
 						prev[new.pos] = [x_pos, y_pos]
 						p_queue.put(new)
 						direction_facing[neighbor] = new_dir
