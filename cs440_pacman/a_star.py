@@ -4,11 +4,17 @@ from position import Position
 from Queue import PriorityQueue
 
 def manhattan_distance(current, dest):
+	"""
+	This function calculates the manhattan distance between teo points current and dest
+	"""
 	return math.fabs(current[0] - dest[0]) + math.fabs(current[1] - dest[1])
 
 def a_star(maze, start, end, walls):
+	"""
+	Find the best path from start to end using the a_star algorithm
+	"""
 	opened = 0
-	p_queue = PriorityQueue(maxsize=0)
+	p_queue = PriorityQueue(maxsize=0)			#Use a priority queue to get the position with the highest priority
 
 	cost_so_far = {}
 	cost = {}
@@ -21,7 +27,7 @@ def a_star(maze, start, end, walls):
 	cost[start] = 0
 
 	while not p_queue.empty():
-		opened += 1
+		opened += 1	
 		current = p_queue.get()
 		x_pos = current.pos[0]
 		y_pos = current.pos[1]

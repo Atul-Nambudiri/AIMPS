@@ -57,23 +57,6 @@ def a_star13(maze, start, end, walls):
 		ghostDirection = current.ghost_dir
 		ghostPos = current.ghost_pos
 
-		#updating the ghosts position
-		#if the ghost's direction is R and there is no wall, move it to the right
-		#if there is a wall, change the direction so that it's going the other way
-		#likewise the same logic applies for the ghost's direction being L
-		if(ghostDirection is 'R'):
-			if(walls[ghostPos[0]][ghostPos[1] + 1]):
-				ghostDirection = 'L'
-				ghostPos = [ghostPos[0], ghostPos[1] - 1]
-			else:
-				ghostPos = [ghostPos[0], ghostPos[1] + 1]
-		else:
-			if(walls[ghostPos[0]][ghostPos[1] - 1]):
-				ghostDirection = 'R'
-				ghostPos = [ghostPos[0], ghostPos[1] + 1]
-			else:
-				ghostPos = [ghostPos[0], ghostPos[1] - 1]
-
 
 		#if pacman's position is equal to ghosts
 		if(x_pos == ghostPos[0] and y_pos == ghostPos[1]):
@@ -115,7 +98,7 @@ def a_star13(maze, start, end, walls):
 
 		#check if pacman's position is the same as the end position: game over
 		if x_pos == end[0] and y_pos == end[1]:
-			print("YOU WIN")
+			#print("YOU WIN")
 			break
 
 		#check if pacman's will pass through the ghost on it's next iteration
@@ -125,6 +108,24 @@ def a_star13(maze, start, end, walls):
 
 		# if(maze2[ghostPos[0]][ghostPos[1]] != 'G' and maze2[ghostPos[0]][ghostPos[1]] != 'P'):
 		# 	maze2[ghostPos[0]][ghostPos[1]] = 'g'
+
+		#updating the ghosts position
+		#if the ghost's direction is R and there is no wall, move it to the right
+		#if there is a wall, change the direction so that it's going the other way
+		#likewise the same logic applies for the ghost's direction being L
+		if(ghostDirection is 'R'):
+			if(walls[ghostPos[0]][ghostPos[1] + 1]):
+				ghostDirection = 'L'
+				ghostPos = [ghostPos[0], ghostPos[1] - 1]
+			else:
+				ghostPos = [ghostPos[0], ghostPos[1] + 1]
+		else:
+			if(walls[ghostPos[0]][ghostPos[1] - 1]):
+				ghostDirection = 'R'
+				ghostPos = [ghostPos[0], ghostPos[1] + 1]
+			else:
+				ghostPos = [ghostPos[0], ghostPos[1] - 1]
+
 
 		
 
