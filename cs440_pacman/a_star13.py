@@ -65,9 +65,9 @@ def a_star13(maze, start, end, walls):
 				cost[current.pos] = b_cost[current.pos]
 				prev[current.pos] = b_prev[current.pos]
 			else:
-				cost_so_far[current.pos] = None
-				cost[current.pos] = None
-				prev[current.pos] = None
+				del cost_so_far[current.pos]
+				del cost[current.pos]
+				del prev[current.pos]
 			continue
 
 		if not firstTurn:
@@ -78,9 +78,9 @@ def a_star13(maze, start, end, walls):
 					cost[current.pos] = b_cost[current.pos]
 					prev[current.pos] = b_prev[current.pos]
 				else:
-					cost_so_far[current.pos] = None
-					cost[current.pos] = None
-					prev[current.pos] = None
+					del cost_so_far[current.pos]
+					del cost[current.pos]
+					del prev[current.pos]
 				continue
 
 			if(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos + 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] - 1 and ghostDirection is 'R'):
@@ -89,9 +89,9 @@ def a_star13(maze, start, end, walls):
 					cost[current.pos] = b_cost[current.pos]
 					prev[current.pos] = b_prev[current.pos]
 				else:
-					cost_so_far[current.pos] = None
-					cost[current.pos] = None
-					prev[current.pos] = None
+					del cost_so_far[current.pos]
+					del cost[current.pos]
+					del prev[current.pos]
 				continue
 
 		firstTurn = False
