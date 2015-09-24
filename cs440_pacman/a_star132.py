@@ -57,6 +57,9 @@ def a_star132(maze, start, end, walls):
 		ghostDirection = current.ghost_dir
 		ghostPos = current.ghost_pos
 
+		if(maze2[ghostPos[0]][ghostPos[1]] != 'G' and maze2[ghostPos[0]][ghostPos[1]] != 'P' and maze2[ghostPos[0]][ghostPos[1]] != '.'):
+			maze2[ghostPos[0]][ghostPos[1]] = 'g'
+
 		#if pacman's position is equal to ghosts
 		if(x_pos == ghostPos[0] and y_pos == ghostPos[1]):
 			if current.pos in b_cost:
