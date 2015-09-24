@@ -11,7 +11,7 @@ def main():
 	walls = []
 	start = ()
 	end = ()
-	with open('newMaze13.txt', 'r') as mazeText:
+	with open('openMaze.txt', 'r') as mazeText:
 		lines = [x.strip('\r\n') for x in mazeText.readlines()]
 		for i in range(len(lines)):
 			toInsertToMaze = []
@@ -58,9 +58,11 @@ def main():
 	# 	print("Nodes Visited: %s" % (item[2]))
 	# '''
 
-	path, steps, opened = a_star132(maze, start, end, walls)
+	# path, steps, opened = a_star132(maze, start, end, walls)
 
-	path, steps, opened = a_star(maze, start, end, walls)
+	# path, steps, opened = a_star(maze, start, end, walls)
+
+	path, steps, opened = greedy(maze, start, end, walls)
 	for line in path:
 		print(line)
 
