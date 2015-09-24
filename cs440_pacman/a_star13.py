@@ -47,8 +47,9 @@ def a_star13(maze, start, end, walls):
 
 	cost_so_far[start] = 0
 	cost[start] = 0
-
+	i = 0
 	while not p_queue.empty():
+		i += 1
 		current = p_queue.get()
 		opened += 1
 
@@ -147,7 +148,7 @@ def a_star13(maze, start, end, walls):
 
 	current = end
 	steps = 0
-
+	print(i)
 	while maze[current[0]][current[1]] != 'P':
 		current = prev[(current[0], current[1])]
 		print(current)

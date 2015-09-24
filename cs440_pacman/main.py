@@ -11,7 +11,7 @@ def main():
 	walls = []
 	start = ()
 	end = ()
-	with open('bigGhost.txt', 'r') as mazeText:
+	with open('newMaze13.txt', 'r') as mazeText:
 		lines = [x.strip('\r\n') for x in mazeText.readlines()]
 		for i in range(len(lines)):
 			toInsertToMaze = []
@@ -63,18 +63,18 @@ def main():
 
 	# path, steps, opened = a_star(maze, start, end, walls)
 
-	path, steps, opened = a_star(maze, start, end, walls)
-	for line in path:
-		print(line)
+	# path, steps, opened = a_star(maze, start, end, walls)
+	# for line in path:
+	# 	print(line)
 
-	print(steps)
-	print(opened)
+	# print(steps)
+	# print(opened)
 
 
-	with open('output', 'w') as out:
-		for line in path:
-			output_line = "".join(line)
-			out.write("%s\n" % output_line) 
+	# with open('output', 'w') as out:
+	# 	for line in path:
+	# 		output_line = "".join(line)
+	# 		out.write("%s\n" % output_line) 
 
 
 	path1, steps1, opened1 = a_star13(maze, start, end, walls)
@@ -84,6 +84,12 @@ def main():
 	print(steps1)
 	print(opened1)
 
+	path1, steps1, opened1 = a_star132(maze, start, end, walls)
+	for line in path1:
+		print(line)
+
+	print(steps1)
+	print(opened1)
 
 	with open('output-ghost', 'w') as out:
 		for line in path1:
