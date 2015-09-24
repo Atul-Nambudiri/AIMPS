@@ -1,6 +1,6 @@
 import copy
 import math
-from position import Position
+from positionplusghost import PositionPlusGhost
 from Queue import PriorityQueue
 
 def manhattan_distance(current, dest):
@@ -10,17 +10,6 @@ def a_star13(maze, start, end, walls):
 	maze2 = copy.deepcopy(maze)
 	opened = 0
 	p_queue = PriorityQueue(maxsize=0)
-
-	cost_so_far = {}
-	cost = {}
-	prev = {}
-
-	start_pos = Position(start, 0)
-	p_queue.put(start_pos)
-	prev[start] = None
-	cost_so_far[start] = 0
-	cost[start] = 0
-
 
 	#initialize the position of the ghost by checking for the first instance where there is no wall
 	ghostPos = [0, 0]
@@ -40,36 +29,33 @@ def a_star13(maze, start, end, walls):
 	ghostDirection = 'R'
 	firstTurn = True
 
+	cost_so_far = {}
+	cost = {}
+	prev = {}
+
+	b_prev = {}
+	b_cost_so_far = {} #If we need to backup and undo a move, we need to keep track of the old state before the mve was made. We will save prev, cost, and cost_so_far for a node
+	b_cost = {}
+
+	start_pos = PositionPlusGhost(start, ghostPos, ghostDirection, 0)
+	p_queue.put(start_pos)
+	prev[start] = None
+
+	b_prev[start] = None			#If we need to backup and undo a move, we need to keep track of the old state before the mve was made. We will save prev, cost, and cost_so_far for a node
+	b_cost_so_far[start] = None
+	b_cost[start] = None
+
+	cost_so_far[start] = 0
+	cost[start] = 0
+
 	while not p_queue.empty():
 		current = p_queue.get()
+		opened += 1
 
 		x_pos = current.pos[0]
 		y_pos = current.pos[1]
-
-		#if pacman's position is equal to ghosts
-		if(x_pos == ghostPos[0] and y_pos == ghostPos[1]):
-			print("GAME OVER1")
-			end = prev[(current.pos[0], current.pos[1])]
-			break
-
-		if not firstTurn:
-			#check if you've passed through it
-			if(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos - 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] + 1 and ghostDirection is 'L'):
-				print("GAME OVER2")
-				end = prev[(current.pos[0], current.pos[1])]
-				break
-
-			if(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos + 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] - 1 and ghostDirection is 'R'):
-				print("GAME OVER3")
-				end = prev[(current.pos[0], current.pos[1])]
-				break
-
-		firstTurn = False
-
-		#check if pacman's position is the same as the end position: game over
-		if x_pos == end[0] and y_pos == end[1]:
-			print("YOU WIN")
-			break
+		ghostDirection = current.ghost_dir
+		ghostPos = current.ghost_pos
 
 		#updating the ghosts position
 		#if the ghost's direction is R and there is no wall, move it to the right
@@ -88,6 +74,50 @@ def a_star13(maze, start, end, walls):
 			else:
 				ghostPos = [ghostPos[0], ghostPos[1] - 1]
 
+
+		#if pacman's position is equal to ghosts
+		if(x_pos == ghostPos[0] and y_pos == ghostPos[1]):
+			if current.pos in b_cost:
+				cost_so_far[current.pos] = b_cost_so_far[current.pos]
+				cost[current.pos] = b_cost[current.pos]
+				prev[current.pos] = b_prev[current.pos]
+			else:
+				cost_so_far[current.pos] = None
+				cost[current.pos] = None
+				prev[current.pos] = None
+			continue
+
+		if not firstTurn:
+			#check if you've passed through it
+			if(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos - 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] + 1 and ghostDirection is 'L'):
+				if current.pos in b_cost:
+					cost_so_far[current.pos] = b_cost_so_far[current.pos]
+					cost[current.pos] = b_cost[current.pos]
+					prev[current.pos] = b_prev[current.pos]
+				else:
+					cost_so_far[current.pos] = None
+					cost[current.pos] = None
+					prev[current.pos] = None
+				continue
+
+			if(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos + 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] - 1 and ghostDirection is 'R'):
+				if current.pos in b_cost:
+					cost_so_far[current.pos] = b_cost_so_far[current.pos]
+					cost[current.pos] = b_cost[current.pos]
+					prev[current.pos] = b_prev[current.pos]
+				else:
+					cost_so_far[current.pos] = None
+					cost[current.pos] = None
+					prev[current.pos] = None
+				continue
+
+		firstTurn = False
+
+		#check if pacman's position is the same as the end position: game over
+		if x_pos == end[0] and y_pos == end[1]:
+			print("YOU WIN")
+			break
+
 		#check if pacman's will pass through the ghost on it's next iteration
 		# if(x_pos == ghostPos[0] and y_pos == ghostPos[1]):
 		# 	print("GAME OVER")
@@ -96,7 +126,7 @@ def a_star13(maze, start, end, walls):
 		# if(maze2[ghostPos[0]][ghostPos[1]] != 'G' and maze2[ghostPos[0]][ghostPos[1]] != 'P'):
 		# 	maze2[ghostPos[0]][ghostPos[1]] = 'g'
 
-		opened += 1
+		
 
 		neighbors = [(x_pos -1, y_pos), (x_pos, y_pos + 1), (x_pos + 1, y_pos), (x_pos, y_pos - 1)]
 
@@ -104,7 +134,11 @@ def a_star13(maze, start, end, walls):
 			if not neighbor[0] < 0 and not neighbor[1] < 0 and not neighbor[0] >= len(walls) and not neighbor[1] >= len(walls[0]):
 				if not walls[neighbor[0]][neighbor[1]]:
 					if not neighbor in cost or cost[neighbor] > (cost_so_far[(x_pos, y_pos)] + 1 + manhattan_distance(neighbor, end)):
-						new = Position(neighbor, cost_so_far[(x_pos, y_pos)] + 1 + manhattan_distance(neighbor, end))
+						new = PositionPlusGhost(neighbor, ghostPos, ghostDirection, cost_so_far[(x_pos, y_pos)] + 1 + manhattan_distance(neighbor, end))
+						if neighbor in cost:	#If we are considering a node again, we need to keep track of the previous values for cost, cost_so_far, and prev so that we can revert it if need be	
+							b_cost_so_far[new.pos] = cost_so_far[new.pos]
+							b_cost[new.pos] = cost[new.pos]
+							b_prev[new.pos] = prev[new.pos]
 						cost_so_far[new.pos] = cost_so_far[(x_pos, y_pos)] + 1
 						cost[new.pos] = cost_so_far[(x_pos, y_pos)] + 1 + manhattan_distance(neighbor, end)
 						prev[new.pos] = [x_pos, y_pos]
@@ -124,7 +158,7 @@ def a_star13(maze, start, end, walls):
 	maze2[start[0]][start[1]] = 'P'
 	maze2[initGhostPos[0]][initGhostPos[1]] = 'G'
 
-	return maze2, steps, opened
+	return maze2, cost_so_far[end], opened
 	
 
 

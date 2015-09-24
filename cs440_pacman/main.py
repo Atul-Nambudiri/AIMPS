@@ -58,7 +58,7 @@ def main():
 	# 	print("Nodes Visited: %s" % (item[2]))
 	# '''
 
-	path, steps, opened = a_star132(maze, start, end, walls)
+	#path, steps, opened = a_star132(maze, start, end, walls)
 
 	path, steps, opened = a_star(maze, start, end, walls)
 	for line in path:
@@ -70,6 +70,20 @@ def main():
 
 	with open('output', 'w') as out:
 		for line in path:
+			output_line = "".join(line)
+			out.write("%s\n" % output_line) 
+
+
+	path1, steps1, opened1 = a_star13(maze, start, end, walls)
+	for line in path1:
+		print(line)
+
+	print(steps1)
+	print(opened1)
+
+
+	with open('output-ghost', 'w') as out:
+		for line in path1:
 			output_line = "".join(line)
 			out.write("%s\n" % output_line) 
 
