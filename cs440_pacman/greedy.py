@@ -4,7 +4,7 @@ import time
 
 def greedy(maze, start, end, walls):
 	maze2 = copy.deepcopy(maze)
-	prev = copy.deepcopy(maze)
+	prev = {}
 	visited = copy.deepcopy(walls)
 	steps = 0
 	nodesExpanded = 0
@@ -14,31 +14,30 @@ def greedy(maze, start, end, walls):
 	while True:
 		minManhattanDistance = []
 
+		if(currentPoint[0] == end[0] and currentPoint[1] == end[1]):
+			break
 
 		if(visited[currentPoint[0]][currentPoint[1] - 1] and visited[currentPoint[0] + 1][currentPoint[1]] and visited[currentPoint[0]][currentPoint[1] + 1] and visited[currentPoint[0] - 1][currentPoint[1]]):
 			visited[currentPoint[0]][currentPoint[1]] = True
-			currentPoint = (prev[currentPoint[0]], prev[currentPoint[1]])
-
-		elif(currentPoint[0] == end[0] and currentPoint[1] == end[1]):
-			break
+			currentPoint = prev[(currentPoint[0], currentPoint[1])]
 
 		else:
 			visited[currentPoint[0]][currentPoint[1]] = True
 
 			if not (currentPoint[1] - 1) < 0 and not visited[currentPoint[0]][currentPoint[1] - 1]:
-				prev[currentPoint[0]][currentPoint[1] - 1] = [currentPoint[0], currentPoint[1]]
+				prev[(currentPoint[0], currentPoint[1] - 1)] = [currentPoint[0], currentPoint[1]]
 				minManhattanDistance.append([math.fabs(currentPoint[0] - end[0]) + math.fabs(currentPoint[1] - 1 - end[1]), [currentPoint[0], currentPoint[1] - 1]])
 
 			if not (currentPoint[0] + 1) >= len(walls) and not visited[currentPoint[0] + 1][currentPoint[1]]:
-				prev[currentPoint[0] + 1][currentPoint[1]] = [currentPoint[0], currentPoint[1]]
+				prev[(currentPoint[0] + 1, currentPoint[1])] = [currentPoint[0], currentPoint[1]]
 				minManhattanDistance.append([math.fabs(currentPoint[0] + 1 - end[0]) + math.fabs(currentPoint[1] - end[1]), [currentPoint[0] + 1, currentPoint[1]]])
 
 			if not (currentPoint[1] + 1) >= len(walls[0]) and not visited[currentPoint[0]][currentPoint[1] + 1]:
-				prev[currentPoint[0]][currentPoint[1] + 1] = [currentPoint[0], currentPoint[1]]
+				prev[(currentPoint[0], currentPoint[1] + 1)] = [currentPoint[0], currentPoint[1]]
 				minManhattanDistance.append([math.fabs(currentPoint[0] - end[0]) + math.fabs(currentPoint[1] + 1 - end[1]), [currentPoint[0], currentPoint[1] + 1]])
 
 			if not (currentPoint[0] - 1) < 0 and not visited[currentPoint[0] - 1][currentPoint[1]]:
-				prev[currentPoint[0] - 1][currentPoint[1]] = [currentPoint[0], currentPoint[1]]
+				prev[(currentPoint[0] - 1, currentPoint[1])] = [currentPoint[0], currentPoint[1]]
 				minManhattanDistance.append([math.fabs(currentPoint[0] - 1 - end[0]) + math.fabs(currentPoint[1] - end[1]), [currentPoint[0] - 1, currentPoint[1]]])
 
 			if len(minManhattanDistance) != 0:
@@ -57,7 +56,7 @@ def greedy(maze, start, end, walls):
 	steps = 0
 
 	while maze[current[0]][current[1]] != 'P':
-		current = prev[current[0]][current[1]]
+		current = prev[(current[0], current[1])]
 		maze2[current[0]][current[1]] = '.'
 		steps += 1
 	maze2[start[0]][start[1]] = 'P'
