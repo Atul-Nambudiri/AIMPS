@@ -148,10 +148,10 @@ def a_star13(maze, start, end, walls):
 
 	current = end
 	steps = 0
-	print(i)
+	#print(i)
 	while maze[current[0]][current[1]] != 'P':
 		current = prev[(current[0], current[1])]
-		print(current)
+		#print(current)
 		if maze[current[0]][current[1]] != 'G':
 			maze2[current[0]][current[1]] = '.'
 		if maze[current[0]][current[1]] != 'P':
