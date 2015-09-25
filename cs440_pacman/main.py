@@ -84,6 +84,11 @@ def main():
 	print(steps1)
 	print(opened1)
 
+	with open('output', 'w') as out:
+		for line in path1:
+			output_line = "".join(line)
+			out.write("%s\n" % output_line) 
+
 	path1, steps1, opened1 = a_star132(maze, start, end, walls)
 	for line in path1:
 		print(line)

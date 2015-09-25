@@ -6,12 +6,17 @@ from Queue import PriorityQueue
 def manhattan_distance(current, dest):
 	return math.fabs(current[0] - dest[0]) + math.fabs(current[1] - dest[1])
 
+#run a-star 1.3 by making pacman follow the manhattan distance heuristic and a-star and going to the end
+#ghosts move left to right and there is always one blocking pacman's path
+#we deal with this by undoing moves in the event that you run into one
+
 def a_star13(maze, start, end, walls):
+	#initialize maze2 by copying maze and a priority queue
 	maze2 = copy.deepcopy(maze)
 	opened = 0
 	p_queue = PriorityQueue(maxsize=0)
 
-	#initialize the position of the ghost by checking for the first instance where there is no wall
+	#initialize the position of the ghost by checking for 'G'
 	ghostPos = [0, 0]
 	initGhostPos = [0, 0]
 	shouldBreak = False
@@ -47,9 +52,8 @@ def a_star13(maze, start, end, walls):
 
 	cost_so_far[start] = 0
 	cost[start] = 0
-	i = 0
-	while not p_queue.empty():
-		i += 1
+	
+	while not p_queue.empty():   #if the queue is not empty there are still moves for the pacman to do
 		current = p_queue.get()
 		opened += 1
 
@@ -58,8 +62,12 @@ def a_star13(maze, start, end, walls):
 		ghostDirection = current.ghost_dir
 		ghostPos = current.ghost_pos
 
+		#For visualization sake just have g where the ghost is
+		#NOTE: THIS GETS OVERWRITTEN WHEN PACMAN travels back to the beginning in the end
+		if(maze2[ghostPos[0]][ghostPos[1]] != 'G' and maze2[ghostPos[0]][ghostPos[1]] != 'P' and maze2[ghostPos[0]][ghostPos[1]] != '.'):
+			maze2[ghostPos[0]][ghostPos[1]] = 'g'
 
-		#if pacman's position is equal to ghosts
+		#if pacman's position is equal to ghosts undo the move
 		if(x_pos == ghostPos[0] and y_pos == ghostPos[1]):
 			if current.pos in b_cost:
 				cost_so_far[current.pos] = b_cost_so_far[current.pos]
@@ -71,8 +79,9 @@ def a_star13(maze, start, end, walls):
 				del prev[current.pos]
 			continue
 
+		# prev is not initalized on the firstTurn so you wouldnt check if it wasnt the first turn
 		if not firstTurn:
-			#check if you've passed through it
+			#check if you've passed through it if you have undo the move similarly to how you did it earlier
 			if(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos - 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] + 1 and ghostDirection is 'L'):
 				if current.pos in b_cost:
 					cost_so_far[current.pos] = b_cost_so_far[current.pos]
@@ -95,20 +104,12 @@ def a_star13(maze, start, end, walls):
 					del prev[current.pos]
 				continue
 
+		#first turn will never be false after the first game
 		firstTurn = False
 
 		#check if pacman's position is the same as the end position: game over
 		if x_pos == end[0] and y_pos == end[1]:
-			#print("YOU WIN")
 			break
-
-		#check if pacman's will pass through the ghost on it's next iteration
-		# if(x_pos == ghostPos[0] and y_pos == ghostPos[1]):
-		# 	print("GAME OVER")
-		# 	break
-
-		# if(maze2[ghostPos[0]][ghostPos[1]] != 'G' and maze2[ghostPos[0]][ghostPos[1]] != 'P'):
-		# 	maze2[ghostPos[0]][ghostPos[1]] = 'g'
 
 		#updating the ghosts position
 		#if the ghost's direction is R and there is no wall, move it to the right
@@ -129,7 +130,7 @@ def a_star13(maze, start, end, walls):
 
 
 		
-
+		#take the manhattan distance from the pacman to the target and see where the pacman should go
 		neighbors = [(x_pos -1, y_pos), (x_pos, y_pos + 1), (x_pos + 1, y_pos), (x_pos, y_pos - 1)]
 
 		for neighbor in neighbors:
@@ -144,14 +145,13 @@ def a_star13(maze, start, end, walls):
 						cost_so_far[new.pos] = cost_so_far[(x_pos, y_pos)] + 1
 						cost[new.pos] = cost_so_far[(x_pos, y_pos)] + 1 + manhattan_distance(neighbor, end)
 						prev[new.pos] = [x_pos, y_pos]
-						p_queue.put(new)
+						p_queue.put(new) #put it on the pqueue so you can use it later
 
+	#you're done so set the thing to end and backtrack to see how you got to the end increasing steps to the end
 	current = end
 	steps = 0
-	#print(i)
 	while maze[current[0]][current[1]] != 'P':
 		current = prev[(current[0], current[1])]
-		#print(current)
 		if maze[current[0]][current[1]] != 'G':
 			maze2[current[0]][current[1]] = '.'
 		if maze[current[0]][current[1]] != 'P':
