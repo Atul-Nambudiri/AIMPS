@@ -93,7 +93,7 @@ def a_star13(maze, start, end, walls):
 					del prev[current.pos]
 				continue
 
-			if(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos + 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] - 1 and ghostDirection is 'R'):
+			elif(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos + 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] - 1 and ghostDirection is 'R'):
 				if current.pos in b_cost:
 					cost_so_far[current.pos] = b_cost_so_far[current.pos]
 					cost[current.pos] = b_cost[current.pos]
@@ -104,7 +104,7 @@ def a_star13(maze, start, end, walls):
 					del prev[current.pos]
 				continue
 
-		#first turn will never be false after the first game
+		#first turn will never be true after the first turn
 		firstTurn = False
 
 		#check if pacman's position is the same as the end position: game over
