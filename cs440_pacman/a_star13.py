@@ -12,7 +12,7 @@ def manhattan_distance(current, dest):
 #likewise the same logic applies for the ghost's direction being L
 def moveGhost(oldGhostDirection, oldGhostPos, walls):
 	ghostPos = None
-	ghostDirection = None
+	ghostDirection = oldGhostDirection
 	if(oldGhostDirection is 'R'):
 		if(walls[oldGhostPos[0]][oldGhostPos[1] + 1]):
 			ghostDirection = 'L'
@@ -98,6 +98,7 @@ def a_star13(maze, start, end, walls):
 		#if pacman's position is equal to ghosts move back and forth
 		if(x_pos == oldGhostPos[0] and y_pos == oldGhostPos[1]):
 			while(x_pos == oldGhostPos[0] and y_pos == oldGhostPos[1]):
+				print("X_Pos: %s, Y_Pos: %s, Ghost_x: %s, Ghost_y: %s" % (x_pos, y_pos, ghostPos[0], ghostPos[1]))
 				oldGhostPos = ghostPos 					#Move the ghost twice to simulate loitering for two steps
 				oldGhostDirection = ghostDirection
 				ghostPos, ghostDirection = moveGhost(ghostDirection, ghostPos, walls)
