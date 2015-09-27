@@ -61,7 +61,8 @@ def a_star13(maze, start, end, walls):
 		y_pos = current.pos[1]
 		ghostDirection = current.ghost_dir
 		ghostPos = current.ghost_pos
-
+		
+		print("X_Pos: %s, Y_Pos: %s, Ghost_x: %s, Ghost_y: %s" % (x_pos, y_pos, ghostPos[0], ghostPos[1]))
 		#For visualization sake just have g where the ghost is
 		#NOTE: THIS GETS OVERWRITTEN WHEN PACMAN travels back to the beginning in the end
 		if(maze2[ghostPos[0]][ghostPos[1]] != 'G' and maze2[ghostPos[0]][ghostPos[1]] != 'P' and maze2[ghostPos[0]][ghostPos[1]] != '.'):
