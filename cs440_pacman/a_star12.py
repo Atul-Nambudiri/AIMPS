@@ -11,7 +11,10 @@ def manhattan_distance(current, dest, straight, turn, direction_facing):
 
 def new(current, dest, straight, turn, direction_facing):
 	"""
-	This function calculates the new heuristic distance from the current point to the destination. It is an extension of the manhattan distance. However, the varied costs for turns and going straight are taken into account. We calculate the minimum number of turns that are required to reach the end of the maze, and the minmum number of times we have to go straight. We then mulitply both of these values by their respective multipliers. We then return this value.
+	This function calculates the new heuristic distance from the current point to the destination. It is an extension of the manhattan distance. 
+	However, the varied costs for turns and going straight are taken into account. We calculate the minimum number of turns that are required to 
+	reach the end of the maze, and the minmum number of times we have to go straight. We then mulitply both of these values by their respective multipliers. 
+	We then return this value.
 	"""
 	change_x = math.fabs(current[0] - dest[0])		#Calculate the total number of times we have to go straight
 	change_y =  math.fabs(current[1] - dest[1])
