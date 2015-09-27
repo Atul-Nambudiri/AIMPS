@@ -11,7 +11,7 @@ def main():
 	walls = []
 	start = ()
 	end = ()
-	with open('smallGhost.txt', 'r') as mazeText:
+	with open('bigGhost.txt', 'r') as mazeText:
 		lines = [x.strip('\r\n') for x in mazeText.readlines()]
 		for i in range(len(lines)):
 			toInsertToMaze = []
