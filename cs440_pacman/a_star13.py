@@ -6,6 +6,27 @@ from Queue import PriorityQueue
 def manhattan_distance(current, dest):
 	return math.fabs(current[0] - dest[0]) + math.fabs(current[1] - dest[1])
 
+#updating the ghosts position
+#if the ghost's direction is R and there is no wall, move it to the right
+#if there is a wall, change the direction so that it's going the other way
+#likewise the same logic applies for the ghost's direction being L
+def moveGhost(oldGhostDirection, oldGhostPos, walls):
+	ghostPos = None
+	ghostDirection = None
+	if(oldGhostDirection is 'R'):
+		if(walls[oldGhostPos[0]][oldGhostPos[1] + 1]):
+			ghostDirection = 'L'
+			ghostPos = [oldGhostPos[0], oldGhostPos[1] - 1]
+		else:
+			ghostPos = [oldGhostPos[0], oldGhostPos[1] + 1]
+	else:
+		if(walls[oldGhostPos[0]][oldGhostPos[1] - 1]):
+			ghostDirection = 'R'
+			ghostPos = [oldGhostPos[0], oldGhostPos[1] + 1]
+		else:
+			ghostPos = [oldGhostPos[0], oldGhostPos[1] - 1]
+	return ghostPos, ghostDirection
+
 #run a-star 1.3 by making pacman follow the manhattan distance heuristic and a-star and going to the end
 #ghosts move left to right and there is always one blocking pacman's path
 #we deal with this by undoing moves in the event that you run into one
@@ -68,22 +89,30 @@ def a_star13(maze, start, end, walls):
 		if(maze2[ghostPos[0]][ghostPos[1]] != 'G' and maze2[ghostPos[0]][ghostPos[1]] != 'P' and maze2[ghostPos[0]][ghostPos[1]] != '.'):
 			maze2[ghostPos[0]][ghostPos[1]] = 'g'
 
-		#if pacman's position is equal to ghosts undo the move
-		if(x_pos == ghostPos[0] and y_pos == ghostPos[1]):
-			if current.pos in b_cost:
-				cost_so_far[current.pos] = b_cost_so_far[current.pos]
-				cost[current.pos] = b_cost[current.pos]
-				prev[current.pos] = b_prev[current.pos]
-			else:
-				del cost_so_far[current.pos]
-				del cost[current.pos]
-				del prev[current.pos]
-			continue
+		oldGhostPos = ghostPos
+		oldGhostDirection = ghostDirection
+
+		ghostPos, ghostDirection = moveGhost(ghostDirection, ghostPos, walls)
+
+
+		#if pacman's position is equal to ghosts move back and forth
+		if(x_pos == oldGhostPos[0] and y_pos == oldGhostPos[1]):
+			while(x_pos == oldGhostPos[0] and y_pos == oldGhostPos[1]):
+				oldGhostPos = ghostPos 					#Move the ghost twice to simulate loitering for two steps
+				oldGhostDirection = ghostDirection
+				ghostPos, ghostDirection = moveGhost(ghostDirection, ghostPos, walls)
+
+				oldGhostPos = ghostPos 					#Move the ghost twice to simulate loitering for two steps
+				oldGhostDirection = ghostDirection
+				ghostPos, ghostDirection = moveGhost(ghostDirection, ghostPos, walls)
+				
+				cost_so_far[current.pos] = cost_so_far[current.pos] + 2				#Add two to the total cost to mimic loitering
+				cost[current.pos] = cost[current.pos] + 2
 
 		# prev is not initalized on the firstTurn so you wouldnt check if it wasnt the first turn
 		if not firstTurn:
 			#check if you've passed through it if you have undo the move similarly to how you did it earlier
-			if(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos - 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] + 1 and ghostDirection is 'L'):
+			if(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos - 1 and x_pos == oldGhostPos[0] and y_pos == oldGhostPos[1] + 1 and oldGhostDirection is 'L'):
 				if current.pos in b_cost:
 					cost_so_far[current.pos] = b_cost_so_far[current.pos]
 					cost[current.pos] = b_cost[current.pos]
@@ -94,7 +123,7 @@ def a_star13(maze, start, end, walls):
 					del prev[current.pos]
 				continue
 
-			elif(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos + 1 and x_pos == ghostPos[0] and y_pos == ghostPos[1] - 1 and ghostDirection is 'R'):
+			elif(prev[(x_pos, y_pos)][0] == x_pos and prev[(x_pos, y_pos)][1] == y_pos + 1 and x_pos == oldGhostPos[0] and y_pos == oldGhostPos[1] - 1 and oldGhostDirection is 'R'):
 				if current.pos in b_cost:
 					cost_so_far[current.pos] = b_cost_so_far[current.pos]
 					cost[current.pos] = b_cost[current.pos]
@@ -111,23 +140,6 @@ def a_star13(maze, start, end, walls):
 		#check if pacman's position is the same as the end position: game over
 		if x_pos == end[0] and y_pos == end[1]:
 			break
-
-		#updating the ghosts position
-		#if the ghost's direction is R and there is no wall, move it to the right
-		#if there is a wall, change the direction so that it's going the other way
-		#likewise the same logic applies for the ghost's direction being L
-		if(ghostDirection is 'R'):
-			if(walls[ghostPos[0]][ghostPos[1] + 1]):
-				ghostDirection = 'L'
-				ghostPos = [ghostPos[0], ghostPos[1] - 1]
-			else:
-				ghostPos = [ghostPos[0], ghostPos[1] + 1]
-		else:
-			if(walls[ghostPos[0]][ghostPos[1] - 1]):
-				ghostDirection = 'R'
-				ghostPos = [ghostPos[0], ghostPos[1] + 1]
-			else:
-				ghostPos = [ghostPos[0], ghostPos[1] - 1]
 
 
 		
@@ -150,13 +162,13 @@ def a_star13(maze, start, end, walls):
 
 	#you're done so set the thing to end and backtrack to see how you got to the end increasing steps to the end
 	current = end
-	steps = 0
+	#steps = 0
 	while maze[current[0]][current[1]] != 'P':
 		current = prev[(current[0], current[1])]
 		if maze[current[0]][current[1]] != 'G':
 			maze2[current[0]][current[1]] = '.'
-		if maze[current[0]][current[1]] != 'P':
-			steps += 1
+		#if maze[current[0]][current[1]] != 'P':
+		#	steps += 1
 
 	maze2[start[0]][start[1]] = 'P'
 	maze2[initGhostPos[0]][initGhostPos[1]] = 'G'
