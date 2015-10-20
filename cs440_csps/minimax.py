@@ -7,7 +7,7 @@ def main():
 		board = []
 		with open(sys.argv[1], 'r') as board_file:
 			for line in board_file:
-				linelist = line.strip('\t').strip('\r\n').split(" ")
+				linelist = line.strip('\t', " ").replace('\r\n', "").split(" ")
 				linelist = [int(x) for x in linelist]
 				board.append(linelist)
 		print(board)
