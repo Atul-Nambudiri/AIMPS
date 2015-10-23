@@ -17,9 +17,9 @@ Blue Expanded 202182 Nodes Total
 Total average number of nodes expanded per move: 11889
 Green Expanded 12546 Nodes on Average
 Blue Expanded 11232 Nodes on Average
-Total average Time per move: 0.118195
-Average Time per move for Green: 0.124604
-Average Time per move for Blue: 0.111785
+Total average Time per move: 0.120167
+Average Time per move for Green: 0.126622
+Average Time per move for Blue: 0.113711
 
 Minimax vs Normal Alphabeta - Depth 3 vs 3
 Final Board:
@@ -36,9 +36,9 @@ Blue Expanded 18163 Nodes Total
 Total average number of nodes expanded per move: 6777
 Green Expanded 12546 Nodes on Average
 Blue Expanded 1009 Nodes on Average
-Total average Time per move: 0.067173
-Average Time per move for Green: 0.124493
-Average Time per move for Blue: 0.009853
+Total average Time per move: 0.068229
+Average Time per move for Green: 0.126465
+Average Time per move for Blue: 0.009993
 
 Normal Alphabeta vs Minimax - Depth 3 vs 3
 Final Board:
@@ -55,9 +55,9 @@ Blue Expanded 202182 Nodes Total
 Total average number of nodes expanded per move: 6188
 Green Expanded 1145 Nodes on Average
 Blue Expanded 11232 Nodes on Average
-Total average Time per move: 0.061488
-Average Time per move for Green: 0.011204
-Average Time per move for Blue: 0.111772
+Total average Time per move: 0.062395
+Average Time per move for Green: 0.011378
+Average Time per move for Blue: 0.113412
 
 Normal Alphabeta vs Normal Alphabeta - Depth 3 vs 3
 Final Board:
@@ -74,9 +74,9 @@ Blue Expanded 18163 Nodes Total
 Total average number of nodes expanded per move: 1077
 Green Expanded 1145 Nodes on Average
 Blue Expanded 1009 Nodes on Average
-Total average Time per move: 0.010547
-Average Time per move for Green: 0.011231
-Average Time per move for Blue: 0.009863
+Total average Time per move: 0.010676
+Average Time per move for Green: 0.011324
+Average Time per move for Blue: 0.010028
 
 Minimax vs Normal Alphabeta - Depth 3 vs 5
 Final Board:
@@ -93,9 +93,9 @@ Blue Expanded 729604 Nodes Total
 Total average number of nodes expanded per move: 26539
 Green Expanded 12546 Nodes on Average
 Blue Expanded 40533 Nodes on Average
-Total average Time per move: 0.258528
-Average Time per move for Green: 0.124405
-Average Time per move for Blue: 0.392650
+Total average Time per move: 0.263228
+Average Time per move for Green: 0.126487
+Average Time per move for Blue: 0.399968
 
 Normal Alphabeta vs Minimax - Depth 5 vs 3
 Final Board:
@@ -112,9 +112,9 @@ Blue Expanded 202182 Nodes Total
 Total average number of nodes expanded per move: 28748
 Green Expanded 46264 Nodes on Average
 Blue Expanded 11232 Nodes on Average
-Total average Time per move: 0.280098
-Average Time per move for Green: 0.448481
-Average Time per move for Blue: 0.111716
+Total average Time per move: 0.286190
+Average Time per move for Green: 0.457844
+Average Time per move for Blue: 0.114537
 
 Normal Alphabeta vs Normal Alphabeta - Depth 5 vs 5
 Final Board:
@@ -131,9 +131,9 @@ Blue Expanded 729604 Nodes Total
 Total average number of nodes expanded per move: 43399
 Green Expanded 46264 Nodes on Average
 Blue Expanded 40533 Nodes on Average
-Total average Time per move: 0.420925
-Average Time per move for Green: 0.448442
-Average Time per move for Blue: 0.393408
+Total average Time per move: 0.426260
+Average Time per move for Green: 0.454458
+Average Time per move for Blue: 0.398062
 
 Minimax vs Enhanced Alphabeta - Depth 3 vs 3
 Final Board:
@@ -141,37 +141,37 @@ Final Board:
 ['G', 'B', 'G', 'G', 'G', 'G']
 ['B', 'B', 'B', 'B', 'G', 'B']
 ['B', 'B', 'B', 'B', 'B', 'G']
-['B', 'G', 'B', 'G', 'B', 'G']
+['B', 'G', 'B', 'G', 'G', 'B']
 ['B', 'B', 'B', 'B', 'B', 'B']
-Green Score: 32
-Blue Score: 40
+Green Score: 34
+Blue Score: 38
 Green Expanded 225834 Nodes Total
-Blue Expanded 30770 Nodes Total
-Total average number of nodes expanded per move: 7127
+Blue Expanded 12962 Nodes Total
+Total average number of nodes expanded per move: 6633
 Green Expanded 12546 Nodes on Average
-Blue Expanded 1709 Nodes on Average
-Total average Time per move: 0.070698
-Average Time per move for Green: 0.124124
-Average Time per move for Blue: 0.017273
+Blue Expanded 720 Nodes on Average
+Total average Time per move: 0.069324
+Average Time per move for Green: 0.125560
+Average Time per move for Blue: 0.013089
 
 Enhanced Alphabeta vs Minimax - Depth 3 vs 3
 Final Board:
 ['B', 'B', 'B', 'B', 'B', 'B']
-['G', 'B', 'G', 'B', 'G', 'B']
+['B', 'B', 'G', 'B', 'G', 'B']
 ['G', 'B', 'B', 'B', 'B', 'B']
 ['B', 'G', 'B', 'B', 'B', 'B']
 ['G', 'G', 'G', 'G', 'B', 'G']
 ['G', 'G', 'G', 'G', 'G', 'G']
-Green Score: 32
-Blue Score: 40
-Green Expanded 21341 Nodes Total
+Green Score: 31
+Blue Score: 41
+Green Expanded 11675 Nodes Total
 Blue Expanded 202182 Nodes Total
-Total average number of nodes expanded per move: 6208
-Green Expanded 1185 Nodes on Average
+Total average number of nodes expanded per move: 5940
+Green Expanded 648 Nodes on Average
 Blue Expanded 11232 Nodes on Average
-Total average Time per move: 0.062053
-Average Time per move for Green: 0.011910
-Average Time per move for Blue: 0.112195
+Total average Time per move: 0.063008
+Average Time per move for Green: 0.012476
+Average Time per move for Blue: 0.113540
 
 Normal Alphabeta vs Enhanced Alphabeta - Depth 3 vs 3
 Final Board:
@@ -179,53 +179,53 @@ Final Board:
 ['G', 'B', 'G', 'G', 'G', 'G']
 ['B', 'B', 'B', 'B', 'G', 'B']
 ['B', 'B', 'B', 'B', 'B', 'G']
-['B', 'G', 'B', 'G', 'B', 'G']
+['B', 'G', 'B', 'G', 'G', 'B']
 ['B', 'B', 'B', 'B', 'B', 'B']
-Green Score: 32
-Blue Score: 40
+Green Score: 34
+Blue Score: 38
 Green Expanded 21341 Nodes Total
-Blue Expanded 30770 Nodes Total
-Total average number of nodes expanded per move: 1447
+Blue Expanded 12962 Nodes Total
+Total average number of nodes expanded per move: 952
 Green Expanded 1185 Nodes on Average
-Blue Expanded 1709 Nodes on Average
-Total average Time per move: 0.014414
-Average Time per move for Green: 0.011534
-Average Time per move for Blue: 0.017294
+Blue Expanded 720 Nodes on Average
+Total average Time per move: 0.012464
+Average Time per move for Green: 0.011719
+Average Time per move for Blue: 0.013208
 
 Enhanced Alphabeta vs Normal Alphabeta - Depth 3 vs 3
 Final Board:
 ['B', 'B', 'B', 'B', 'B', 'B']
-['G', 'B', 'G', 'B', 'G', 'B']
+['B', 'B', 'G', 'B', 'G', 'B']
 ['G', 'B', 'B', 'B', 'B', 'B']
 ['B', 'G', 'B', 'B', 'B', 'B']
 ['G', 'G', 'G', 'G', 'B', 'G']
 ['G', 'G', 'G', 'G', 'G', 'G']
-Green Score: 32
-Blue Score: 40
-Green Expanded 21341 Nodes Total
-Blue Expanded 30770 Nodes Total
-Total average number of nodes expanded per move: 1447
-Green Expanded 1185 Nodes on Average
+Green Score: 31
+Blue Score: 41
+Green Expanded 11675 Nodes Total
+Blue Expanded 30771 Nodes Total
+Total average number of nodes expanded per move: 1179
+Green Expanded 648 Nodes on Average
 Blue Expanded 1709 Nodes on Average
-Total average Time per move: 0.014367
-Average Time per move for Green: 0.011899
-Average Time per move for Blue: 0.016834
+Total average Time per move: 0.014763
+Average Time per move for Green: 0.012460
+Average Time per move for Blue: 0.017066
 
 Enhanced Alphabeta vs Enhanced Alphabeta - Depth 3 vs 3
 Final Board:
-['G', 'G', 'G', 'G', 'B', 'B']
-['G', 'G', 'B', 'B', 'G', 'B']
+['B', 'B', 'G', 'G', 'G', 'G']
+['B', 'G', 'B', 'B', 'G', 'G']
 ['B', 'B', 'G', 'G', 'B', 'B']
+['G', 'G', 'G', 'G', 'G', 'G']
 ['B', 'G', 'G', 'G', 'G', 'B']
-['B', 'B', 'G', 'G', 'G', 'B']
-['B', 'G', 'B', 'G', 'B', 'B']
-Green Score: 40
-Blue Score: 32
-Green Expanded 20616 Nodes Total
-Blue Expanded 18163 Nodes Total
-Total average number of nodes expanded per move: 1077
-Green Expanded 1145 Nodes on Average
-Blue Expanded 1009 Nodes on Average
-Total average Time per move: 0.010867
-Average Time per move for Green: 0.011571
-Average Time per move for Blue: 0.010162
+['B', 'B', 'B', 'B', 'B', 'B']
+Green Score: 43
+Blue Score: 29
+Green Expanded 12497 Nodes Total
+Blue Expanded 10516 Nodes Total
+Total average number of nodes expanded per move: 639
+Green Expanded 694 Nodes on Average
+Blue Expanded 584 Nodes on Average
+Total average Time per move: 0.011905
+Average Time per move for Green: 0.013131
+Average Time per move for Blue: 0.010678
