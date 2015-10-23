@@ -186,34 +186,45 @@ def alphabetaBetterWrapper(board, scores, depth, original, person, opposite, min
 	best_pos = None
 	if not minimax:
 		best_score = 100000000
-	for i in reversed(range(len(board))):
-		for j in reversed(range(len(board[0]))):
+	changing = []
+	for i in range(len(board)):
+		for j in range(len(board[0])):
 			if board[i][j] == "":
-				found = 1
-				modified = []
-				board[i][j] = person
-				modified.append((i, j))
-				modified.append("")
+				changed = 0
 				neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
 				for t in range(len(neighbors)):
 					if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
-						if board[neighbors[t][0]][neighbors[t][1]] == opposite:
-							modified.append(neighbors[t])
-							modified.append(board[neighbors[t][0]][neighbors[t][1]])
-							board[neighbors[t][0]][neighbors[t][1]] = person
-				score = alphabetaBetter(board, scores, depth - 1, original, opposite, person, not minimax, alpha, beta)
-				if minimax:
-					if score > best_score:
-						best_score = score
-						best_pos = (i, j)
-						alpha = max(alpha, best_score)
-				else:
-					if score < best_score:
-						best_score = score
-						best_pos = (i, j)
-						beta = min(beta, best_score)
-				for t in range(0, len(modified), 2):
-					board[modified[t][0]][modified[t][1]] = modified[t+1]
+						changed += 1
+				changing.append(((i, j), changed))
+	changing.sort(key=lambda x: x[1])
+	for item in reversed(changing):
+		i = item[0][0]
+		j = item[0][1]
+		found = 1
+		modified = []
+		board[i][j] = person
+		modified.append((i, j))
+		modified.append("")
+		neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
+		for t in range(len(neighbors)):
+			if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+				if board[neighbors[t][0]][neighbors[t][1]] == opposite:
+					modified.append(neighbors[t])
+					modified.append(board[neighbors[t][0]][neighbors[t][1]])
+					board[neighbors[t][0]][neighbors[t][1]] = person
+		score = alphabetaBetter(board, scores, depth - 1, original, opposite, person, not minimax, alpha, beta)
+		if minimax:
+			if score > best_score:
+				best_score = score
+				best_pos = (i, j)
+				alpha = max(alpha, best_score)
+		else:
+			if score < best_score:
+				best_score = score
+				best_pos = (i, j)
+				beta = min(beta, best_score)
+		for t in range(0, len(modified), 2):
+			board[modified[t][0]][modified[t][1]] = modified[t+1]
 	return best_score, best_pos
 
 def alphabetaBetter(board, scores, depth, original, person, opposite, minimax, alpha, beta):
@@ -230,37 +241,48 @@ def alphabetaBetter(board, scores, depth, original, person, opposite, minimax, a
 	if depth == 0:
 		#print("scoring - %d" % score_board(scores, board, original))
 		return score_board(scores, board, original)
-	for i in reversed(range(len(board))):
-		for j in reversed(range(len(board[0]))):
+	changing = []
+	for i in range(len(board)):
+		for j in range(len(board[0])):
 			if board[i][j] == "":
-				found = 1
-				modified = []
-				modifiedPrev = []
-				board[i][j] == person
-				modified.append((i, j))
-				modified.append("")
+				changed = 0
 				neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
 				for t in range(len(neighbors)):
 					if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
-						if board[neighbors[t][0]][neighbors[t][1]] == opposite:
-							modified.append(neighbors[t])
-							modified.append(board[neighbors[t][0]][neighbors[t][1]])
-							board[neighbors[t][0]][neighbors[t][1]] = person
-				score = alphabetaBetter(board, scores, depth - 1, original, opposite, person, not minimax, alpha, beta)
-				for t in range(0, len(modified), 2):
-					board[modified[t][0]][modified[t][1]] = modified[t+1]
-				if minimax:
-					if score > best_score:
-						best_score = score
-						if best_score >= beta:
-							return best_score
-						alpha = max(alpha, best_score)
-				else:
-					if score < best_score:
-						best_score = score
-						if best_score <= alpha:
-							return best_score
-						beta = min(beta, best_score)
+						changed += 1
+				changing.append(((i, j), changed))
+	changing.sort(key=lambda x: x[1])
+	for item in reversed(changing):
+		i = item[0][0]
+		j = item[0][1]
+		found = 1
+		modified = []
+		modifiedPrev = []
+		board[i][j] == person
+		modified.append((i, j))
+		modified.append("")
+		neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
+		for t in range(len(neighbors)):
+			if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+				if board[neighbors[t][0]][neighbors[t][1]] == opposite:
+					modified.append(neighbors[t])
+					modified.append(board[neighbors[t][0]][neighbors[t][1]])
+					board[neighbors[t][0]][neighbors[t][1]] = person
+		score = alphabetaBetter(board, scores, depth - 1, original, opposite, person, not minimax, alpha, beta)
+		for t in range(0, len(modified), 2):
+			board[modified[t][0]][modified[t][1]] = modified[t+1]
+		if minimax:
+			if score > best_score:
+				best_score = score
+				if best_score >= beta:
+					return best_score
+				alpha = max(alpha, best_score)
+		else:
+			if score < best_score:
+				best_score = score
+				if best_score <= alpha:
+					return best_score
+				beta = min(beta, best_score)
 	if not found:			#If you can no longer make any moves but have not gotten to the end of the recursion depth
 		return score_board(scores, board, original)
 	return best_score
@@ -279,7 +301,7 @@ def runner(function1, function2, depth1, depth2):
 			linelist = line.replace('\t', " ").replace('\r\n', "").split(" ")
 			linelist = [int(x) for x in linelist]
 			scores.append(linelist)
-	board = [["" for x in range(6)] for y in range(6)]
+	board = [["" for x in range(len(scores))] for y in range(len(scores[0]))]
 	total_moves = (len(board)) * len(board[0])
 	move = total_moves
 	current = "G"
