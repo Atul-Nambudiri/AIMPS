@@ -186,8 +186,8 @@ def alphabetaBetterWrapper(board, scores, depth, original, person, opposite, min
 	best_pos = None
 	if not minimax:
 		best_score = 100000000
-	for i in reversed(range(len(board))):
-		for j in reversed(range(len(board[0]))):
+	for i in range(len(board)):
+		for j in range(len(board[0])):
 			if board[i][j] == "":
 				found = 1
 				modified = []
@@ -230,8 +230,8 @@ def alphabetaBetter(board, scores, depth, original, person, opposite, minimax, a
 	if depth == 0:
 		#print("scoring - %d" % score_board(scores, board, original))
 		return score_board(scores, board, original)
-	for i in reversed(range(len(board))):
-		for j in reversed(range(len(board[0]))):
+	for i in range(len(board)):
+		for j in range(len(board[0])):
 			if board[i][j] == "":
 				found = 1
 				modified = []
