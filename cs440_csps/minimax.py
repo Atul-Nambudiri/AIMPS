@@ -224,11 +224,17 @@ def alphabetaBetterWrapper(board, scores, depth, original, opponent, person, opp
 	for i in range(len(board)):
 		for j in range(len(board[0])):
 			if board[i][j] == "":
-				changed = 0
+				changed = scores[i][j]
 				neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
+				canBlitz = 0
 				for t in range(len(neighbors)):
 					if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
-						changed += 1
+						if board[neighbors[t][0]][neighbors[t][1]] == person:
+							canBlitz = 1
+				if canBlitz:
+					for t in range(len(neighbors)):
+						if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+							changed += scores[neighbors[t][0]][neighbors[t][0]]
 				changing.append(((i, j), changed))
 	changing.sort(key=lambda x: x[1])
 	if minimax:
@@ -289,11 +295,17 @@ def alphabetaBetter(board, scores, depth, original, opponent, person, opposite, 
 	for i in range(len(board)):
 		for j in range(len(board[0])):
 			if board[i][j] == "":
-				changed = 0
+				changed = scores[i][j]
 				neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
+				canBlitz = 0
 				for t in range(len(neighbors)):
 					if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
-						changed += 1
+						if board[neighbors[t][0]][neighbors[t][1]] == person:
+							canBlitz = 1
+				if canBlitz:
+					for t in range(len(neighbors)):
+						if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+							changed += scores[neighbors[t][0]][neighbors[t][0]]
 				changing.append(((i, j), changed))
 	changing.sort(key=lambda x: x[1])
 	if minimax:
@@ -489,15 +501,15 @@ def main():
 		# print("Minimax vs Minimax - Depth 3 vs 3")
 		# runner(recurseWrapper, recurseWrapper, 3, 3)
 		# print("")
-		print("Minimax vs Normal Alphabeta - Depth 3 vs 3")
-		runner(recurseWrapper, alphabetaWrapper, 3, 3)
-		print("")
-		print("Normal Alphabeta vs Minimax - Depth 3 vs 3")
-		runner(alphabetaWrapper, recurseWrapper, 3, 3)
-		print("")
-		print("Normal Alphabeta vs Normal Alphabeta - Depth 3 vs 3")
-		runner(alphabetaWrapper, alphabetaWrapper, 3, 3)
-		print("")
+		# print("Minimax vs Alphabeta - Depth 3 vs 3")
+		# runner(recurseWrapper, alphabetaBetterWrapper, 3, 3)
+		# print("")
+		# print("Alphabeta vs Minimax - Depth 3 vs 3")
+		# runner(alphabetaBetterWrapper, recurseWrapper, 3, 3)
+		# print("")
+		# print("Alphabeta vs Alphabeta - Depth 3 vs 3")
+		# runner(alphabetaBetterWrapper, alphabetaBetterWrapper, 3, 3)
+		# print("")
 		# print("Minimax vs Normal Alphabeta - Depth 3 vs 5")
 		# runner(recurseWrapper, alphabetaWrapper, 3, 5)
 		# print("")
@@ -510,12 +522,12 @@ def main():
 		# print("Normal Alphabeta vs Normal Alphabeta - Depth 3 vs 5")
 		# runner(alphabetaWrapper, alphabetaWrapper, 3, 5)
 		# print("")
-		print("Minimax vs Enhanced Alphabeta - Depth 3 vs 3")
-		runner(recurseWrapper, alphabetaBetterWrapper, 3, 3)
-		print("")
-		print("Enhanced Alphabeta vs Minimax - Depth 3 vs 3")
-		runner(alphabetaBetterWrapper, recurseWrapper, 3, 3)
-		print("")
+		# print("Minimax vs Enhanced Alphabeta - Depth 3 vs 3")
+		# runner(recurseWrapper, alphabetaBetterWrapper, 3, 3)
+		# print("")
+		# print("Enhanced Alphabeta vs Minimax - Depth 3 vs 3")
+		# runner(alphabetaBetterWrapper, recurseWrapper, 3, 3)
+		# print("")
 		print("Normal Alphabeta vs Enhanced Alphabeta - Depth 3 vs 3")
 		runner(alphabetaWrapper, alphabetaBetterWrapper, 3, 3)
 		print("")
