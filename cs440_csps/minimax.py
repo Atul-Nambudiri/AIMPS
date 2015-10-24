@@ -186,34 +186,47 @@ def alphabetaBetterWrapper(board, scores, depth, original, person, opposite, min
 	best_pos = None
 	if not minimax:
 		best_score = 100000000
+	changing = []
 	for i in range(len(board)):
 		for j in range(len(board[0])):
 			if board[i][j] == "":
-				found = 1
-				modified = []
-				board[i][j] = person
-				modified.append((i, j))
-				modified.append("")
+				changed = 0
 				neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
 				for t in range(len(neighbors)):
 					if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
-						if board[neighbors[t][0]][neighbors[t][1]] == opposite:
-							modified.append(neighbors[t])
-							modified.append(board[neighbors[t][0]][neighbors[t][1]])
-							board[neighbors[t][0]][neighbors[t][1]] = person
-				score = alphabetaBetter(board, scores, depth - 1, original, opposite, person, not minimax, alpha, beta)
-				if minimax:
-					if score > best_score:
-						best_score = score
-						best_pos = (i, j)
-						alpha = max(alpha, best_score)
-				else:
-					if score < best_score:
-						best_score = score
-						best_pos = (i, j)
-						beta = min(beta, best_score)
-				for t in range(0, len(modified), 2):
-					board[modified[t][0]][modified[t][1]] = modified[t+1]
+						changed += 1
+				changing.append(((i, j), changed))
+	changing.sort(key=lambda x: x[1])
+	if minimax:
+		changing.reverse()
+	for item in changing:
+		i = item[0][0]
+		j = item[0][1]
+		found = 1
+		modified = []
+		board[i][j] = person
+		modified.append((i, j))
+		modified.append("")
+		neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
+		for t in range(len(neighbors)):
+			if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+				if board[neighbors[t][0]][neighbors[t][1]] == opposite:
+					modified.append(neighbors[t])
+					modified.append(board[neighbors[t][0]][neighbors[t][1]])
+					board[neighbors[t][0]][neighbors[t][1]] = person
+		score = alphabetaBetter(board, scores, depth - 1, original, opposite, person, not minimax, alpha, beta)
+		if minimax:
+			if score > best_score:
+				best_score = score
+				best_pos = (i, j)
+				alpha = max(alpha, best_score)
+		else:
+			if score < best_score:
+				best_score = score
+				best_pos = (i, j)
+				beta = min(beta, best_score)
+		for t in range(0, len(modified), 2):
+			board[modified[t][0]][modified[t][1]] = modified[t+1]
 	return best_score, best_pos
 
 def alphabetaBetter(board, scores, depth, original, person, opposite, minimax, alpha, beta):
@@ -230,37 +243,50 @@ def alphabetaBetter(board, scores, depth, original, person, opposite, minimax, a
 	if depth == 0:
 		#print("scoring - %d" % score_board(scores, board, original))
 		return score_board(scores, board, original)
+	changing = []
 	for i in range(len(board)):
 		for j in range(len(board[0])):
 			if board[i][j] == "":
-				found = 1
-				modified = []
-				modifiedPrev = []
-				board[i][j] == person
-				modified.append((i, j))
-				modified.append("")
+				changed = 0
 				neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
 				for t in range(len(neighbors)):
 					if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
-						if board[neighbors[t][0]][neighbors[t][1]] == opposite:
-							modified.append(neighbors[t])
-							modified.append(board[neighbors[t][0]][neighbors[t][1]])
-							board[neighbors[t][0]][neighbors[t][1]] = person
-				score = alphabetaBetter(board, scores, depth - 1, original, opposite, person, not minimax, alpha, beta)
-				for t in range(0, len(modified), 2):
-					board[modified[t][0]][modified[t][1]] = modified[t+1]
-				if minimax:
-					if score > best_score:
-						best_score = score
-						if best_score >= beta:
-							return best_score
-						alpha = max(alpha, best_score)
-				else:
-					if score < best_score:
-						best_score = score
-						if best_score <= alpha:
-							return best_score
-						beta = min(beta, best_score)
+						changed += 1
+				changing.append(((i, j), changed))
+	changing.sort(key=lambda x: x[1])
+	if minimax:
+		changing.reverse()
+	for item in changing:
+		i = item[0][0]
+		j = item[0][1]
+		found = 1
+		modified = []
+		modifiedPrev = []
+		board[i][j] == person
+		modified.append((i, j))
+		modified.append("")
+		neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
+		for t in range(len(neighbors)):
+			if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+				if board[neighbors[t][0]][neighbors[t][1]] == opposite:
+					modified.append(neighbors[t])
+					modified.append(board[neighbors[t][0]][neighbors[t][1]])
+					board[neighbors[t][0]][neighbors[t][1]] = person
+		score = alphabetaBetter(board, scores, depth - 1, original, opposite, person, not minimax, alpha, beta)
+		for t in range(0, len(modified), 2):
+			board[modified[t][0]][modified[t][1]] = modified[t+1]
+		if minimax:
+			if score > best_score:
+				best_score = score
+				if best_score >= beta:
+					return best_score
+				alpha = max(alpha, best_score)
+		else:
+			if score < best_score:
+				best_score = score
+				if best_score <= alpha:
+					return best_score
+				beta = min(beta, best_score)
 	if not found:			#If you can no longer make any moves but have not gotten to the end of the recursion depth
 		return score_board(scores, board, original)
 	return best_score
@@ -320,11 +346,72 @@ def runner(function1, function2, depth1, depth2):
 	print("Total average Time per move: %f" % ((sum(blue_times) + sum(green_times))/total_moves))
 	print("Average Time per move for Green: %f" % (sum(green_times)/(total_moves/2)))
 	print("Average Time per move for Blue: %f" % (sum(blue_times)/(total_moves/2)))
+
+
+def playerRunner(function, depth):
+	global blue
+	global green
+	blue = 0
+	green = 0
+	blue_times = []
+	scores = []
+	with open(sys.argv[1], 'r') as board_file:
+		for line in board_file:
+			linelist = line.replace('\t', " ").replace('\r\n', "").split(" ")
+			linelist = [int(x) for x in linelist]
+			scores.append(linelist)
+	board = [["" for x in range(len(scores[0]))] for y in range(len(scores))]
+	total_moves = (len(board)) * len(board[0])
+	move = total_moves
+	current = "B"
+	while move != 0:
+		print("Board:")
+		for line in board: 
+			print(line)
+		print("Enter the x and y coordinates of where you want to play")
+		xPos = input("X Coordinate:")
+		yPos = input("Y Coordinate:")
+		while xPos < 0 or yPos < 0 or xPos >= len(board) or yPos >= len(board[0]) or board[xPos][yPos] != "":
+			print("Enter in valid x and y coordinates")
+			xPos = input("X Coordinate:")
+			yPos = input("Y Coordinate:")
+		board[xPos][yPos] = "G"
+		neighbors = [(xPos + 1, yPos), (xPos - 1, yPos), (xPos, yPos + 1), (xPos, yPos - 1)]
+		for neighbor in neighbors:
+			if neighbor[0] >= 0 and neighbor[1] >= 0 and neighbor[0] < len(board) and neighbor[1] < len(board[0]):
+				if board[neighbor[0]][neighbor[1]] == "B":
+					board[neighbor[0]][neighbor[1]] = "G"
+		move -= 1
+		if move == 0:
+			break
+		startTime = time.time()
+		score, pos = function(board, scores, depth, "B", "B", "G", True)
+		blue_times.append(time.time() - startTime)
+		board[pos[0]][pos[1]] = "B"
+		neighbors = [(pos[0] + 1, pos[1]), (pos[0] - 1, pos[1]), (pos[0], pos[1] + 1), (pos[0], pos[1] - 1)]
+		for neighbor in neighbors:
+			if neighbor[0] >= 0 and neighbor[1] >= 0 and neighbor[0] < len(board) and neighbor[1] < len(board[0]):
+				if board[neighbor[0]][neighbor[1]] == "G":
+					board[neighbor[0]][neighbor[1]] = "B"
+		move -= 1
+	print("Final Board:")
+	for line in board:
+		print(line)
+	print("Green Score: %d" % score_board(scores, board, "G"))
+	print("Blue Score: %d" % score_board(scores, board, "B"))
+	print("Blue Expanded %d Nodes Total" % blue)
+	print("Blue Expanded %d Nodes on Average" % (blue/(total_moves/2)))
+	print("Average Time per move for Blue: %f" % (sum(blue_times)/(total_moves/2)))
+
 	
 
 
 def main():
-	if len(sys.argv) < 2:
+	if len(sys.argv) == 3:
+		print("User now playing against AI")
+		playerRunner(recurseWrapper, 3)
+		print("")
+	elif len(sys.argv) < 2:
 		print("Must Enter in a Map")
 	else:
 		print("Run on board: %s" % sys.argv[1])

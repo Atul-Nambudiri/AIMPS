@@ -1,0 +1,10 @@
+User now playing against AI
+Board:
+['', '', '', '', '', '']
+['', '', '', '', '', '']
+['', '', '', '', '', '']
+['', '', '', '', '', '']
+['', '', '', '', '', '']
+['', '', '', '', '', '']
+Enter the x and y coordinates of where you want to play
+X Coordinate:
