@@ -1,0 +1,60 @@
+Run on board: game_boards/Westerplatte.txt
+Maximum found depth for Minimax: 3
+Maximum found depth for Alphabeta: 5
+For all these maps, greem goes first, and blue goes second
+Normal Alphabeta vs Enhanced Alphabeta - Depth 3 vs 3
+Final Board:
+['B', 'G', 'G', 'G', 'B', 'G']
+['B', 'B', 'G', 'G', 'G', 'B']
+['B', 'G', 'G', 'B', 'G', 'G']
+['B', 'B', 'B', 'B', 'B', 'G']
+['B', 'G', 'B', 'B', 'B', 'G']
+['G', 'B', 'B', 'B', 'G', 'G']
+Green Score: 34
+Blue Score: 38
+Green Expanded 40313 Nodes Total
+Blue Expanded 18307 Nodes Total
+Total average number of nodes expanded per move: 1628
+Green Expanded 2239 Nodes on Average
+Blue Expanded 1017 Nodes on Average
+Total average Time per move: 0.024250
+Average Time per move for Green: 0.024529
+Average Time per move for Blue: 0.023970
+
+Enhanced Alphabeta vs Normal Alphabeta - Depth 3 vs 3
+Final Board:
+['G', 'G', 'B', 'B', 'B', 'B']
+['G', 'G', 'B', 'B', 'B', 'B']
+['G', 'B', 'B', 'B', 'B', 'B']
+['G', 'G', 'B', 'G', 'G', 'B']
+['G', 'B', 'G', 'G', 'G', 'B']
+['B', 'G', 'G', 'G', 'B', 'B']
+Green Score: 33
+Blue Score: 39
+Green Expanded 24363 Nodes Total
+Blue Expanded 34550 Nodes Total
+Total average number of nodes expanded per move: 1636
+Green Expanded 1353 Nodes on Average
+Blue Expanded 1919 Nodes on Average
+Total average Time per move: 0.026451
+Average Time per move for Green: 0.032109
+Average Time per move for Blue: 0.020792
+
+Enhanced Alphabeta vs Enhanced Alphabeta - Depth 3 vs 7
+Final Board:
+['B', 'B', 'B', 'B', 'B', 'B']
+['B', 'B', 'B', 'B', 'B', 'B']
+['B', 'B', 'G', 'B', 'G', 'B']
+['B', 'G', 'B', 'B', 'B', 'G']
+['B', 'B', 'G', 'G', 'G', 'G']
+['B', 'G', 'G', 'G', 'G', 'G']
+Green Score: 28
+Blue Score: 44
+Green Expanded 19969 Nodes Total
+Blue Expanded 17059 Nodes Total
+Total average number of nodes expanded per move: 1028
+Green Expanded 1109 Nodes on Average
+Blue Expanded 947 Nodes on Average
+Total average Time per move: 0.025878
+Average Time per move for Green: 0.026944
+Average Time per move for Blue: 0.024812

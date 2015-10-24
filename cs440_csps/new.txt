@@ -1,155 +1,79 @@
-Run on board: game_boards/allDifferent.txt
+Run on board: game_boards/Westerplatte.txt
 Maximum found depth for Minimax: 3
 Maximum found depth for Alphabeta: 5
 For all these maps, greem goes first, and blue goes second
-Minimax vs Normal Alphabeta - Depth 3 vs 3
+Minimax vs Minimax - Depth 3 vs 3
 Final Board:
-['G', 'B', 'B', 'G', 'G', 'G']
-['G', 'B', 'G', 'G', 'G', 'G']
-['G', 'B', 'B', 'G', 'G', 'B']
-['G', 'G', 'G', 'B', 'G', 'G']
-['B', 'G', 'B', 'B', 'B', 'G']
-['B', 'B', 'B', 'B', 'B', 'B']
-Green Score: 659
-Blue Score: 983
+['G', 'G', 'B', 'B', 'B', 'B']
+['G', 'G', 'G', 'B', 'B', 'B']
+['G', 'G', 'G', 'B', 'B', 'B']
+['G', 'G', 'B', 'B', 'B', 'B']
+['G', 'G', 'G', 'B', 'B', 'B']
+['G', 'G', 'B', 'B', 'B', 'B']
+Green Score: 32
+Blue Score: 40
 Green Expanded 217740 Nodes Total
-Blue Expanded 55655 Nodes Total
-Total average number of nodes expanded per move: 7594
-Green Expanded 12096 Nodes on Average
-Blue Expanded 3091 Nodes on Average
-Total average Time per move: 0.079580
-Average Time per move for Green: 0.125562
-Average Time per move for Blue: 0.033598
-
-Normal Alphabeta vs Minimax - Depth 3 vs 3
-Final Board:
-['G', 'B', 'B', 'G', 'G', 'G']
-['G', 'B', 'G', 'G', 'G', 'G']
-['G', 'B', 'B', 'G', 'G', 'B']
-['G', 'G', 'G', 'B', 'G', 'G']
-['B', 'G', 'B', 'B', 'B', 'G']
-['B', 'B', 'B', 'B', 'B', 'B']
-Green Score: 659
-Blue Score: 983
-Green Expanded 80019 Nodes Total
 Blue Expanded 194736 Nodes Total
-Total average number of nodes expanded per move: 7632
-Green Expanded 4445 Nodes on Average
+Total average number of nodes expanded per move: 11457
+Green Expanded 12096 Nodes on Average
 Blue Expanded 10818 Nodes on Average
-Total average Time per move: 0.081902
-Average Time per move for Green: 0.047070
-Average Time per move for Blue: 0.116733
+Total average Time per move: 0.119774
+Average Time per move for Green: 0.126482
+Average Time per move for Blue: 0.113065
 
-Normal Alphabeta vs Normal Alphabeta - Depth 3 vs 3
+Minimax vs Alphabeta - Depth 3 vs 3
 Final Board:
-['G', 'B', 'B', 'G', 'G', 'G']
-['G', 'B', 'G', 'G', 'G', 'G']
-['G', 'B', 'B', 'G', 'G', 'B']
-['G', 'G', 'G', 'B', 'G', 'G']
+['B', 'G', 'G', 'G', 'B', 'G']
+['B', 'B', 'G', 'G', 'G', 'B']
+['B', 'G', 'G', 'B', 'G', 'G']
+['B', 'B', 'B', 'B', 'B', 'G']
 ['B', 'G', 'B', 'B', 'B', 'G']
-['B', 'B', 'B', 'B', 'B', 'B']
-Green Score: 659
-Blue Score: 983
-Green Expanded 80019 Nodes Total
-Blue Expanded 55655 Nodes Total
-Total average number of nodes expanded per move: 3768
-Green Expanded 4445 Nodes on Average
-Blue Expanded 3091 Nodes on Average
-Total average Time per move: 0.040300
-Average Time per move for Green: 0.047058
-Average Time per move for Blue: 0.033541
-
-Minimax vs Enhanced Alphabeta - Depth 3 vs 3
-Final Board:
-['G', 'B', 'B', 'G', 'G', 'G']
-['G', 'B', 'G', 'G', 'G', 'G']
-['G', 'B', 'B', 'G', 'G', 'B']
-['G', 'G', 'G', 'B', 'G', 'G']
-['B', 'G', 'B', 'B', 'B', 'G']
-['B', 'B', 'B', 'B', 'B', 'B']
-Green Score: 659
-Blue Score: 983
+['G', 'B', 'B', 'B', 'G', 'G']
+Green Score: 34
+Blue Score: 38
 Green Expanded 217740 Nodes Total
-Blue Expanded 25700 Nodes Total
-Total average number of nodes expanded per move: 6762
+Blue Expanded 18307 Nodes Total
+Total average number of nodes expanded per move: 6556
 Green Expanded 12096 Nodes on Average
-Blue Expanded 1427 Nodes on Average
-Total average Time per move: 0.075522
-Average Time per move for Green: 0.125275
-Average Time per move for Blue: 0.025768
+Blue Expanded 1017 Nodes on Average
+Total average Time per move: 0.075179
+Average Time per move for Green: 0.126402
+Average Time per move for Blue: 0.023955
 
-Enhanced Alphabeta vs Minimax - Depth 3 vs 3
+Alphabeta vs Minimax - Depth 3 vs 3
 Final Board:
-['G', 'B', 'B', 'G', 'G', 'G']
-['G', 'B', 'G', 'G', 'G', 'G']
-['G', 'B', 'B', 'G', 'G', 'B']
-['G', 'G', 'G', 'B', 'G', 'G']
-['B', 'G', 'B', 'B', 'B', 'G']
-['B', 'B', 'B', 'B', 'B', 'B']
-Green Score: 659
-Blue Score: 983
-Green Expanded 42263 Nodes Total
+['G', 'G', 'B', 'B', 'B', 'B']
+['G', 'G', 'B', 'B', 'B', 'B']
+['G', 'B', 'B', 'B', 'B', 'B']
+['G', 'G', 'B', 'G', 'G', 'B']
+['G', 'B', 'G', 'G', 'G', 'B']
+['B', 'G', 'G', 'G', 'B', 'B']
+Green Score: 33
+Blue Score: 39
+Green Expanded 24363 Nodes Total
 Blue Expanded 194736 Nodes Total
-Total average number of nodes expanded per move: 6583
-Green Expanded 2347 Nodes on Average
+Total average number of nodes expanded per move: 6086
+Green Expanded 1353 Nodes on Average
 Blue Expanded 10818 Nodes on Average
-Total average Time per move: 0.077832
-Average Time per move for Green: 0.039406
-Average Time per move for Blue: 0.116258
+Total average Time per move: 0.073072
+Average Time per move for Green: 0.032001
+Average Time per move for Blue: 0.114143
 
-Normal Alphabeta vs Enhanced Alphabeta - Depth 3 vs 3
+Alphabeta vs Alphabeta - Depth 3 vs 3
 Final Board:
-['G', 'B', 'B', 'G', 'G', 'G']
-['G', 'B', 'G', 'G', 'G', 'G']
-['G', 'B', 'B', 'G', 'G', 'B']
-['G', 'G', 'G', 'B', 'G', 'G']
-['B', 'G', 'B', 'B', 'B', 'G']
 ['B', 'B', 'B', 'B', 'B', 'B']
-Green Score: 659
-Blue Score: 983
-Green Expanded 80019 Nodes Total
-Blue Expanded 25700 Nodes Total
-Total average number of nodes expanded per move: 2936
-Green Expanded 4445 Nodes on Average
-Blue Expanded 1427 Nodes on Average
-Total average Time per move: 0.036369
-Average Time per move for Green: 0.046929
-Average Time per move for Blue: 0.025809
-
-Enhanced Alphabeta vs Normal Alphabeta - Depth 3 vs 3
-Final Board:
-['G', 'B', 'B', 'G', 'G', 'G']
-['G', 'B', 'G', 'G', 'G', 'G']
-['G', 'B', 'B', 'G', 'G', 'B']
-['G', 'G', 'G', 'B', 'G', 'G']
-['B', 'G', 'B', 'B', 'B', 'G']
 ['B', 'B', 'B', 'B', 'B', 'B']
-Green Score: 659
-Blue Score: 983
-Green Expanded 42263 Nodes Total
-Blue Expanded 58874 Nodes Total
-Total average number of nodes expanded per move: 2809
-Green Expanded 2347 Nodes on Average
-Blue Expanded 3270 Nodes on Average
-Total average Time per move: 0.037476
-Average Time per move for Green: 0.039432
-Average Time per move for Blue: 0.035520
-
-Enhanced Alphabeta vs Enhanced Alphabeta - Depth 3 vs 3
-Final Board:
-['G', 'B', 'B', 'G', 'G', 'G']
-['G', 'B', 'G', 'G', 'G', 'G']
-['G', 'B', 'B', 'G', 'G', 'B']
-['G', 'G', 'G', 'B', 'G', 'G']
+['B', 'B', 'G', 'B', 'G', 'B']
 ['B', 'G', 'B', 'B', 'B', 'G']
-['B', 'B', 'B', 'B', 'B', 'B']
-Green Score: 659
-Blue Score: 983
-Green Expanded 42263 Nodes Total
-Blue Expanded 25602 Nodes Total
-Total average number of nodes expanded per move: 1885
-Green Expanded 2347 Nodes on Average
-Blue Expanded 1422 Nodes on Average
-Total average Time per move: 0.032599
-Average Time per move for Green: 0.039405
-Average Time per move for Blue: 0.025793
+['B', 'B', 'G', 'G', 'G', 'G']
+['B', 'G', 'G', 'G', 'G', 'G']
+Green Score: 28
+Blue Score: 44
+Green Expanded 19969 Nodes Total
+Blue Expanded 17059 Nodes Total
+Total average number of nodes expanded per move: 1028
+Green Expanded 1109 Nodes on Average
+Blue Expanded 947 Nodes on Average
+Total average Time per move: 0.025934
+Average Time per move for Green: 0.027028
+Average Time per move for Blue: 0.024841
