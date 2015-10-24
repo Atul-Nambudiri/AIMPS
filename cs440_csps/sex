@@ -1,0 +1,67 @@
+['TOE']
+['TOE', 'TIN']
+['TOE', 'TIN', 'BIT']BT
+['TOE', 'TIN', 'COT']BT
+['TOE', 'TIN', 'COW']BT
+['TOE', 'TIN', 'DIN']BT
+['TOE', 'TIN', 'DOT']BT
+['TOE', 'TIN', 'FAN']BT
+['TOE', 'TIN', 'FIN']BT
+['TOE', 'TIN', 'GOB']BT
+['TOE', 'TIN', 'HAM']BT
+['TOE', 'TIN', 'HIT']BT
+['TOE', 'TIN', 'ION']
+['TOE', 'TIN', 'ION', 'TIE']
+['TOE', 'TIN', 'ION', 'TIE', 'TEN']
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'NON']
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'NON', 'CAT']BT
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'NON', 'EEL']BT
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'NON', 'HEN']
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'NON', 'HEN']
+solution: ['I', 'H', 'T', 'T', 'N', 'O', 'I', 'E', 'N']
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'NON', 'SOW']BT
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'NOT']BT
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'YON']
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'YON', 'CAT']BT
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'YON', 'EEL']BT
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'YON', 'HEN']
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'YON', 'HEN']
+solution: ['I', 'H', 'T', 'T', 'Y', 'O', 'I', 'E', 'N']
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'YON', 'SOW']BT
+['TOE', 'TIN', 'JOY']BT
+['TOE', 'TIN', 'KIT']BT
+['TOE', 'TIN', 'LIP']BT
+['TOE', 'TIN', 'LOT']BT
+['TOE', 'TIN', 'MAT']BT
+['TOE', 'TIN', 'OAT']BT
+['TOE', 'TIN', 'PAT']BT
+['TOE', 'TIN', 'PIN']BT
+['TOE', 'TIN', 'POT']BT
+['TOE', 'TIN', 'RUN']BT
+['TOE', 'TIN', 'SET']BT
+['TOE', 'TIN', 'SIR']BT
+['TOE', 'TIN', 'SOY']BT
+['TOE', 'TIN', 'TAM']BT
+['TOE', 'TIN', 'TIN']BT
+['TOE', 'TIN', 'TON']
+['TOE', 'TIN', 'TON', 'TIE']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'NON']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'NON', 'CAT']BT
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'NON', 'EEL']BT
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'NON', 'HEN']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'NON', 'HEN']
+solution: ['T', 'H', 'T', 'T', 'N', 'O', 'I', 'E', 'N']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'NON', 'SOW']BT
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'NOT']BT
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'YON']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'YON', 'CAT']BT
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'YON', 'EEL']BT
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'YON', 'HEN']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'YON', 'HEN']
+solution: ['T', 'H', 'T', 'T', 'Y', 'O', 'I', 'E', 'N']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'YON', 'SOW']BT
+['TOE', 'TIN', 'VAN']BT
+['TOE', 'TIN', 'WAR']BT
+['TOE', 'TIN', 'YEW']BT
+['TOE', 'TIN', 'ZOO']BT

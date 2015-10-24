@@ -2,13 +2,99 @@ import sys
 import copy
 import re
 
-def solvePuzzleWords(array, words, locations):
+def consistencyCheck(letterLocations, words):
+	for key in letterLocations.keys():
+		allLetters = {}
+
+		if len(letterLocations[key]) > 1:
+			for constraint in letterLocations[key]:
+				allLetters[constraint[0]] = []
+				for word in words[constraint[0]]:
+					if word[constraint[1]] not in allLetters[constraint[0]]:
+						allLetters[constraint[0]].append(word[constraint[1]])
+
+			for char in allLetters[allLetters.keys()[0]]:
+				for k,v in allLetters.iteritems():
+					if char not in v:
+						delIdx = allLetters[allLetters.keys()[0]].index(char)
+						del allLetters[allLetters.keys()[0]][delIdx]
+						break
+
+			l = allLetters.keys()[0]
+			for constraint in letterLocations[key]:
+				for word in words[constraint[0]]:
+					if word[constraint[1]] not in allLetters[l]:
+						delIdx = words[constraint[0]].index(word)
+						del words[constraint[0]][delIdx]
+
+	for key in reversed(letterLocations.keys()):
+		allLetters = {}
+
+		if len(letterLocations[key]) > 1:
+			for constraint in letterLocations[key]:
+				allLetters[constraint[0]] = []
+				for word in words[constraint[0]]:
+					if word[constraint[1]] not in allLetters[constraint[0]]:
+						allLetters[constraint[0]].append(word[constraint[1]])
+
+			for char in allLetters[allLetters.keys()[0]]:
+				for k,v in allLetters.iteritems():
+					if char not in v:
+						delIdx = allLetters[allLetters.keys()[0]].index(char)
+						del allLetters[allLetters.keys()[0]][delIdx]
+						break
+
+			l = allLetters.keys()[0]
+			for constraint in letterLocations[key]:
+				for word in words[constraint[0]]:
+					if word[constraint[1]] not in allLetters[l]:
+						delIdx = words[constraint[0]].index(word)
+						del words[constraint[0]][delIdx]
+
+def consistencyCheck2(letterLocations, words):
+	for key in letterLocations.keys():
+		allLetters = {}
+
+		if len(letterLocations[key]) > 1:
+			for constraint in letterLocations[key]:
+				allLetters[constraint[0]] = []
+				for word in words[constraint[0]]:
+					if word[constraint[1]] not in allLetters[constraint[0]]:
+						allLetters[constraint[0]].append(word[constraint[1]])
+
+			for char in allLetters[allLetters.keys()[0]]:
+				for k,v in allLetters.iteritems():
+					if char not in v:
+						delIdx = allLetters[allLetters.keys()[0]].index(char)
+						del allLetters[allLetters.keys()[0]][delIdx]
+						break
+
+			l = allLetters.keys()[0]
+			for constraint in letterLocations[key]:
+				for word in words[constraint[0]]:
+					if word[constraint[1]] not in allLetters[l]:
+						delIdx = words[constraint[0]].index(word)
+						del words[constraint[0]][delIdx]
+
+def solvePuzzleWords(array, words, letterLocations, locations, printList):
 	if len(locations.keys()) is 0:
 		if 0 not in array and array not in solutions:
-			solutions.append(array)
-			print("")
-			print("solution: " + str(array))
-			return
+			#print(array)
+			broken = False
+			for key in locations.keys():
+				s = ""
+				for i in locations[key]:
+					s += array[i - 1]
+
+				if s not in words[key]:
+					broken = True
+					break
+
+			if not broken:
+				solutions.append(array)
+				print(printList)
+				print("solution: " + str(array))
+		return
 
 	else:
 		for elem in words[locations.keys()[0]]:
@@ -21,18 +107,23 @@ def solvePuzzleWords(array, words, locations):
 					if newList[locations[locations.keys()[0]][j] - 1] is not elem[j]:
 						broken = True
 						break
-
+			printList.append(elem)
 			if not broken:
-				print("")
-				print(elem),
-				print(" -> "),
+				print(printList) 
+
 				modLocations = copy.deepcopy(locations)
 				del modLocations[locations.keys()[0]]
-				solvePuzzleWords(newList, words, modLocations)
+
+				# modLetterLocations = copy.deepcopy(letterLocations)
+				# del modLetterLocations[letterLocations.keys()[0]]
+				# consistencyCheck2(modLetterLocations, words)
+
+				solvePuzzleWords(newList, words, letterLocations, modLocations, printList)
+				printList.pop()
 
 			if broken:
-				print(elem),
-				print(" -> bt"),
+				print(str(printList) + "BT")
+				printList.pop()
 		return
 
 def solvePuzzleLetters(array, locations, letterLocations, words, iterator):
@@ -83,6 +174,7 @@ def solvePuzzleLetters(array, locations, letterLocations, words, iterator):
 
 			newArray = copy.deepcopy(array)
 			newArray[iterator] = letter
+			print(newArray[iterator])
 			solvePuzzleLetters(newArray, locations, letterLocations, newWords, iterator + 1)
 
 		return
@@ -123,10 +215,18 @@ def main():
 				letterLocations[locations[elem][i]] = [(elem, i)]
 	#print(letterLocations)
 
+	# for k, v in letterLocations.iteritems():
+	# 	print(str(k) + ": " + str(v))
+
+	# print("before")
 	array = [0 for x in range(length)]
-	#solvePuzzleLetters(array, locations, letterLocations, words, 0)
-	print(locations.keys())
-	solvePuzzleWords(array, words, locations)
+	
+	for i in range(length):
+		consistencyCheck(letterLocations, words)
+
+	solvePuzzleLetters(array, locations, letterLocations, words, 0)
+	#print(locations.keys())
+	#solvePuzzleWords(array, words, letterLocations, locations, [])
 
 cacheMoney = []
 solutions = []
