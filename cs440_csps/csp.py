@@ -2,6 +2,10 @@ import sys
 import copy
 import re
 
+#check arc consistency and prune words so that you can satisfy contraints more rapidly
+#we run this length times because you want to reduce nodes but then you also want to reduce the nodes where the edges go to the nodes
+#This way, the amount of times you need to backtrace is limited
+
 def consistencyCheck(letterLocations, words):
 	for key in letterLocations.keys():
 		allLetters = {}
@@ -51,35 +55,19 @@ def consistencyCheck(letterLocations, words):
 						delIdx = words[constraint[0]].index(word)
 						del words[constraint[0]][delIdx]
 
-def consistencyCheck2(letterLocations, words):
-	for key in letterLocations.keys():
-		allLetters = {}
 
-		if len(letterLocations[key]) > 1:
-			for constraint in letterLocations[key]:
-				allLetters[constraint[0]] = []
-				for word in words[constraint[0]]:
-					if word[constraint[1]] not in allLetters[constraint[0]]:
-						allLetters[constraint[0]].append(word[constraint[1]])
+#solve the puzzle according to words
+#you want to prune words before you run this function in order to ensure optimality
+#you don't prune from within this function, you just see if there is a word that doesn't cause the loop using elem to break
+#if you've caused it to break, you need to backtrace
+#else you keep recursing
+#you pop one off locations everytime you do a recursion so that you never see the same key twice until you reach the base case
 
-			for char in allLetters[allLetters.keys()[0]]:
-				for k,v in allLetters.iteritems():
-					if char not in v:
-						delIdx = allLetters[allLetters.keys()[0]].index(char)
-						del allLetters[allLetters.keys()[0]][delIdx]
-						break
 
-			l = allLetters.keys()[0]
-			for constraint in letterLocations[key]:
-				for word in words[constraint[0]]:
-					if word[constraint[1]] not in allLetters[l]:
-						delIdx = words[constraint[0]].index(word)
-						del words[constraint[0]][delIdx]
-
-def solvePuzzleWords(array, words, letterLocations, locations, printList):
+def solvePuzzleWords(array, words, locations, printList):
 	if len(locations.keys()) is 0:
 		if 0 not in array and array not in solutions:
-			#print(array)
+			#check if every element in the array at indices are valid
 			broken = False
 			for key in locations.keys():
 				s = ""
@@ -114,11 +102,7 @@ def solvePuzzleWords(array, words, letterLocations, locations, printList):
 				modLocations = copy.deepcopy(locations)
 				del modLocations[locations.keys()[0]]
 
-				# modLetterLocations = copy.deepcopy(letterLocations)
-				# del modLetterLocations[letterLocations.keys()[0]]
-				# consistencyCheck2(modLetterLocations, words)
-
-				solvePuzzleWords(newList, words, letterLocations, modLocations, printList)
+				solvePuzzleWords(newList, words, modLocations, printList)
 				printList.pop()
 
 			if broken:
@@ -126,11 +110,17 @@ def solvePuzzleWords(array, words, letterLocations, locations, printList):
 				printList.pop()
 		return
 
+
+#solve the puzzle according to letters. 
+#iterator keeps track and when iterator has reached the length of keys
+#you want to prune words before you run this function in order to ensure optimality
+#you prune from within this function, this ensures the optimal solution because by choosing one you prune words done even further 
+#recurse from the newly pruned words and add 1 to iterator
+
 def solvePuzzleLetters(array, locations, letterLocations, words, iterator):
 	if len(letterLocations.keys()) == iterator:
 		if 0 not in array and array not in solutions:
-			#print(array)
-			
+			#check if every element in the array at indices are valid
 			broken = False
 			for key in locations.keys():
 				s = ""
@@ -146,6 +136,7 @@ def solvePuzzleLetters(array, locations, letterLocations, words, iterator):
 				print("solution: " + str(array))
 		return
 	else:
+		#prune even further by what you've the element that you've selected
 		l = {}
 		for elem in letterLocations[letterLocations.keys()[iterator]]:
 			l[elem[0]] = []
@@ -172,6 +163,7 @@ def solvePuzzleLetters(array, locations, letterLocations, words, iterator):
 						delIdx= newWords[elem[0]].index(word)
 						del newWords[elem[0]][delIdx]
 
+			#recurse downwards for every letter that's shared and check if it's a valid solution
 			newArray = copy.deepcopy(array)
 			newArray[iterator] = letter
 			print(newArray[iterator])
@@ -213,24 +205,19 @@ def main():
 				letterLocations[locations[elem][i]].append((elem, i))
 			else:
 				letterLocations[locations[elem][i]] = [(elem, i)]
-	#print(letterLocations)
 
-	# for k, v in letterLocations.iteritems():
-	# 	print(str(k) + ": " + str(v))
-
-	# print("before")
 	array = [0 for x in range(length)]
 	
 	for i in range(length):
 		consistencyCheck(letterLocations, words)
 
-	solvePuzzleLetters(array, locations, letterLocations, words, 0)
-	#print(locations.keys())
-	#solvePuzzleWords(array, words, letterLocations, locations, [])
+	# print("letters")
+	# solvePuzzleLetters(array, locations, letterLocations, words, 0)
+	# print("")
+	# print("")
+	# print("words")
+	print(locations.keys())
+	solvePuzzleWords(array, words, locations, [])
 
-cacheMoney = []
 solutions = []
 main()
-
-for elem in cacheMoney:
-	print(elem)

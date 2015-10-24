@@ -1,0 +1,25 @@
+['body', 'container', 'adverb', 'number', 'music', 'animal', 'noun']
+'TOE'
+'TOE' -> 'TIN'
+'TOE' -> 'TIN' -> 'ION'
+'TOE' -> 'TIN' -> 'ION' -> 'TIE'
+['TOE', 'TIN', 'ION', 'TIE', 'TEN']
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'NON']
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'NON', 'HEN']
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'NON', 'HEN']
+solution: ['I', 'H', 'T', 'T', 'N', 'O', 'I', 'E', 'N']
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'YON']
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'YON', 'HEN']
+['TOE', 'TIN', 'ION', 'TIE', 'TEN', 'YON', 'HEN']
+solution: ['I', 'H', 'T', 'T', 'Y', 'O', 'I', 'E', 'N']
+['TOE', 'TIN', 'TON']
+['TOE', 'TIN', 'TON', 'TIE']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'NON']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'NON', 'HEN']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'NON', 'HEN']
+solution: ['T', 'H', 'T', 'T', 'N', 'O', 'I', 'E', 'N']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'YON']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'YON', 'HEN']
+['TOE', 'TIN', 'TON', 'TIE', 'TEN', 'YON', 'HEN']
+solution: ['T', 'H', 'T', 'T', 'Y', 'O', 'I', 'E', 'N']

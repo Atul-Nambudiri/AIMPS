@@ -1,32 +1,5 @@
-I
-H
-T
-T
-N
-O
-I
-E
-N
-solution: ['I', 'H', 'T', 'T', 'N', 'O', 'I', 'E', 'N']
-Y
-O
-I
-E
-N
-solution: ['I', 'H', 'T', 'T', 'Y', 'O', 'I', 'E', 'N']
-T
-H
-T
-T
-N
-O
-I
-E
-N
-solution: ['T', 'H', 'T', 'T', 'N', 'O', 'I', 'E', 'N']
-Y
-O
-I
-E
-N
-solution: ['T', 'H', 'T', 'T', 'Y', 'O', 'I', 'E', 'N']
+letters
+I -> H -> T -> T -> N -> O -> I -> E -> N      solution: ['I', 'H', 'T', 'T', 'N', 'O', 'I', 'E', 'N']
+					Y -> O -> I -> E -> N      solution: ['I', 'H', 'T', 'T', 'Y', 'O', 'I', 'E', 'N']
+T -> H -> T -> T -> N -> O -> I -> E -> N      solution: ['T', 'H', 'T', 'T', 'N', 'O', 'I', 'E', 'N']
+					Y -> O -> I -> E -> N      solution: ['T', 'H', 'T', 'T', 'Y', 'O', 'I', 'E', 'N']

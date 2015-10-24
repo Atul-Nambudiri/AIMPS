@@ -1,4 +1,42 @@
-solution: ['I', 'H', 'T', 'T', 'N', 'O', 'I', 'E', 'N']
-solution: ['I', 'H', 'T', 'T', 'Y', 'O', 'I', 'E', 'N']
-solution: ['T', 'H', 'T', 'T', 'N', 'O', 'I', 'E', 'N']
-solution: ['T', 'H', 'T', 'T', 'Y', 'O', 'I', 'E', 'N']
+letters
+H
+E
+D
+I
+T
+Y
+R
+E
+solution: ['H', 'E', 'D', 'I', 'T', 'Y', 'R', 'E']
+L
+I
+T
+Y
+R
+E
+solution: ['H', 'E', 'L', 'I', 'T', 'Y', 'R', 'E']
+T
+I
+T
+Y
+R
+E
+solution: ['H', 'E', 'T', 'I', 'T', 'Y', 'R', 'E']
+
+
+words
+['body', 'computer', 'pronoun', 'verb', 'noun', 'interjection']
+['EYE']
+['EYE', 'HIT']
+['EYE', 'HIT', 'DIE']
+['EYE', 'HIT', 'DIE', 'IRE']
+['EYE', 'HIT', 'DIE', 'IRE', 'HEY']
+['EYE', 'HIT', 'DIE', 'IRE', 'HEY', 'HER']
+['EYE', 'HIT', 'LIE']
+['EYE', 'HIT', 'LIE', 'IRE']
+['EYE', 'HIT', 'LIE', 'IRE', 'HEY']
+['EYE', 'HIT', 'LIE', 'IRE', 'HEY', 'HER']
+['EYE', 'HIT', 'TIE']
+['EYE', 'HIT', 'TIE', 'IRE']
+['EYE', 'HIT', 'TIE', 'IRE', 'HEY']
+['EYE', 'HIT', 'TIE', 'IRE', 'HEY', 'HER']
