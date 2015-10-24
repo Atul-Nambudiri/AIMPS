@@ -4,6 +4,7 @@ import time
 
 blue = 0
 green = 0
+ratioScoringAlgorithm = False
 
 def score_board(scores, pieces, player):
 	"""
@@ -16,7 +17,7 @@ def score_board(scores, pieces, player):
 				score += scores[i][j]
 	return score
 
-def recurseWrapper(board, scores, depth, original, person, opposite, minimax):
+def recurseWrapper(board, scores, depth, original, opponent, person, opposite, minimax):
 	best_score = 0
 	best_pos = None
 	if not minimax:
@@ -26,17 +27,23 @@ def recurseWrapper(board, scores, depth, original, person, opposite, minimax):
 			if board[i][j] == "":
 				found = 1
 				modified = []
+				neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
+				canBlitz = 0
+				for t in range(len(neighbors)):
+					if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+						if board[neighbors[t][0]][neighbors[t][1]] == person:
+							canBlitz = 1
+				if canBlitz:
+					for t in range(len(neighbors)):
+						if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+							if board[neighbors[t][0]][neighbors[t][1]] == opposite:
+								modified.append(neighbors[t])
+								modified.append(board[neighbors[t][0]][neighbors[t][1]])
+								board[neighbors[t][0]][neighbors[t][1]] = person
 				board[i][j] = person
 				modified.append((i, j))
 				modified.append("")
-				neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
-				for t in range(len(neighbors)):
-					if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
-						if board[neighbors[t][0]][neighbors[t][1]] == opposite:
-							modified.append(neighbors[t])
-							modified.append(board[neighbors[t][0]][neighbors[t][1]])
-							board[neighbors[t][0]][neighbors[t][1]] = person
-				score = recurse(board, scores, depth - 1, original, opposite, person, not minimax)
+				score = recurse(board, scores, depth - 1, original, opponent, opposite, person, not minimax)
 				if minimax:
 					if score > best_score:
 						best_score = score
@@ -49,7 +56,7 @@ def recurseWrapper(board, scores, depth, original, person, opposite, minimax):
 					board[modified[t][0]][modified[t][1]] = modified[t+1]
 	return best_score, best_pos
 
-def recurse(board, scores, depth, original, person, opposite, minimax):
+def recurse(board, scores, depth, original, opponent, person, opposite, minimax):
 	global green
 	global blue
 	if original == 'G':
@@ -61,24 +68,32 @@ def recurse(board, scores, depth, original, person, opposite, minimax):
 		best_score = 100000000
 	found = 0
 	if depth == 0:
-		return score_board(scores, board, original)
+		if ratioScoringAlgorithm:
+			return float(score_board(scores, board, original))/max(1.0, float(score_board(scores, board, opponent)))
+		else:
+			return (score_board(scores, board, original))
 	for i in range(len(board)):
 		for j in range(len(board[0])):
 			if board[i][j] == "":
 				found = 1
 				modified = []
-				modifiedPrev = []
-				board[i][j] == person
-				modified.append((i, j))
-				modified.append("")
 				neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
+				canBlitz = 0
 				for t in range(len(neighbors)):
 					if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
-						if board[neighbors[t][0]][neighbors[t][1]] == opposite:
-							modified.append(neighbors[t])
-							modified.append(board[neighbors[t][0]][neighbors[t][1]])
-							board[neighbors[t][0]][neighbors[t][1]] = person
-				score = recurse(board, scores, depth - 1, original, opposite, person, not minimax)
+						if board[neighbors[t][0]][neighbors[t][1]] == person:
+							canBlitz = 1
+				if canBlitz:
+					for t in range(len(neighbors)):
+						if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+							if board[neighbors[t][0]][neighbors[t][1]] == opposite:
+								modified.append(neighbors[t])
+								modified.append(board[neighbors[t][0]][neighbors[t][1]])
+								board[neighbors[t][0]][neighbors[t][1]] = person
+				board[i][j] = person
+				modified.append((i, j))
+				modified.append("")
+				score = recurse(board, scores, depth - 1, original, opponent, opposite, person, not minimax)
 				if minimax:
 					if score > best_score:
 						best_score = score
@@ -88,11 +103,14 @@ def recurse(board, scores, depth, original, person, opposite, minimax):
 				for t in range(0, len(modified), 2):
 					board[modified[t][0]][modified[t][1]] = modified[t+1]
 	if not found:			#If you can no longer make any moves but have not gotten to the end of the recursion depth
-		return score_board(scores, board, original)
+		if ratioScoringAlgorithm:
+			return float(score_board(scores, board, original))/max(1.0, float(score_board(scores, board, opponent)))
+		else:
+			return (score_board(scores, board, original))
 	return best_score
 
 
-def alphabetaWrapper(board, scores, depth, original, person, opposite, minimax):
+def alphabetaWrapper(board, scores, depth, original, opponent, person, opposite, minimax):
 	alpha = -10000000000000
 	beta = 100000000000000
 	best_score = 0
@@ -104,17 +122,23 @@ def alphabetaWrapper(board, scores, depth, original, person, opposite, minimax):
 			if board[i][j] == "":
 				found = 1
 				modified = []
+				neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
+				canBlitz = 0
+				for t in range(len(neighbors)):
+					if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+						if board[neighbors[t][0]][neighbors[t][1]] == person:
+							canBlitz = 1
+				if canBlitz:
+					for t in range(len(neighbors)):
+						if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+							if board[neighbors[t][0]][neighbors[t][1]] == opposite:
+								modified.append(neighbors[t])
+								modified.append(board[neighbors[t][0]][neighbors[t][1]])
+								board[neighbors[t][0]][neighbors[t][1]] = person
 				board[i][j] = person
 				modified.append((i, j))
 				modified.append("")
-				neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
-				for t in range(len(neighbors)):
-					if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
-						if board[neighbors[t][0]][neighbors[t][1]] == opposite:
-							modified.append(neighbors[t])
-							modified.append(board[neighbors[t][0]][neighbors[t][1]])
-							board[neighbors[t][0]][neighbors[t][1]] = person
-				score = alphabeta(board, scores, depth - 1, original, opposite, person, not minimax, alpha, beta)
+				score = alphabeta(board, scores, depth - 1, original, opponent, opposite, person, not minimax, alpha, beta)
 				if minimax:
 					if score > best_score:
 						best_score = score
@@ -129,7 +153,7 @@ def alphabetaWrapper(board, scores, depth, original, person, opposite, minimax):
 					board[modified[t][0]][modified[t][1]] = modified[t+1]
 	return best_score, best_pos
 
-def alphabeta(board, scores, depth, original, person, opposite, minimax, alpha, beta):
+def alphabeta(board, scores, depth, original, opponent, person, opposite, minimax, alpha, beta):
 	global green
 	global blue
 	if original == 'G':
@@ -141,25 +165,32 @@ def alphabeta(board, scores, depth, original, person, opposite, minimax, alpha, 
 		best_score = 100000000
 	found = 0
 	if depth == 0:
-		#print("scoring - %d" % score_board(scores, board, original))
-		return score_board(scores, board, original)
+		if ratioScoringAlgorithm:
+			return float(score_board(scores, board, original))/max(1.0, float(score_board(scores, board, opponent)))
+		else:
+			return (score_board(scores, board, original))
 	for i in range(len(board)):
 		for j in range(len(board[0])):
 			if board[i][j] == "":
 				found = 1
 				modified = []
-				modifiedPrev = []
-				board[i][j] == person
-				modified.append((i, j))
-				modified.append("")
 				neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
+				canBlitz = 0
 				for t in range(len(neighbors)):
 					if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
-						if board[neighbors[t][0]][neighbors[t][1]] == opposite:
-							modified.append(neighbors[t])
-							modified.append(board[neighbors[t][0]][neighbors[t][1]])
-							board[neighbors[t][0]][neighbors[t][1]] = person
-				score = alphabeta(board, scores, depth - 1, original, opposite, person, not minimax, alpha, beta)
+						if board[neighbors[t][0]][neighbors[t][1]] == person:
+							canBlitz = 1
+				if canBlitz:
+					for t in range(len(neighbors)):
+						if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+							if board[neighbors[t][0]][neighbors[t][1]] == opposite:
+								modified.append(neighbors[t])
+								modified.append(board[neighbors[t][0]][neighbors[t][1]])
+								board[neighbors[t][0]][neighbors[t][1]] = person
+				board[i][j] = person
+				modified.append((i, j))
+				modified.append("")
+				score = alphabeta(board, scores, depth - 1, original, opponent, opposite, person, not minimax, alpha, beta)
 				for t in range(0, len(modified), 2):
 					board[modified[t][0]][modified[t][1]] = modified[t+1]
 				if minimax:
@@ -175,11 +206,14 @@ def alphabeta(board, scores, depth, original, person, opposite, minimax, alpha, 
 							return best_score
 						beta = min(beta, best_score)
 	if not found:			#If you can no longer make any moves but have not gotten to the end of the recursion depth
-		return score_board(scores, board, original)
+		if ratioScoringAlgorithm:
+			return float(score_board(scores, board, original))/max(1.0, float(score_board(scores, board, opponent)))
+		else:
+			return (score_board(scores, board, original))
 	return best_score
 
 
-def alphabetaBetterWrapper(board, scores, depth, original, person, opposite, minimax):
+def alphabetaBetterWrapper(board, scores, depth, original, opponent, person, opposite, minimax):
 	alpha = -10000000000000
 	beta = 100000000000000
 	best_score = 0
@@ -204,17 +238,23 @@ def alphabetaBetterWrapper(board, scores, depth, original, person, opposite, min
 		j = item[0][1]
 		found = 1
 		modified = []
+		neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
+		canBlitz = 0
+		for t in range(len(neighbors)):
+			if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+				if board[neighbors[t][0]][neighbors[t][1]] == person:
+					canBlitz = 1
+		if canBlitz:
+			for t in range(len(neighbors)):
+				if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+					if board[neighbors[t][0]][neighbors[t][1]] == opposite:
+						modified.append(neighbors[t])
+						modified.append(board[neighbors[t][0]][neighbors[t][1]])
+						board[neighbors[t][0]][neighbors[t][1]] = person
 		board[i][j] = person
 		modified.append((i, j))
 		modified.append("")
-		neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
-		for t in range(len(neighbors)):
-			if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
-				if board[neighbors[t][0]][neighbors[t][1]] == opposite:
-					modified.append(neighbors[t])
-					modified.append(board[neighbors[t][0]][neighbors[t][1]])
-					board[neighbors[t][0]][neighbors[t][1]] = person
-		score = alphabetaBetter(board, scores, depth - 1, original, opposite, person, not minimax, alpha, beta)
+		score = alphabetaBetter(board, scores, depth - 1, original, opponent, opposite, person, not minimax, alpha, beta)
 		if minimax:
 			if score > best_score:
 				best_score = score
@@ -229,7 +269,7 @@ def alphabetaBetterWrapper(board, scores, depth, original, person, opposite, min
 			board[modified[t][0]][modified[t][1]] = modified[t+1]
 	return best_score, best_pos
 
-def alphabetaBetter(board, scores, depth, original, person, opposite, minimax, alpha, beta):
+def alphabetaBetter(board, scores, depth, original, opponent, person, opposite, minimax, alpha, beta):
 	global green
 	global blue
 	if original == 'G':
@@ -241,8 +281,10 @@ def alphabetaBetter(board, scores, depth, original, person, opposite, minimax, a
 		best_score = 100000000
 	found = 0
 	if depth == 0:
-		#print("scoring - %d" % score_board(scores, board, original))
-		return score_board(scores, board, original)
+		if ratioScoringAlgorithm:
+			return float(score_board(scores, board, original))/max(1.0, float(score_board(scores, board, opponent)))
+		else:
+			return (score_board(scores, board, original))
 	changing = []
 	for i in range(len(board)):
 		for j in range(len(board[0])):
@@ -261,18 +303,23 @@ def alphabetaBetter(board, scores, depth, original, person, opposite, minimax, a
 		j = item[0][1]
 		found = 1
 		modified = []
-		modifiedPrev = []
-		board[i][j] == person
-		modified.append((i, j))
-		modified.append("")
 		neighbors = [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
+		canBlitz = 0
 		for t in range(len(neighbors)):
 			if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
-				if board[neighbors[t][0]][neighbors[t][1]] == opposite:
-					modified.append(neighbors[t])
-					modified.append(board[neighbors[t][0]][neighbors[t][1]])
-					board[neighbors[t][0]][neighbors[t][1]] = person
-		score = alphabetaBetter(board, scores, depth - 1, original, opposite, person, not minimax, alpha, beta)
+				if board[neighbors[t][0]][neighbors[t][1]] == person:
+					canBlitz = 1
+		if canBlitz:
+			for t in range(len(neighbors)):
+				if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+					if board[neighbors[t][0]][neighbors[t][1]] == opposite:
+						modified.append(neighbors[t])
+						modified.append(board[neighbors[t][0]][neighbors[t][1]])
+						board[neighbors[t][0]][neighbors[t][1]] = person
+		board[i][j] = person
+		modified.append((i, j))
+		modified.append("")
+		score = alphabetaBetter(board, scores, depth - 1, original, opponent, opposite, person, not minimax, alpha, beta)
 		for t in range(0, len(modified), 2):
 			board[modified[t][0]][modified[t][1]] = modified[t+1]
 		if minimax:
@@ -288,7 +335,10 @@ def alphabetaBetter(board, scores, depth, original, person, opposite, minimax, a
 					return best_score
 				beta = min(beta, best_score)
 	if not found:			#If you can no longer make any moves but have not gotten to the end of the recursion depth
-		return score_board(scores, board, original)
+		if ratioScoringAlgorithm:
+			return float(score_board(scores, board, original))/max(1.0, float(score_board(scores, board, opponent)))
+		else:
+			return (score_board(scores, board, original))
 	return best_score
 
 
@@ -314,18 +364,24 @@ def runner(function1, function2, depth1, depth2):
 		char = current
 		if current == "G":
 			startTime = time.time()
-			score, pos = function1(board, scores, depth1, current, current, opposite, True)
+			score, pos = function1(board, scores, depth1, current, opposite, current, opposite, True)
 			green_times.append(time.time() - startTime)
 		else:
 			startTime = time.time()
-			score, pos = function2(board, scores, depth2, current, current, opposite, True)
+			score, pos = function2(board, scores, depth2, current, opposite, current, opposite, True)
 			blue_times.append(time.time() - startTime)
-		board[pos[0]][pos[1]] = char
 		neighbors = [(pos[0] + 1, pos[1]), (pos[0] - 1, pos[1]), (pos[0], pos[1] + 1), (pos[0], pos[1] - 1)]
-		for neighbor in neighbors:
-			if neighbor[0] >= 0 and neighbor[1] >= 0 and neighbor[0] < len(board) and neighbor[1] < len(board[0]):
-				if board[neighbor[0]][neighbor[1]] == opposite:
-					board[neighbor[0]][neighbor[1]] = char
+		canBlitz = 0
+		for t in range(len(neighbors)):
+			if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+				if board[neighbors[t][0]][neighbors[t][1]] == char:
+					canBlitz = 1
+		if canBlitz:
+			for neighbor in neighbors:
+				if neighbor[0] >= 0 and neighbor[1] >= 0 and neighbor[0] < len(board) and neighbor[1] < len(board[0]):
+					if board[neighbor[0]][neighbor[1]] == opposite:
+						board[neighbor[0]][neighbor[1]] = char
+		board[pos[0]][pos[1]] = char
 		if current == "G":
 			current = "B"
 			opposite = "G"
@@ -375,24 +431,36 @@ def playerRunner(function, depth):
 			print("Enter in valid x and y coordinates")
 			xPos = input("X Coordinate:")
 			yPos = input("Y Coordinate:")
-		board[xPos][yPos] = "G"
 		neighbors = [(xPos + 1, yPos), (xPos - 1, yPos), (xPos, yPos + 1), (xPos, yPos - 1)]
-		for neighbor in neighbors:
-			if neighbor[0] >= 0 and neighbor[1] >= 0 and neighbor[0] < len(board) and neighbor[1] < len(board[0]):
-				if board[neighbor[0]][neighbor[1]] == "B":
-					board[neighbor[0]][neighbor[1]] = "G"
+		canBlitz = 0
+		for t in range(len(neighbors)):
+			if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+				if board[neighbors[t][0]][neighbors[t][1]] == "G":
+					canBlitz = 1
+		if canBlitz:
+			for neighbor in neighbors:
+				if neighbor[0] >= 0 and neighbor[1] >= 0 and neighbor[0] < len(board) and neighbor[1] < len(board[0]):
+					if board[neighbor[0]][neighbor[1]] == "B":
+						board[neighbor[0]][neighbor[1]] = "G"
+		board[xPos][yPos] = "G"
 		move -= 1
 		if move == 0:
 			break
 		startTime = time.time()
-		score, pos = function(board, scores, depth, "B", "B", "G", True)
-		blue_times.append(time.time() - startTime)
+		score, pos = function(board, scores, depth, "B", "G", "B", "G", True)
 		board[pos[0]][pos[1]] = "B"
+		blue_times.append(time.time() - startTime)
 		neighbors = [(pos[0] + 1, pos[1]), (pos[0] - 1, pos[1]), (pos[0], pos[1] + 1), (pos[0], pos[1] - 1)]
-		for neighbor in neighbors:
-			if neighbor[0] >= 0 and neighbor[1] >= 0 and neighbor[0] < len(board) and neighbor[1] < len(board[0]):
-				if board[neighbor[0]][neighbor[1]] == "G":
-					board[neighbor[0]][neighbor[1]] = "B"
+		canBlitz = 0
+		for t in range(len(neighbors)):
+			if neighbors[t][0] >= 0 and neighbors[t][1] >= 0 and neighbors[t][0] < len(board) and neighbors[t][1] < len(board[0]):
+				if board[neighbors[t][0]][neighbors[t][1]] == "B":
+					canBlitz = 1
+		if canBlitz:
+			for neighbor in neighbors:
+				if neighbor[0] >= 0 and neighbor[1] >= 0 and neighbor[0] < len(board) and neighbor[1] < len(board[0]):
+					if board[neighbor[0]][neighbor[1]] == "G":
+						board[neighbor[0]][neighbor[1]] = "B"
 		move -= 1
 	print("Final Board:")
 	for line in board:
@@ -407,7 +475,7 @@ def playerRunner(function, depth):
 
 
 def main():
-	if len(sys.argv) == 3:
+	if len(sys.argv) == 3 and sys.argv[2] == 'player':
 		print("User now playing against AI")
 		playerRunner(recurseWrapper, 3)
 		print("")
@@ -418,9 +486,9 @@ def main():
 		print("Maximum found depth for Minimax: 3")
 		print("Maximum found depth for Alphabeta: 5")
 		print("For all these maps, greem goes first, and blue goes second")
-		print("Minimax vs Minimax - Depth 3 vs 3")
-		runner(recurseWrapper, recurseWrapper, 3, 3)
-		print("")
+		# print("Minimax vs Minimax - Depth 3 vs 3")
+		# runner(recurseWrapper, recurseWrapper, 3, 3)
+		# print("")
 		print("Minimax vs Normal Alphabeta - Depth 3 vs 3")
 		runner(recurseWrapper, alphabetaWrapper, 3, 3)
 		print("")
@@ -430,15 +498,18 @@ def main():
 		print("Normal Alphabeta vs Normal Alphabeta - Depth 3 vs 3")
 		runner(alphabetaWrapper, alphabetaWrapper, 3, 3)
 		print("")
-		print("Minimax vs Normal Alphabeta - Depth 3 vs 5")
-		runner(recurseWrapper, alphabetaWrapper, 3, 5)
-		print("")
-		print("Normal Alphabeta vs Minimax - Depth 5 vs 3")
-		runner(alphabetaWrapper, recurseWrapper, 5, 3)
-		print("")
-		print("Normal Alphabeta vs Normal Alphabeta - Depth 5 vs 5")
-		runner(alphabetaWrapper, alphabetaWrapper, 5, 5)
-		print("")
+		# print("Minimax vs Normal Alphabeta - Depth 3 vs 5")
+		# runner(recurseWrapper, alphabetaWrapper, 3, 5)
+		# print("")
+		# print("Normal Alphabeta vs Minimax - Depth 5 vs 3")
+		# runner(alphabetaWrapper, recurseWrapper, 5, 3)
+		# print("")
+		# print("Normal Alphabeta vs Normal Alphabeta - Depth 5 vs 5")
+		# runner(alphabetaWrapper, alphabetaWrapper, 5, 5)
+		# print("")
+		# print("Normal Alphabeta vs Normal Alphabeta - Depth 3 vs 5")
+		# runner(alphabetaWrapper, alphabetaWrapper, 3, 5)
+		# print("")
 		print("Minimax vs Enhanced Alphabeta - Depth 3 vs 3")
 		runner(recurseWrapper, alphabetaBetterWrapper, 3, 3)
 		print("")
