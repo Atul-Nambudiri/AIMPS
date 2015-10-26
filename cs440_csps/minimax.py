@@ -18,6 +18,9 @@ def score_board(scores, pieces, player):
 	return score
 
 def recurseWrapper(board, scores, depth, original, opponent, person, opposite, minimax):
+	"""
+	A wrapper around the recurse function for minimax search that returns the best position.
+	"""
 	best_score = 0
 	best_pos = None
 	if not minimax:
@@ -57,6 +60,9 @@ def recurseWrapper(board, scores, depth, original, opponent, person, opposite, m
 	return best_score, best_pos
 
 def recurse(board, scores, depth, original, opponent, person, opposite, minimax):
+	"""
+	A function that runs minimax search and returns the best score at the particular min/max level
+	"""
 	global green
 	global blue
 	if original == 'G':
@@ -111,6 +117,9 @@ def recurse(board, scores, depth, original, opponent, person, opposite, minimax)
 
 
 def alphabetaWrapper(board, scores, depth, original, opponent, person, opposite, minimax):
+	"""
+	A wrapper around the recurse function for alphabeta pruning search that returns the best position.
+	"""
 	alpha = -10000000000000
 	beta = 100000000000000
 	best_score = 0
@@ -154,6 +163,9 @@ def alphabetaWrapper(board, scores, depth, original, opponent, person, opposite,
 	return best_score, best_pos
 
 def alphabeta(board, scores, depth, original, opponent, person, opposite, minimax, alpha, beta):
+	"""
+	A function that runs alphabeta pruning search and returns the best score at the particular min/max level
+	"""
 	global green
 	global blue
 	if original == 'G':
@@ -214,6 +226,10 @@ def alphabeta(board, scores, depth, original, opponent, person, opposite, minima
 
 
 def alphabetaBetterWrapper(board, scores, depth, original, opponent, person, opposite, minimax):
+	"""
+	A wrapper around the recurse function for alphabeta pruning search that returns the best position.
+	This version uses a more efficient ordering that will cause more pruning.
+	"""
 	alpha = -10000000000000
 	beta = 100000000000000
 	best_score = 0
@@ -276,6 +292,10 @@ def alphabetaBetterWrapper(board, scores, depth, original, opponent, person, opp
 	return best_score, best_pos
 
 def alphabetaBetter(board, scores, depth, original, opponent, person, opposite, minimax, alpha, beta):
+	"""
+	A function that runs alphabeta pruning search and returns the best score at the particular min/max level. 
+	This version uses a more efficient ordering that will cause more pruning
+	"""
 	global green
 	global blue
 	if original == 'G':
@@ -355,6 +375,9 @@ def alphabetaBetter(board, scores, depth, original, opponent, person, opposite, 
 
 
 def runner(function1, function2, depth1, depth2):
+	"""
+	This function simulates a game between two AI's running the specified search functions
+	"""
 	global blue
 	global green
 	green = 0
@@ -417,6 +440,9 @@ def runner(function1, function2, depth1, depth2):
 
 
 def playerRunner(function, depth):
+	"""
+	This function allows you to play a game against an AI running the specified search function
+	"""
 	global blue
 	global green
 	blue = 0
@@ -487,6 +513,9 @@ def playerRunner(function, depth):
 
 
 def main():
+	"""
+	The main executing function
+	"""
 	if len(sys.argv) == 3 and sys.argv[2] == 'player':
 		print("User now playing against AI")
 		playerRunner(recurseWrapper, 3)
