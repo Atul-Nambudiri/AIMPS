@@ -194,6 +194,7 @@ def main():
 	with open('wordslist.txt', 'r') as wordsfile:
 		lines = [x.strip('\r\n') for x in wordsfile.readlines()]
 		for i in range(len(lines)):
+			print(lines[i])
 			tempIndex = lines[i].index(':')
 			tempString = lines[i][tempIndex + 2:]
 			l = tempString.split(", ")
