@@ -1,0 +1,612 @@
+Running Multinomial Bayes for Spam Detection
+Total Success Ratio: 0.976923
+Success Ratio for 1: 0.984615
+Success Ratio for 0: 0.969231
+Confusion Matrix:
+	0		1
+0	0.97	0.03
+1	0.02	0.98
+
+Top 20 words with greatest likelihoods for class 0
+language - 0.010413
+university - 0.008351
+s - 0.006095
+linguistic - 0.004401
+de - 0.004106
+information - 0.004097
+conference - 0.003490
+workshop - 0.003324
+email - 0.002965
+paper - 0.002956
+e - 0.002900
+english - 0.002882
+one - 0.002587
+please - 0.002569
+include - 0.002560
+edu - 0.002504
+http - 0.002440
+research - 0.002394
+abstract - 0.002339
+address - 0.002329
+
+Top 20 words with greatest likelihoods for class 1
+email - 0.010771
+s - 0.009422
+order - 0.009048
+report - 0.008221
+our - 0.007535
+address - 0.007449
+mail - 0.007207
+program - 0.006466
+send - 0.006248
+free - 0.005811
+money - 0.005639
+list - 0.005569
+receive - 0.005171
+name - 0.004898
+business - 0.004750
+one - 0.004321
+d - 0.004227
+work - 0.004126
+com - 0.004095
+nt - 0.004064
+
+
+Running Bernoulli Bayes for Spam Detection
+Total Success Ratio: 0.976923
+Success Ratio for 1: 0.992308
+Success Ratio for 0: 0.961538
+Confusion Matrix:
+	0		1
+0	0.96	0.04
+1	0.01	0.99
+
+Top 20 words with greatest likelihoods for class 0
+language - 0.230476
+university - 0.192381
+s - 0.180952
+information - 0.166667
+linguistic - 0.162857
+http - 0.131429
+email - 0.130476
+please - 0.127619
+e - 0.125714
+follow - 0.124762
+fax - 0.124762
+include - 0.124762
+one - 0.120000
+english - 0.120000
+call - 0.114286
+research - 0.111429
+www - 0.111429
+word - 0.109524
+address - 0.108571
+interest - 0.107619
+
+Top 20 words with greatest likelihoods for class 1
+our - 0.213333
+s - 0.209524
+free - 0.189524
+please - 0.180000
+email - 0.177143
+mail - 0.171429
+one - 0.160952
+address - 0.159048
+list - 0.159048
+com - 0.153333
+receive - 0.150476
+http - 0.150476
+us - 0.149524
+send - 0.147619
+day - 0.147619
+information - 0.146667
+remove - 0.143810
+here - 0.140000
+over - 0.140000
+want - 0.139048
+
+
+Running Multinomial Bayes for Movie Reviews
+Total Success Ratio: 0.761000
+Success Ratio for 1: 0.766000
+Success Ratio for -1: 0.756000
+Confusion Matrix:
+	-1		1
+-1	0.76	0.24
+1	0.23	0.77
+
+Top 20 words with greatest likelihoods for class -1
+movie - 0.009317
+film - 0.007300
+like - 0.005251
+one - 0.004610
+-- - 0.003682
+bad - 0.002817
+story - 0.002753
+much - 0.002689
+time - 0.002433
+even - 0.002273
+good - 0.002081
+characters - 0.002081
+little - 0.002017
+would - 0.001889
+comedy - 0.001857
+never - 0.001729
+nothing - 0.001697
+makes - 0.001665
+plot - 0.001665
+make - 0.001633
+
+Top 20 words with greatest likelihoods for class 1
+film - 0.009054
+movie - 0.005952
+-- - 0.004337
+one - 0.003546
+like - 0.003166
+story - 0.003008
+good - 0.002691
+comedy - 0.002659
+way - 0.002564
+even - 0.002438
+time - 0.002343
+best - 0.002311
+much - 0.002121
+performances - 0.001994
+funny - 0.001931
+make - 0.001931
+life - 0.001868
+us - 0.001868
+makes - 0.001868
+characters - 0.001805
+
+
+Running Bernoulli Bayes for Movie Reviews
+Total Success Ratio: 0.759000
+Success Ratio for 1: 0.774000
+Success Ratio for -1: 0.744000
+Confusion Matrix:
+	-1		1
+-1	0.74	0.26
+1	0.23	0.77
+
+Top 20 words with greatest likelihoods for class -1
+movie - 0.047333
+film - 0.037333
+like - 0.026167
+one - 0.023000
+story - 0.014167
+much - 0.013833
+-- - 0.013500
+bad - 0.012833
+time - 0.012167
+even - 0.011667
+characters - 0.010833
+little - 0.010500
+good - 0.010333
+would - 0.009833
+comedy - 0.009667
+nothing - 0.008833
+makes - 0.008667
+plot - 0.008667
+never - 0.008500
+make - 0.008167
+
+Top 20 words with greatest likelihoods for class 1
+film - 0.047000
+movie - 0.030000
+one - 0.018333
+like - 0.016500
+-- - 0.016333
+story - 0.015167
+comedy - 0.013667
+way - 0.013167
+even - 0.012833
+good - 0.012333
+best - 0.012000
+time - 0.011833
+much - 0.011167
+performances - 0.010500
+funny - 0.010167
+makes - 0.009667
+life - 0.009500
+make - 0.009500
+characters - 0.009333
+work - 0.009000
+
+
+Extra Credit Portion for 2.2:
+Running Multinomial Bayes for 8 Category
+Total Success Ratio: 0.920152
+Success Ratio for 1: 0.848485
+Success Ratio for 0: 0.970588
+Success Ratio for 3: 0.892857
+Success Ratio for 2: 0.972222
+Success Ratio for 5: 0.400000
+Success Ratio for 4: 0.978723
+Success Ratio for 7: 0.862069
+Success Ratio for 6: 1.000000
+Confusion Matrix:
+	0		1		2		3		4		5		6		7
+0	0.97	0.00	0.00	0.00	0.03	0.00	0.00	0.00
+1	0.00	0.85	0.00	0.12	0.03	0.00	0.00	0.00
+2	0.00	0.00	0.97	0.00	0.00	0.00	0.00	0.03
+3	0.00	0.00	0.00	0.89	0.04	0.00	0.00	0.07
+4	0.02	0.00	0.00	0.00	0.98	0.00	0.00	0.00
+5	0.00	0.40	0.00	0.00	0.10	0.40	0.00	0.10
+6	0.00	0.00	0.00	0.00	0.00	0.00	1.00	0.00
+7	0.03	0.03	0.00	0.07	0.00	0.00	0.00	0.86
+
+Top 20 words with greatest likelihoods for class 0
+space - 0.007483
+nt - 0.004311
+would - 0.004072
+one - 0.002794
+launch - 0.002562
+nasa - 0.002511
+earth - 0.002417
+subject - 0.002388
+like - 0.002214
+us - 0.002039
+system - 0.002025
+also - 0.002018
+writes - 0.001974
+could - 0.001916
+time - 0.001843
+data - 0.001843
+first - 0.001843
+orbit - 0.001829
+edu - 0.001829
+mission - 0.001814
+
+Top 20 words with greatest likelihoods for class 1
+drive - 0.005836
+scsi - 0.004897
+nt - 0.004615
+ide - 0.003605
+one - 0.003088
+card - 0.002983
+drives - 0.002736
+controller - 0.002701
+system - 0.002548
+disk - 0.002548
+subject - 0.002419
+use - 0.002407
+would - 0.002395
+edu - 0.002337
+hard - 0.002255
+bus - 0.002231
+get - 0.002090
+m - 0.002078
+data - 0.001938
+also - 0.001797
+
+Top 20 words with greatest likelihoods for class 2
+nt - 0.008762
+would - 0.004255
+year - 0.004002
+edu - 0.003899
+writes - 0.003329
+one - 0.002964
+game - 0.002964
+good - 0.002805
+team - 0.002759
+subject - 0.002749
+last - 0.002702
+article - 0.002693
+think - 0.002693
+players - 0.002581
+like - 0.002506
+baseball - 0.002394
+games - 0.002272
+better - 0.002254
+well - 0.002085
+time - 0.002057
+
+Top 20 words with greatest likelihoods for class 3
+x - 0.029008
+window - 0.004215
+use - 0.003675
+nt - 0.003498
+subject - 0.003442
+file - 0.003200
+server - 0.002934
+also - 0.002611
+available - 0.002523
+get - 0.002523
+edu - 0.002313
+motif - 0.002297
+version - 0.002241
+system - 0.002184
+program - 0.002071
+sun - 0.002071
+c - 0.002055
+one - 0.002039
+m - 0.002007
+windows - 0.001999
+
+Top 20 words with greatest likelihoods for class 4
+nt - 0.008577
+would - 0.005828
+people - 0.005094
+q - 0.004243
+one - 0.003686
+mr - 0.003673
+think - 0.003502
+writes - 0.003386
+president - 0.003386
+article - 0.003122
+government - 0.003049
+stephanopoulos - 0.002773
+know - 0.002749
+us - 0.002559
+edu - 0.002535
+like - 0.002479
+subject - 0.002320
+going - 0.002284
+right - 0.002033
+get - 0.002033
+
+Top 20 words with greatest likelihoods for class 5
+new - 0.003000
+edu - 0.002603
+dos - 0.002206
+sale - 0.002000
+appears - 0.001986
+art - 0.001863
+subject - 0.001822
+wolverine - 0.001767
+shipping - 0.001617
+cover - 0.001589
+price - 0.001589
+one - 0.001548
+list - 0.001548
+comics - 0.001507
+drive - 0.001493
+nt - 0.001452
+hulk - 0.001438
+good - 0.001397
+vs - 0.001356
+system - 0.001315
+
+Top 20 words with greatest likelihoods for class 6
+nt - 0.006587
+game - 0.005134
+team - 0.004993
+hockey - 0.004436
+would - 0.003164
+play - 0.002944
+subject - 0.002669
+period - 0.002661
+season - 0.002622
+nhl - 0.002575
+games - 0.002536
+one - 0.002457
+first - 0.002285
+year - 0.002230
+think - 0.002175
+players - 0.002135
+get - 0.002065
+la - 0.002065
+edu - 0.002041
+like - 0.002002
+
+Top 20 words with greatest likelihoods for class 7
+image - 0.007350
+jpeg - 0.003873
+edu - 0.003626
+nt - 0.003469
+file - 0.003361
+images - 0.003221
+data - 0.003056
+also - 0.003023
+graphics - 0.002866
+software - 0.002610
+available - 0.002494
+use - 0.002395
+one - 0.002147
+program - 0.002089
+files - 0.002007
+format - 0.001990
+get - 0.001949
+version - 0.001833
+system - 0.001817
+ftp - 0.001751
+
+
+Running Bernoulli Bayes for 8 category
+Total Success Ratio: 0.859316
+Success Ratio for 1: 0.606061
+Success Ratio for 0: 0.882353
+Success Ratio for 3: 0.928571
+Success Ratio for 2: 0.916667
+Success Ratio for 5: 0.200000
+Success Ratio for 4: 1.000000
+Success Ratio for 7: 0.793103
+Success Ratio for 6: 0.978261
+Confusion Matrix:
+	0		1		2		3		4		5		6		7
+0	0.88	0.00	0.00	0.00	0.12	0.00	0.00	0.00
+1	0.09	0.61	0.00	0.12	0.18	0.00	0.00	0.00
+2	0.00	0.00	0.92	0.00	0.06	0.00	0.03	0.00
+3	0.00	0.00	0.00	0.93	0.04	0.00	0.00	0.04
+4	0.00	0.00	0.00	0.00	1.00	0.00	0.00	0.00
+5	0.30	0.10	0.00	0.00	0.30	0.20	0.00	0.10
+6	0.00	0.00	0.00	0.00	0.02	0.00	0.98	0.00
+7	0.03	0.00	0.00	0.07	0.10	0.00	0.00	0.79
+
+Top 20 words with greatest likelihoods for class 0
+subject - 0.128099
+would - 0.090450
+nt - 0.085859
+space - 0.085399
+writes - 0.082185
+article - 0.073921
+one - 0.071625
+like - 0.067952
+could - 0.058310
+also - 0.057392
+get - 0.053260
+think - 0.052342
+time - 0.051882
+us - 0.051882
+new - 0.050046
+much - 0.048669
+way - 0.048669
+m - 0.048669
+edu - 0.048669
+see - 0.048209
+
+Top 20 words with greatest likelihoods for class 1
+subject - 0.089209
+nt - 0.065228
+one - 0.053717
+would - 0.052278
+writes - 0.048921
+use - 0.047002
+get - 0.045564
+know - 0.045564
+article - 0.044604
+card - 0.042206
+also - 0.040767
+like - 0.040767
+two - 0.038849
+m - 0.038849
+system - 0.037890
+edu - 0.037410
+drive - 0.036451
+work - 0.033094
+problem - 0.032134
+could - 0.030695
+
+Top 20 words with greatest likelihoods for class 2
+subject - 0.128099
+nt - 0.102847
+writes - 0.098255
+article - 0.087236
+edu - 0.084481
+would - 0.075758
+one - 0.070707
+last - 0.067952
+year - 0.065657
+like - 0.065197
+baseball - 0.060606
+good - 0.060147
+think - 0.059688
+get - 0.058770
+time - 0.058310
+m - 0.058310
+know - 0.055096
+game - 0.053260
+team - 0.052801
+first - 0.052342
+
+Top 20 words with greatest likelihoods for class 3
+subject - 0.100426
+x - 0.062530
+nt - 0.059687
+use - 0.055424
+writes - 0.050687
+get - 0.049266
+window - 0.047371
+article - 0.046897
+using - 0.046897
+one - 0.044055
+like - 0.043581
+would - 0.042634
+also - 0.040265
+problem - 0.039318
+know - 0.036476
+code - 0.035528
+m - 0.034107
+set - 0.033160
+email - 0.033160
+help - 0.033160
+
+Top 20 words with greatest likelihoods for class 4
+subject - 0.152988
+nt - 0.126227
+writes - 0.125335
+article - 0.117752
+people - 0.107939
+would - 0.104817
+one - 0.099465
+like - 0.079839
+edu - 0.076271
+us - 0.071365
+even - 0.071365
+think - 0.071365
+m - 0.066012
+get - 0.065566
+government - 0.065120
+could - 0.064228
+know - 0.063336
+make - 0.062890
+time - 0.060660
+much - 0.059768
+
+Top 20 words with greatest likelihoods for class 5
+subject - 0.061295
+sale - 0.040534
+edu - 0.036085
+new - 0.032625
+shipping - 0.032625
+please - 0.030648
+email - 0.028670
+price - 0.025704
+nt - 0.024221
+one - 0.023233
+get - 0.020761
+condition - 0.020267
+like - 0.020267
+list - 0.020267
+want - 0.019773
+used - 0.019773
+good - 0.019773
+use - 0.018784
+sell - 0.018290
+etc - 0.018290
+
+Top 20 words with greatest likelihoods for class 6
+subject - 0.143437
+nt - 0.102391
+team - 0.088859
+game - 0.085701
+hockey - 0.084348
+writes - 0.082093
+would - 0.074876
+one - 0.073974
+article - 0.064953
+like - 0.064502
+play - 0.063148
+first - 0.061795
+think - 0.059540
+go - 0.059089
+get - 0.058187
+nhl - 0.058187
+year - 0.057736
+games - 0.056382
+time - 0.055480
+last - 0.055029
+
+Top 20 words with greatest likelihoods for class 7
+subject - 0.080833
+nt - 0.053243
+one - 0.047919
+would - 0.042594
+writes - 0.042594
+also - 0.040658
+like - 0.040658
+article - 0.040174
+graphics - 0.035818
+edu - 0.035818
+use - 0.035818
+get - 0.035334
+know - 0.035334
+computer - 0.031946
+need - 0.031462
+could - 0.029526
+think - 0.029526
+program - 0.029526
+m - 0.029042
+two - 0.029042
+

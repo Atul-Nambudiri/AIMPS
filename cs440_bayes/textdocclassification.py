@@ -169,7 +169,7 @@ def runner(bayes_function, train_file, testing_file, classes):
 	print("	" + "		".join(classes))
 	for item in classes:
 		values = [classification[item][item2] for item2 in classes]
-		print(item + "	" + "		".join(["{0:.2f}".format(item2) for item2 in values]))
+		print(item + "	" + "	".join(["{0:.2f}".format(item2) for item2 in values]))
 	print("")
 	for item in classes:
 		print("Top 20 words with greatest likelihoods for class %s" % item)
