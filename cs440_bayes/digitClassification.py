@@ -14,6 +14,7 @@ def main():
 	postTestDict = {}
 
 	###initialize a labelDict to have the indices and the total count of the indices ie {1: 50}###
+	##this makes it easy to calculate pClass###
 	with open('traininglabels', 'r') as labels:
 		numberTrain = [x.strip('\r\n') for x in labels.readlines()]
 		for i in range(len(numberTrain)):
@@ -52,8 +53,8 @@ def main():
 	for i in labelDict.keys():
 		pClass[i] = float(labelDict[i])/float(len(numberTrain))
 
-	#print(pClass)
 
+	##run training for every key in imageDict to get an average image in trainingDict1 and trainingDict0###
 	for key in imageDict.keys():
 		training(key, imageDict, trainingDict0, trainingDict1)
 
@@ -86,13 +87,16 @@ def main():
 			
 				idxTr = idxTr + 1
 
+	###run testing to make a postTestDict###
 	for key in testingDict.keys():
 		postTestDict[key] = []
 		testing(key, testingDict, trainingDict0, trainingDict1, pClass, postTestDict)
 
+	###evaluate evaluate to get a confusionMatrix###
 	confusionMatrix = evaluate(postTestDict)
-	# for line in confusionMatrix:
-	# 	print(line)
+	
+	###calculate the oddsRatios###
+	oddsRatios(confusionMatrix, trainingDict0, trainingDict1)
 
 ###calculate training by P(Fij = f | class) = ###
 ###(number of times pixel (i,j) has value f in training examples from this class) / ###
@@ -121,10 +125,11 @@ def training(key, imageDict, trainingDict0, trainingDict1):
 				else:
 					numF0 += 1
 
-			#V is set to a va;lue of 10 because you have 0 through 9 and k is a value of 
-			k = 5
-			probMap1[i][j] = float(numF1 + k) / float(len(imageDict[key]) + (k * 10))
-			probMap0[i][j] = float(numF0 + k) / float(len(imageDict[key]) + (k * 10))
+			#V is set to a va;lue of 2 because you have 0 through 1 and k is a value arbitrarily chosen###
+			###in this case, 1 was best because it limits the number of variance between the denominator and numerator from the actual value###
+			k = 1
+			probMap1[i][j] = float(numF1 + k) / float(len(imageDict[key]) + (k * 2))
+			probMap0[i][j] = float(numF0 + k) / float(len(imageDict[key]) + (k * 2))
 
 	trainingDict1[key] = probMap1
 	trainingDict0[key] = probMap0
@@ -148,6 +153,7 @@ def testing(key, testingDict, trainingDict0, trainingDict1, pClass, postTestDict
 		postTestDict[key].append(d)
 
 
+###evaluate a confusionMatrix by taking the max of every value that you've gotten from training###
 def evaluate(postTestDict):
 	confusionMatrix = []
 	for i in range(10):
@@ -174,7 +180,63 @@ def evaluate(postTestDict):
 		for j in range(10):
 			confusionMatrix[i][j] = float(confusionMatrix[i][j])/float(l)
 
-	for line in confusionMatrix:
-		print(line)
+	return confusionMatrix
+
+###calculate the oddsRatios###
+def oddsRatios(confusionMatrix, trainingDict0, trainingDict1):
+	l = [[[0, 0], 0] for x in range(4)]
+	for i in range(10):
+		for j in range(10):
+			if i != j:
+				for k in range(4):
+					if l[k][1] < confusionMatrix[i][j]:
+						l[k][0] = [i, j]
+						l[k][1] = confusionMatrix[i][j]
+						break
+
+	for i in range(4):
+		first = copy.deepcopy(trainingDict1[str(l[i][0][0])])
+		second = copy.deepcopy(trainingDict1[str(l[i][0][1])])
+		third = copy.deepcopy(trainingDict1[str(l[i][0][0])])
+		
+		for j in range(len(first)):
+			for k in range(len(first[j])):
+				a = first[j][k]
+				b = second[j][k]
+
+				first[j][k] = math.log(a)
+				second[j][k] = math.log(b)
+				third[j][k] = math.log(a/b)
+
+		for j in range(len(first)):
+			for k in range(len(first[j])):
+				if first[j][k] < 1 and first[j][k] > -1:
+					first[j][k] = "8"
+				elif first[j][k] >= 1:
+					first[j][k] = " "
+				else:
+					first[j][k] = " "
+
+
+				if second[j][k] < 1 and second[j][k] > -1:
+					second[j][k] = "8"
+				elif second[j][k] >= 1:
+					second[j][k] = " "
+				else:
+					second[j][k] = " "
+
+		for j in range(len(third)):
+			for k in range(len(third[j])):
+				if third[j][k] < 1.1 and third[j][k] >= 0.9:
+					third[j][k] = " "
+				elif third[j][k] >= 1.1 or (third[j][k] < 0.9 and third[j][k] >= 0):
+					third[j][k] = "+"
+				else:
+					third[j][k] = "-"
+
+		for line in third:
+			print("".join(line))
+
+		print(" ")
 
 main()
