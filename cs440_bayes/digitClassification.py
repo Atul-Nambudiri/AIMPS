@@ -179,6 +179,8 @@ def evaluate(postTestDict):
 		l = len(postTestDict[str(i)])
 		for j in range(10):
 			confusionMatrix[i][j] = float(confusionMatrix[i][j])/float(l)
+			if i == j:
+				print(confusionMatrix[i][j])
 
 	return confusionMatrix
 
@@ -233,10 +235,5 @@ def oddsRatios(confusionMatrix, trainingDict0, trainingDict1):
 					third[j][k] = "+"
 				else:
 					third[j][k] = "-"
-
-		for line in third:
-			print("".join(line))
-
-		print(" ")
 
 main()
