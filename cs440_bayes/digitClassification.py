@@ -92,6 +92,33 @@ def main():
 		postTestDict[key] = []
 		testing(key, testingDict, trainingDict0, trainingDict1, pClass, postTestDict)
 
+	for key in postTestDict.keys():
+		max = -10000000000
+		indMax = -1
+		min = 1000000000
+		indMin = -1
+		for i in range(len(postTestDict[key])):
+			if max < postTestDict[key][i][key]:
+				max = postTestDict[key][i][key]
+				indMax = i
+			elif min > postTestDict[key][i][key]:
+				min = postTestDict[key][i][key]
+				indMin = i
+		print(key)
+		print("")
+		for line in testingDict[key][indMax]:
+			s = ""
+			for char in line:
+				s = s + char
+			print(s)
+		print("")
+		for line in testingDict[key][indMin]:
+			s = ""
+			for char in line:
+				s = s + char
+			print(s)
+		print("")
+
 	###evaluate evaluate to get a confusionMatrix###
 	confusionMatrix = evaluate(postTestDict)
 	
@@ -179,8 +206,6 @@ def evaluate(postTestDict):
 		l = len(postTestDict[str(i)])
 		for j in range(10):
 			confusionMatrix[i][j] = float(confusionMatrix[i][j])/float(l)
-			if i == j:
-				print(confusionMatrix[i][j])
 
 	return confusionMatrix
 
