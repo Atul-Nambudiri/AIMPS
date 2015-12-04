@@ -49,6 +49,8 @@ def main():
 			
 				idxTr = idxTr + 1
 
+	print(len(numberTrain))
+
 	###calculate P(class) for all integers 0 - 9###
 	for i in labelDict.keys():
 		pClass[i] = float(labelDict[i])/float(len(numberTrain))
@@ -92,38 +94,38 @@ def main():
 		postTestDict[key] = []
 		testing(key, testingDict, trainingDict0, trainingDict1, pClass, postTestDict)
 
-	for key in postTestDict.keys():
-		max = -10000000000
-		indMax = -1
-		min = 1000000000
-		indMin = -1
-		for i in range(len(postTestDict[key])):
-			if max < postTestDict[key][i][key]:
-				max = postTestDict[key][i][key]
-				indMax = i
-			elif min > postTestDict[key][i][key]:
-				min = postTestDict[key][i][key]
-				indMin = i
-		print(key)
-		print("")
-		for line in testingDict[key][indMax]:
-			s = ""
-			for char in line:
-				s = s + char
-			print(s)
-		print("")
-		for line in testingDict[key][indMin]:
-			s = ""
-			for char in line:
-				s = s + char
-			print(s)
-		print("")
+	# for key in postTestDict.keys():
+	# 	max = -10000000000
+	# 	indMax = -1
+	# 	min = 1000000000
+	# 	indMin = -1
+	# 	for i in range(len(postTestDict[key])):
+	# 		if max < postTestDict[key][i][key]:
+	# 			max = postTestDict[key][i][key]
+	# 			indMax = i
+	# 		elif min > postTestDict[key][i][key]:
+	# 			min = postTestDict[key][i][key]
+	# 			indMin = i
+	# 	print(key)
+	# 	print("")
+	# 	for line in testingDict[key][indMax]:
+	# 		s = ""
+	# 		for char in line:
+	# 			s = s + char
+	# 		print(s)
+	# 	print("")
+	# 	for line in testingDict[key][indMin]:
+	# 		s = ""
+	# 		for char in line:
+	# 			s = s + char
+	# 		print(s)
+	# 	print("")
 
 	###evaluate evaluate to get a confusionMatrix###
-	confusionMatrix = evaluate(postTestDict)
+	# confusionMatrix = evaluate(postTestDict)
 	
-	###calculate the oddsRatios###
-	oddsRatios(confusionMatrix, trainingDict0, trainingDict1)
+	# ###calculate the oddsRatios###
+	# oddsRatios(confusionMatrix, trainingDict0, trainingDict1)
 
 ###calculate training by P(Fij = f | class) = ###
 ###(number of times pixel (i,j) has value f in training examples from this class) / ###
