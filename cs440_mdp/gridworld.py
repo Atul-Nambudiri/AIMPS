@@ -3,25 +3,25 @@ import copy
 import math
 
 reward_map = [[-.04,-1.0,-.04,-.04,-.04,-.04],
-			 [-.04,-.04,-.04,0.0,-1.0,-.04],
-			 [-.04,-.04,-.04,0.0,-.04,3.0],
-			 [-.04,-.04,-.04,0.0,-.04,-.04],
-			 [-.04,-.04,-.04,-.04,-.04,-.04],
-			 [1.0,-1.0,-.04,0.0,-1.0,-1.0]]
+			  [-.04,-.04,-.04,"W",-1.0,-.04],
+			  [-.04,-.04,-.04,"W",-.04,3.0],
+			  [-.04,-.04,-.04,"W",-.04,-.04],
+			  [-.04,-.04,-.04,-.04,-.04,-.04],
+			  [1.0,-1.0,-.04,"W",-1.0,-1.0]]
 
 utility_map_prev = [[0.0,-1.0,0.0,0.0,0.0,0.0],
-				   [0.0,0.0,0.0,0.0,-1.0,0.0],
-				   [0.0,0.0,0.0,0.0,0.0,3.0],
-				   [0.0,0.0,0.0,0.0,0.0,0.0],
-				   [0.0,0.0,0.0,0.0,0.0,0.0],
-				   [1.0,-1.0,0.0,0.0,-1.0,-1.0]]
+				    [0.0,0.0,0.0,"W",-1.0,0.0],
+				    [0.0,0.0,0.0,"W",0.0,3.0],
+				    [0.0,0.0,0.0,"W",0.0,0.0],
+				    [0.0,0.0,0.0,0.0,0.0,0.0],
+				    [1.0,-1.0,0.0,"W",-1.0,-1.0]]
 
 utility_map_new =  [[0.0,-1.0,0.0,0.0,0.0,0.0],
-				   [0.0,0.0,0.0,0.0,-1.0,0.0],
-				   [0.0,0.0,0.0,0.0,0.0,3.0],
-				   [0.0,0.0,0.0,0.0,0.0,0.0],
-				   [0.0,0.0,0.0,0.0,0.0,0.0],
-				   [1.0,-1.0,0.0,0.0,-1.0,-1.0]]
+				    [0.0,0.0,0.0,"W",-1.0,0.0],
+				    [0.0,0.0,0.0,"W",0.0,3.0],
+				    [0.0,0.0,0.0,"W",0.0,0.0],
+				    [0.0,0.0,0.0,0.0,0.0,0.0],
+				    [1.0,-1.0,0.0,"W",-1.0,-1.0]]
 
 converg_flag = False
 
@@ -49,59 +49,95 @@ def calcUltility():
 				converg_count += 1
 				continue
 
+			# if (i == 1 and j == 3) or (i == 2 and j == 3) or (i == 3 and j == 3) or (i == 5 and j == 3):
+			# 	converg_count += 1
+			# 	continue
+
 			"""Up"""
-			temp_max = 0.0
-			if (i-1) >= 0:
+			temp_max = 0.0 
+			if ((i-1) >= 0) and (reward_map[i-1][j] != "W"):
 				temp_max += transition_up * utility_map_prev[i-1][j]
-			if (j-1) >= 0:
+			else:
+				temp_max += transition_up * utility_map_prev[i][j]
+
+			if ((j-1) >= 0) and (reward_map[i][j-1] != "W"):
 				temp_max += transition_left * utility_map_prev[i][j-1]
-			if (j+1) < 6:
+			else:
+				temp_max += transition_left * utility_map_prev[i][j]
+
+			if ((j+1) < 6) and (reward_map[i][j+1] != "W"):
 				temp_max += transition_right * utility_map_prev[i][j+1]
+			else:
+				temp_max += transition_right * utility_map_prev[i][j]
 
 			if temp_max > curr_max:
 				curr_max = temp_max
 
 			"""Right"""
 			temp_max = 0.0
-			if (j+1) < 6:
+			if ((j+1) < 6) and (reward_map[i][j+1] != "W"):
 				temp_max += transition_up * utility_map_prev[i][j+1]
-			if (i-1) >= 0:
+			else:
+				temp_max += transition_up * utility_map_prev[i][j]
+
+			if ((i-1) >= 0) and (reward_map[i-1][j] != "W"):
 				temp_max += transition_left * utility_map_prev[i-1][j]
-			if (i+1) < 6:
+			else:
+				temp_max += transition_left * utility_map_prev[i][j]
+
+			if ((i+1) < 6) and (reward_map[i+1][j] != "W"):
 				temp_max += transition_right * utility_map_prev[i+1][j]
+			else:
+				temp_max += transition_right * utility_map_prev[i][j]
 			
 			if temp_max > curr_max:
 				curr_max = temp_max
 
 			"""Down"""
 			temp_max = 0.0
-			if (i+1) < 6:
+			if ((i+1) < 6) and (reward_map[i+1][j] != "W"):
 				temp_max += transition_up * utility_map_prev[i+1][j]
-			if (j+1) < 6:
+			else:
+				temp_max += transition_up * utility_map_prev[i][j]
+
+			if ((j+1) < 6) and (reward_map[i][j+1] != "W"):
 				temp_max += transition_left * utility_map_prev[i][j+1]
-			if (j-1) >= 0:
+			else:
+				temp_max += transition_left * utility_map_prev[i][j]
+
+			if ((j-1) >= 0) and (reward_map[i][j-1] != "W"):
 				temp_max += transition_right * utility_map_prev[i][j-1]
+			else:
+				temp_max += transition_right * utility_map_prev[i][j]
 			
 			if temp_max > curr_max:
 				curr_max = temp_max
 
 			"""Left"""
 			temp_max = 0.0
-			if (j-1) >= 0:
+			if ((j-1) >= 0) and (reward_map[i][j-1] != "W"):
 				temp_max += transition_up * utility_map_prev[i][j-1]
-			if (i+1) < 6:
+			else:
+				temp_max += transition_up * utility_map_prev[i][j]
+
+			if ((i+1) < 6) and (reward_map[i+1][j] != "W"):
 				temp_max += transition_left * utility_map_prev[i+1][j]
-			if (i-1) >= 0:
+			else:
+				temp_max += transition_left * utility_map_prev[i][j]	
+
+			if ((i-1) >= 0) and (reward_map[i-1][j] != "W"):
 				temp_max += transition_right * utility_map_prev[i-1][j]
+			else:
+				temp_max += transition_right * utility_map_prev[i][j]
 
 			if temp_max > curr_max:
 				curr_max = temp_max
 
 
 			utility_map_new[i][j] = reward_map[i][j] + (gamma * curr_max)
-			#print utility_map_new[i][converg_flagj]
+			#print utility_map_new[i][converg_flag]
 
-			if abs(utility_map_new[i][j] - utility_map_prev[i][j]) < .001:
+			if abs(utility_map_new[i][j] - utility_map_prev[i][j]) < .00001:
 				converg_count += 1
 			# else:
 			# 	print(str(i) + "," + str(j))
