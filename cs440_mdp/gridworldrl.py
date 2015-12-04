@@ -10,13 +10,27 @@ reward_map = [[-.04, -1.0, -.04, -.04, -.04, -.04],
 			  [-.04, -.04, -.04, -.04, -.04, -.04],
 			  [ 1.0, -1.0, -.04,  "W", -1.0, -1.0]]
 
+terminal = [[0, 1, 0, 0, 0, 0],
+		  	[0, 0, 0, 1, 1, 0],
+		  	[0, 0, 0, 1, 0, 1],
+		  	[0, 0, 0, 1, 0, 0],
+		  	[0, 0, 0, 0, 0, 0],
+		  	[1, 1, 0, 1, 1, 1]]
+
+actual = [[-0.0893, -1, 0.1235, 0.2727, 0.4901, 1.0104],  
+		  [0.0481, -0.0012, 0.0313, 0, -1, 1.6882],  
+		  [0.1515, 0.0594, 0.0162,0, 1.6514, 3], 
+		  [0.3156, 0.1565, 0.0909,0, 1.1625, 1.8509],  
+		  [0.5760, 0.2235, 0.2029, 0.4219, 0.7193, 1.1257],  
+		  [1,-1, 0.0039, 0, -1, -1]]  
+
 
 def exploration_function(q, n):
 	"""
 	The exploration function to use to find the desired action
 	"""
 	if n < 1:
-		return 3
+		return 10
 	else:
 		return q
 
@@ -102,7 +116,7 @@ def calcUltility():
 		j = 1
 		while True:
 			explored[i][j] = 1
-			if reward_map[i][j] != -.04:
+			if terminal[i][j] == 1:
 				for t in range(4):
 					Q[i][j][t] = reward_map[i][j]
 				v += 1.0
@@ -120,11 +134,11 @@ def calcUltility():
 				if ((nextState[0] >= len(N) or nextState[1] >= len(N[0]) or nextState[0] < 0 or nextState[1] < 0) or reward_map[nextState[0]][nextState[1]] == "W"):
 					nextState = (i, j)
 				bestNextState = max(Q[nextState[0]][nextState[1]])
-				alpha = 60.0/(59.0 + v)
-				Q[i][j][bestA] = (Q[i][j][bestA] + alpha * (reward_map[i][j] + .99 * bestNextState - Q[i][j][bestA]))
+				alpha = 100.0/(100.0 + 2*v)
+				Q[i][j][bestA] = (Q[i][j][bestA] + alpha * (reward_map[i][j] + (0.99 * bestNextState) - Q[i][j][bestA]))
 				i = nextState[0]
 				j = nextState[1]
-				v += 1.0
+		v += 1.0
 		number = 0
 		explored_num = 0
 		for l in range(len(Q)):
@@ -135,19 +149,22 @@ def calcUltility():
 					if abs(Q_prev[l][m][n] - Q[l][m][n]) < 0.001:
 						number += 1
 					Q_prev[l][m][n] = Q[l][m][n]
-		print(explored_num)
-		for row in Q:
-			print([max(item) for item in row])
-		if number == 144 and explored_num == 36:
+		# print(explored_num)
+		# for row in Q:
+		# 	print([max(item) for item in row])
+		if v % 200 == 0 and number == 144: #and explored_num == 36:
 			done = True
 
 	print("Took %f Iterations" % v)
 	print("")
-	for row in Q:
-		print([max(item) for item in row])
+	summation = 0
+	for i in range(len(Q)):
+		for j in range(len(Q[0])):
+			summation += (max(Q[i][j]) - actual[i][j])**2
+		print([max(item) for item in Q[i]])
 	print("")
-	for row in N:
-		print(row)
+	rme = (summation/36)**(0.5)
+	print("RME: %f" % rme) 
 
 
 calcUltility()
