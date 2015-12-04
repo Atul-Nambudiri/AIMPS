@@ -10,12 +10,13 @@ reward_map = [[-.04, -1.0, -.04, -.04, -.04, -.04],
 			  [-.04, -.04, -.04, -.04, -.04, -.04],
 			  [ 1.0, -1.0, -.04,  "W", -1.0, -1.0]]
 
+
 def exploration_function(q, n):
 	"""
 	The exploration function to use to find the desired action
 	"""
-	if n < 5:
-		return 0.1
+	if n < 1:
+		return 3
 	else:
 		return q
 
@@ -81,52 +82,63 @@ def calcUltility():
 		 [[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]],
 		 [[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]],
 		 [[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]]]
+	known_reward_map = [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+			  			[0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+			  			[0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+			  			[0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+			  			[0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+			  			[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+
+	explored = [[0, 1, 0, 0, 0, 0],
+		  		[0, 0, 0, 1, 1, 0],
+		  		[0, 0, 0, 1, 0, 1],
+		  		[0, 0, 0, 1, 0, 0],
+		  		[0, 0, 0, 0, 0, 0],
+		  		[1, 1, 0, 1, 1, 1]]
 	done = False
 	v = 0.0
 	while not done:
-	#for v in range(5500):
-		for i in range(len(reward_map)):
-			for j in range(len(reward_map[0])):
-				if reward_map[i][j] == "W":
-					for t in range(4):
-						Q[i][j][t] = 0.0
-				elif reward_map[i][j] != -.04:
-					for t in range(4):
-						Q[i][j][t] = reward_map[i][j]
-				else:
-					bestScore = -100000000
-					bestA = -1
-					for t in range(4):
-						curr = exploration_function(Q_prev[i][j][t], N[i][j][t])
-						if curr > bestScore:
-							bestScore = curr
-							bestA = t
-					# if i == 2 and j == 4:
-					# 	for t in range(4):
-					# 		print(exploration_function(Q_prev[i][j][t], N[i][j][t]))
-					# 	print("BestScore: %f BestDir: %d" % (bestScore, bestA))
-					N[i][j][bestA] += 1
-					nextState = successorState(i, j, bestA)
-					# if i == 2 and j == 4:
-					# 	print(nextState)
-					if ((nextState[0] >= len(N) or nextState[1] >= len(N[0]) or nextState[0] < 0 or nextState[1] < 0) or reward_map[nextState[0]][nextState[1]] == "W"):
-						nextState = (i, j)
-					bestNextState = max(Q_prev[nextState[0]][nextState[1]])
-					alpha = 60.0/(59.0 + v)
-					# if i == 2 and j == 4:
-					# 	print("Alpha: " + str(alpha))
-					# 	print("Prev: " + str(Q_prev[i][j][bestA]))
-					# 	print(Q_prev[i][j][bestA] + alpha * (reward_map[i][j] + .99 * bestNextState - Q_prev[i][j][bestA]))
-					Q[i][j][bestA] = Q_prev[i][j][bestA] + alpha * (reward_map[i][j] + .99 * bestNextState - Q_prev[i][j][bestA])
-		v += 1.0
+		i = 3
+		j = 1
+		while True:
+			explored[i][j] = 1
+			if reward_map[i][j] != -.04:
+				for t in range(4):
+					Q[i][j][t] = reward_map[i][j]
+				v += 1.0
+				break
+			else:
+				bestScore = -100000000
+				bestA = -1
+				for t in range(4):
+					curr = exploration_function(Q[i][j][t], N[i][j][t])
+					if curr > bestScore:
+						bestScore = curr
+						bestA = t
+				N[i][j][bestA] += 1
+				nextState = successorState(i, j, bestA)
+				if ((nextState[0] >= len(N) or nextState[1] >= len(N[0]) or nextState[0] < 0 or nextState[1] < 0) or reward_map[nextState[0]][nextState[1]] == "W"):
+					nextState = (i, j)
+				bestNextState = max(Q[nextState[0]][nextState[1]])
+				alpha = 60.0/(59.0 + v)
+				Q[i][j][bestA] = (Q[i][j][bestA] + alpha * (reward_map[i][j] + .99 * bestNextState - Q[i][j][bestA]))
+				i = nextState[0]
+				j = nextState[1]
+				v += 1.0
 		number = 0
-		for i in range(len(Q)):
-			for j in range(len(Q[0])):
-				for k in range(len(Q[0][0])):
-					if abs(Q_prev[i][j][k] - Q[i][j][k]) < 0.0010:
+		explored_num = 0
+		for l in range(len(Q)):
+			for m in range(len(Q[0])):
+				if explored[l][m] == 1:
+					explored_num += 1
+				for n in range(len(Q[0][0])):
+					if abs(Q_prev[l][m][n] - Q[l][m][n]) < 0.001:
 						number += 1
-					Q_prev[i][j][k] = Q[i][j][k]
-		if number == 144:
+					Q_prev[l][m][n] = Q[l][m][n]
+		print(explored_num)
+		for row in Q:
+			print([max(item) for item in row])
+		if number == 144 and explored_num == 36:
 			done = True
 
 	print("Took %f Iterations" % v)
