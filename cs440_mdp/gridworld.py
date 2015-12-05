@@ -38,12 +38,14 @@ def calcUltility():
 	transition_left = 0.1
 	transition_right = 0.1
 	gamma = 0.7
+	counter = 0
 
 	for i in range(len(reward_map)):
 		for j in range(len(reward_map[0])):
 			# if reward_map[i][j] != -.04: 
 			# 	converg_count += 1
 			# 	continue
+			curr_max = -1000000.0
 
 			if (i == 0 and j == 1) or (i == 1 and (j == 3 or j == 4)) or (i == 2 and (j == 3 or j == 5)) or (i == 3 and j == 3) or (i == 5 and (j == 3 or j == 0 or j == 1 or j == 4 or j == 5)):
 				converg_count += 1
@@ -141,6 +143,7 @@ def calcUltility():
 				converg_count += 1
 			# else:
 			# 	print(str(i) + "," + str(j))
+
 
 	for a in range(len(utility_map_prev)):
 		for b in range(len(utility_map_prev[0])):
