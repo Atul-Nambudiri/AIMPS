@@ -95,12 +95,18 @@ def main():
 	postTest = testing(weights, testInstances, testLabels)
 	confusionMatr = confusionMatrix(postTest, testLabels)
 
-	for line in confusionMatr:
-		print(line)
+	sum = 0
+	for i in range(10):
+		sum = sum + confusionMatr[i][i]
+
+	print(sum/10)
+
+	# for line in confusionMatr:
+	# 	print(line)
 
 def perceptron(trainingLabels, trainingInstances, weights):
 	# subject to change
-	for epoch in range(50):
+	for epoch in range(20):
 		alpha = float(1)/float(1 + epoch)  
 		for i in range(len(trainingLabels)):
 
@@ -119,7 +125,7 @@ def perceptron(trainingLabels, trainingInstances, weights):
 				weights[c] = vectorSubtraction(weights[c], scalarProduct(alpha, trainingInstances[i]))
 				weights[trainingLabels[i]] = vectorAddition(weights[trainingLabels[i]], scalarProduct(alpha, trainingInstances[i]))
 
-		checkAccuracy(trainingLabels, trainingInstances, weights)
+		# checkAccuracy(trainingLabels, trainingInstances, weights)
 
 def testing(weights, testInstances, testLabels):
 	postTest = []
@@ -162,9 +168,12 @@ def checkAccuracy(trainingLabels, trainingInstances, weights):
 	postTest = testing(weights, trainingInstances, trainingLabels)
 	confusionMatr = confusionMatrix(postTest, trainingLabels)
 	sum = 0
+	accuracy = ""
 	for i in range(10):
 		sum = sum + confusionMatr[i][i]
+		accuracy = accuracy + str(i) + ": " + str(confusionMatr[i][i]) + " " 
 
-	print(sum/10)
+	accuracy = accuracy + "average: " + str(sum/10)
+	print(accuracy)
 
 main()
