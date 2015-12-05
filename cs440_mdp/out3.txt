@@ -1,0 +1,4 @@
+Best rme do far was found at Ne 82, Rp 0, alpha 86  with value 0.487492
+Best rme was found at Ne 82, Rp 0, alpha 86  with value 0.487492
+All values in queue
+(0.4874923172280596, (82, 0, 86))

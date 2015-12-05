@@ -3,6 +3,7 @@ import copy
 import math
 import random
 import Queue
+from multiprocessing import Pool
 
 reward_map = [[-.04, -1.0, -.04, -.04, -.04, -.04],
 			  [-.04, -.04, -.04,  "W", -1.0, -.04],
@@ -169,46 +170,70 @@ def calcUtility(Ne, Rp, alphaNum):
 	res = []
 	for i in range(len(Q)):
 		res.append([max(item) for item in Q[i]])
-	return res	
+	return res
+
+def runCalcUtility(Ne, Rp, alpha):
+	#print("Calculating Utility with Ne of %d, and Rp of %d, and alpha of %d" % (Ne, Rp, alpha))
+	res = calcUtility(Ne, Rp, float(alpha))
+	num = 20
+	for t in range(num - 1):
+		Q = calcUtility(Ne, Rp, float(alpha))
+		for i in range(len(Q)):
+			for j in range(len(Q[0])):
+				res[i][j] += Q[i][j]
+	for i in range(len(res)):
+		for j in range(len(res[0])):
+			res[i][j] /= num
+	summation = 0
+	for i in range(len(res)):
+		for j in range(len(res[0])):
+			summation += (res[i][j] - actual[i][j])**2
+		#print([item for item in res[i]])
+	#print("")
+	rme = (summation/36)**(0.5)
+	#print("RME: %f" % rme)
+	return (rme, (Ne, Rp, alpha))
+
+queue = Queue.PriorityQueue()
+bestValue = 1
+bestNe = -1
+bestRp = -1
+bestAlpha = -1
+
+def addToQueue(result):
+	global queue
+	global bestValue
+	global bestNe
+	global bestRp
+	global bestAlpha
+	if result[0] < bestValue:
+		bestValue = result[0]
+		bestNe = result[1][0]
+		bestRp = result[1][1]
+		bestAlpha = result[1][2]
+	print("Best rme do far was found at Ne %d, Rp %d, alpha %d  with value %f" % (bestNe, bestRp, bestAlpha, bestValue))
+	queue.put(result)
+
 
 def main():
-	queue = Queue.PriorityQueue()
-	bestValue = 1
-	bestNe = 1
-	bestRp = 0
-	bestAlpha = -1
-	for alpha in range(30, 70):
-		for Ne in range(50, 70, 1):
-			for Rp in range (0, 25, 1):
-				#print("Calculating Utility with Ne of %d, and Rp of %d, and alpha of %d" % (Ne, Rp, alpha))
-				res = calcUtility(Ne, Rp, float(alpha))
-				num = 10
-				for t in range(num - 1):
-					Q = calcUtility(Ne, Rp, float(alpha))
-					for i in range(len(Q)):
-						for j in range(len(Q[0])):
-							res[i][j] += Q[i][j]
-				for i in range(len(res)):
-					for j in range(len(res[0])):
-						res[i][j] /= num
-				summation = 0
-				for i in range(len(res)):
-					for j in range(len(res[0])):
-						summation += (res[i][j] - actual[i][j])**2
-					#print([item for item in res[i]])
-				#print("")
-				rme = (summation/36)**(0.5)
-				#print("RME: %f" % rme)
-				if rme < bestValue:
-					bestValue = rme
-					bestNe = Ne
-					bestRp = Rp
-					bestAlpha = alpha
-				print("Best rme so far was found at Ne %d, Rp %d, and alpha %d  with value %f" % (bestNe, bestRp, alpha,  bestValue))
-				print("")
-				queue.put((rme, (Ne, Rp, alpha)))
-	print("Best rme was found at Ne %d, Rp %d  with value %f" % (bestNe, bestRp, bestValue))	
+	global queue
+	global bestValue
+	global bestNe
+	global bestRp
+	global bestAlpha
+	args = []
+	for alpha in range(55, 80):
+		for Ne in range(55, 80, 1):
+			for Rp in range (0, 1, 1):
+				args.append((Ne, Rp, alpha))
+	pool = Pool()
+	for i in args:
+		pool.apply_async(runCalcUtility, args = i, callback = addToQueue)
+	pool.close()
+	pool.join()
+	print("Best rme was found at Ne %d, Rp %d, alpha %d  with value %f" % (bestNe, bestRp, bestAlpha, bestValue))	
 	print("All values in queue")
 	while not queue.empty():
 		print(queue.get())
 main()
+
