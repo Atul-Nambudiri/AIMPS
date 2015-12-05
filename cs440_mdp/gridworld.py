@@ -31,7 +31,7 @@ def calcUltility():
 	global utility_map_prev
 	global utility_map_new
 	global converg_flag
-	curr_max = 0.0
+	curr_max = -1000000.0
 	temp_max = 0.0
 	converg_count = 0
 	transition_up = 0.8
@@ -137,7 +137,7 @@ def calcUltility():
 			utility_map_new[i][j] = reward_map[i][j] + (gamma * curr_max)
 			#print utility_map_new[i][converg_flag]
 
-			if abs(utility_map_new[i][j] - utility_map_prev[i][j]) < .00001:
+			if abs(utility_map_new[i][j] - utility_map_prev[i][j]) < .001:
 				converg_count += 1
 			# else:
 			# 	print(str(i) + "," + str(j))
