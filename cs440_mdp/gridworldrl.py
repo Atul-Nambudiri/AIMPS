@@ -2,6 +2,7 @@ import sys
 import copy
 import math
 import random
+import Queue
 
 reward_map = [[-.04, -1.0, -.04, -.04, -.04, -.04],
 			  [-.04, -.04, -.04,  "W", -1.0, -.04],
@@ -25,12 +26,12 @@ actual = [[-0.0893, -1, 0.1235, 0.2727, 0.4901, 1.0104],
 		  [1,-1, 0.0039, 0, -1, -1]]  
 
 
-def exploration_function(q, n):
+def exploration_function(q, n, Ne, Rp):
 	"""
 	The exploration function to use to find the desired action
 	"""
-	if n < 1:
-		return 10
+	if n < Ne:
+		return Rp
 	else:
 		return q
 
@@ -76,7 +77,7 @@ def successorState(i, j, dir):
 		else:
 			return (i-1, j)
 
-def calcUltility():
+def calcUtility(Ne, Rp, alphaNum):
 	Q_prev = [[[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0]],
 		 	  [[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0]],
 		 	  [[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0]],
@@ -125,7 +126,7 @@ def calcUltility():
 				bestScore = -100000000
 				bestA = -1
 				for t in range(4):
-					curr = exploration_function(Q[i][j][t], N[i][j][t])
+					curr = exploration_function(Q[i][j][t], N[i][j][t], Ne, Rp)
 					if curr > bestScore:
 						bestScore = curr
 						bestA = t
@@ -134,7 +135,7 @@ def calcUltility():
 				if ((nextState[0] >= len(N) or nextState[1] >= len(N[0]) or nextState[0] < 0 or nextState[1] < 0) or reward_map[nextState[0]][nextState[1]] == "W"):
 					nextState = (i, j)
 				bestNextState = max(Q[nextState[0]][nextState[1]])
-				alpha = 100.0/(100.0 + 2*v)
+				alpha = alphaNum/((alphaNum-1) + v)
 				Q[i][j][bestA] = (Q[i][j][bestA] + alpha * (reward_map[i][j] + (0.99 * bestNextState) - Q[i][j][bestA]))
 				i = nextState[0]
 				j = nextState[1]
@@ -146,7 +147,7 @@ def calcUltility():
 				if explored[l][m] == 1:
 					explored_num += 1
 				for n in range(len(Q[0][0])):
-					if abs(Q_prev[l][m][n] - Q[l][m][n]) < 0.001:
+					if abs(Q_prev[l][m][n] - Q[l][m][n]) < 0.01:
 						number += 1
 					Q_prev[l][m][n] = Q[l][m][n]
 		# print(explored_num)
@@ -155,7 +156,7 @@ def calcUltility():
 		if v % 200 == 0 and number == 144: #and explored_num == 36:
 			done = True
 
-	print("Took %f Iterations" % v)
+	'''print("Took %f Iterations" % v)
 	print("")
 	summation = 0
 	for i in range(len(Q)):
@@ -164,7 +165,50 @@ def calcUltility():
 		print([max(item) for item in Q[i]])
 	print("")
 	rme = (summation/36)**(0.5)
-	print("RME: %f" % rme) 
+	print("RME: %f" % rme)''' 
+	res = []
+	for i in range(len(Q)):
+		res.append([max(item) for item in Q[i]])
+	return res	
 
-
-calcUltility()
+def main():
+	queue = Queue.PriorityQueue()
+	bestValue = 1
+	bestNe = 1
+	bestRp = 0
+	bestAlpha = -1
+	for alpha in range(30, 70):
+		for Ne in range(50, 70, 1):
+			for Rp in range (0, 25, 1):
+				#print("Calculating Utility with Ne of %d, and Rp of %d, and alpha of %d" % (Ne, Rp, alpha))
+				res = calcUtility(Ne, Rp, float(alpha))
+				num = 10
+				for t in range(num - 1):
+					Q = calcUtility(Ne, Rp, float(alpha))
+					for i in range(len(Q)):
+						for j in range(len(Q[0])):
+							res[i][j] += Q[i][j]
+				for i in range(len(res)):
+					for j in range(len(res[0])):
+						res[i][j] /= num
+				summation = 0
+				for i in range(len(res)):
+					for j in range(len(res[0])):
+						summation += (res[i][j] - actual[i][j])**2
+					#print([item for item in res[i]])
+				#print("")
+				rme = (summation/36)**(0.5)
+				#print("RME: %f" % rme)
+				if rme < bestValue:
+					bestValue = rme
+					bestNe = Ne
+					bestRp = Rp
+					bestAlpha = alpha
+				print("Best rme so far was found at Ne %d, Rp %d, and alpha %d  with value %f" % (bestNe, bestRp, alpha,  bestValue))
+				print("")
+				queue.put((rme, (Ne, Rp, alpha)))
+	print("Best rme was found at Ne %d, Rp %d  with value %f" % (bestNe, bestRp, bestValue))	
+	print("All values in queue")
+	while not queue.empty():
+		print(queue.get())
+main()
