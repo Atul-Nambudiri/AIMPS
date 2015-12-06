@@ -19,12 +19,20 @@ terminal = [[0, 1, 0, 0, 0, 0],
 		  	[0, 0, 0, 0, 0, 0],
 		  	[1, 1, 0, 1, 1, 1]]
 
-actual = [[-0.0893, -1, 0.1235, 0.2727, 0.4901, 1.0104],  
-		  [0.0481, -0.0012, 0.0313, 0, -1, 1.6882],  
-		  [0.1515, 0.0594, 0.0162,0, 1.6514, 3], 
-		  [0.3156, 0.1565, 0.0909,0, 1.1625, 1.8509],  
-		  [0.5760, 0.2235, 0.2029, 0.4219, 0.7193, 1.1257],  
-		  [1,-1, 0.0039, 0, -1, -1]]  
+# actual = [[-0.0893, -1, 0.1235, 0.2727, 0.4901, 1.0104],  
+# 		  [0.0481, -0.0012, 0.0313, 0, -1, 1.6882],  
+# 		  [0.1515, 0.0594, 0.0162,0, 1.6514, 3], 
+# 		  [0.3156, 0.1565, 0.0909,0, 1.1625, 1.8509],  
+# 		  [0.5760, 0.2235, 0.2029, 0.4219, 0.7193, 1.1257],  
+# 		  [1,-1, 0.0039, 0, -1, -1]]  
+
+actual = [[1.508830651370902, -1.0, 1.8047299079115622, 1.8358626071567363, 1.9095489693611867, 2.347858388558568],
+		  [1.9595936341323408, 2.069818612385609, 2.1691724633184233, 0.0, -1.0, 2.4827968923418426],
+		  [2.0673612807522983, 2.1801002507993132, 2.2774719666701468, 0.0, 2.7437304152472728, 3.0],
+		  [2.1481793619327201, 2.2679191599399551, 2.3782292578265269, 0.0, 2.7969435886619443, 2.8999862797083509],
+		  [2.0547095053421875, 2.1919300376266784, 2.47638193911326, 2.6288192020292422, 2.7127951953017768, 2.8027962754540141],
+		  [1.0, -1.0, 2.0206888251410784, 0.0, -1.0, -1.0]]
+
 
 
 def exploration_function(q, n, Ne, Rp):
@@ -121,7 +129,6 @@ def calcUtility(Ne, Rp, alphaNum):
 			if terminal[i][j] == 1:
 				for t in range(4):
 					Q[i][j][t] = reward_map[i][j]
-				v += 1.0
 				break
 			else:
 				bestScore = -100000000
@@ -143,7 +150,9 @@ def calcUtility(Ne, Rp, alphaNum):
 		v += 1.0
 		number = 0
 		explored_num = 0
+		#print("")
 		for l in range(len(Q)):
+			#print([max(t) for t in Q[l]])
 			for m in range(len(Q[0])):
 				if explored[l][m] == 1:
 					explored_num += 1
@@ -151,31 +160,17 @@ def calcUtility(Ne, Rp, alphaNum):
 					if abs(Q_prev[l][m][n] - Q[l][m][n]) < 0.01:
 						number += 1
 					Q_prev[l][m][n] = Q[l][m][n]
-		# print(explored_num)
-		# for row in Q:
-		# 	print([max(item) for item in row])
-		if v % 200 == 0 and number == 144: #and explored_num == 36:
-			done = True
-
-	'''print("Took %f Iterations" % v)
-	print("")
-	summation = 0
-	for i in range(len(Q)):
-		for j in range(len(Q[0])):
-			summation += (max(Q[i][j]) - actual[i][j])**2
-		print([max(item) for item in Q[i]])
-	print("")
-	rme = (summation/36)**(0.5)
-	print("RME: %f" % rme)''' 
+			if number == 144: #and explored_num == 36:
+				done = True 
 	res = []
 	for i in range(len(Q)):
 		res.append([max(item) for item in Q[i]])
 	return res
 
 def runCalcUtility(Ne, Rp, alpha):
-	#print("Calculating Utility with Ne of %d, and Rp of %d, and alpha of %d" % (Ne, Rp, alpha))
+	#print("Calculating Utility with Ne of %d, and Rp of %f, and alpha of %d" % (Ne, Rp, alpha))
 	res = calcUtility(Ne, Rp, float(alpha))
-	num = 20
+	num = 5
 	for t in range(num - 1):
 		Q = calcUtility(Ne, Rp, float(alpha))
 		for i in range(len(Q)):
@@ -188,7 +183,7 @@ def runCalcUtility(Ne, Rp, alpha):
 	for i in range(len(res)):
 		for j in range(len(res[0])):
 			summation += (res[i][j] - actual[i][j])**2
-		#print([item for item in res[i]])
+		print([item for item in res[i]])
 	#print("")
 	rme = (summation/36)**(0.5)
 	#print("RME: %f" % rme)
@@ -197,7 +192,7 @@ def runCalcUtility(Ne, Rp, alpha):
 queue = Queue.PriorityQueue()
 bestValue = 1
 bestNe = -1
-bestRp = -1
+bestRp = -1.0
 bestAlpha = -1
 
 def addToQueue(result):
@@ -211,7 +206,7 @@ def addToQueue(result):
 		bestNe = result[1][0]
 		bestRp = result[1][1]
 		bestAlpha = result[1][2]
-	print("Best rme do far was found at Ne %d, Rp %d, alpha %d  with value %f" % (bestNe, bestRp, bestAlpha, bestValue))
+	print("Best rme so far was found at Ne %d, Rp %f, alpha %d  with value %f" % (bestNe, bestRp, bestAlpha, bestValue))
 	queue.put(result)
 
 
@@ -222,18 +217,23 @@ def main():
 	global bestRp
 	global bestAlpha
 	args = []
-	for alpha in range(55, 80):
-		for Ne in range(55, 80, 1):
-			for Rp in range (0, 1, 1):
+	for alpha in range(120, 170, 5):
+		for Ne in range(0, 26, 5):
+			for Rp in range (70, 140, 5):
 				args.append((Ne, Rp, alpha))
 	pool = Pool()
 	for i in args:
 		pool.apply_async(runCalcUtility, args = i, callback = addToQueue)
 	pool.close()
 	pool.join()
-	print("Best rme was found at Ne %d, Rp %d, alpha %d  with value %f" % (bestNe, bestRp, bestAlpha, bestValue))	
+	print("Best rme was found at Ne %d, Rp %f, alpha %d  with value %f" % (bestNe, bestRp, bestAlpha, bestValue))	
 	print("All values in queue")
 	while not queue.empty():
 		print(queue.get())
+
+def main2():
+	res = runCalcUtility(20, 75, 145)
+	print(res)
+
 main()
 

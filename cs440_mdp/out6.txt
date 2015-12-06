@@ -1,0 +1,2522 @@
+Best rme so far was found at Ne 0, Rp 90.000000, alpha 110  with value 0.558980
+Best rme so far was found at Ne 0, Rp 95.000000, alpha 110  with value 0.441218
+Best rme so far was found at Ne 0, Rp 95.000000, alpha 110  with value 0.441218
+Best rme so far was found at Ne 0, Rp 80.000000, alpha 110  with value 0.411653
+Best rme so far was found at Ne 0, Rp 80.000000, alpha 110  with value 0.411653
+Best rme so far was found at Ne 0, Rp 75.000000, alpha 110  with value 0.404129
+Best rme so far was found at Ne 0, Rp 75.000000, alpha 110  with value 0.404129
+Best rme so far was found at Ne 0, Rp 75.000000, alpha 110  with value 0.404129
+Best rme so far was found at Ne 0, Rp 105.000000, alpha 110  with value 0.376220
+Best rme so far was found at Ne 0, Rp 105.000000, alpha 110  with value 0.376220
+Best rme so far was found at Ne 0, Rp 105.000000, alpha 110  with value 0.376220
+Best rme so far was found at Ne 0, Rp 105.000000, alpha 110  with value 0.376220
+Best rme so far was found at Ne 0, Rp 105.000000, alpha 110  with value 0.376220
+Best rme so far was found at Ne 0, Rp 105.000000, alpha 110  with value 0.376220
+Best rme so far was found at Ne 0, Rp 105.000000, alpha 110  with value 0.376220
+Best rme so far was found at Ne 0, Rp 105.000000, alpha 110  with value 0.376220
+Best rme so far was found at Ne 4, Rp 95.000000, alpha 110  with value 0.318972
+Best rme so far was found at Ne 4, Rp 95.000000, alpha 110  with value 0.318972
+Best rme so far was found at Ne 4, Rp 95.000000, alpha 110  with value 0.318972
+Best rme so far was found at Ne 4, Rp 95.000000, alpha 110  with value 0.318972
+Best rme so far was found at Ne 4, Rp 95.000000, alpha 110  with value 0.318972
+Best rme so far was found at Ne 4, Rp 95.000000, alpha 110  with value 0.318972
+Best rme so far was found at Ne 4, Rp 95.000000, alpha 110  with value 0.318972
+Best rme so far was found at Ne 4, Rp 95.000000, alpha 110  with value 0.318972
+Best rme so far was found at Ne 4, Rp 95.000000, alpha 110  with value 0.318972
+Best rme so far was found at Ne 4, Rp 95.000000, alpha 110  with value 0.318972
+Best rme so far was found at Ne 8, Rp 110.000000, alpha 110  with value 0.305087
+Best rme so far was found at Ne 8, Rp 90.000000, alpha 110  with value 0.286890
+Best rme so far was found at Ne 8, Rp 90.000000, alpha 110  with value 0.286890
+Best rme so far was found at Ne 8, Rp 90.000000, alpha 110  with value 0.286890
+Best rme so far was found at Ne 8, Rp 90.000000, alpha 110  with value 0.286890
+Best rme so far was found at Ne 8, Rp 90.000000, alpha 110  with value 0.286890
+Best rme so far was found at Ne 8, Rp 90.000000, alpha 110  with value 0.286890
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 12, Rp 75.000000, alpha 110  with value 0.280538
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 16, Rp 85.000000, alpha 115  with value 0.277575
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 24, Rp 70.000000, alpha 115  with value 0.267427
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 0, Rp 70.000000, alpha 125  with value 0.256468
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme so far was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+Best rme was found at Ne 20, Rp 75.000000, alpha 145  with value 0.209890
+All values in queue
+(0.20988965040691304, (20, 75, 145))
+(0.2104231454183364, (4, 105, 165))
+(0.21580082871632339, (24, 70, 170))
+(0.21960543069564936, (8, 90, 150))
+(0.25646774887355256, (0, 70, 125))
+(0.25847827200168799, (0, 90, 160))
+(0.25978287490984281, (32, 75, 145))
+(0.26006747111302325, (20, 110, 175))
+(0.26259664235193103, (16, 100, 135))
+(0.2641699336268743, (4, 115, 160))
+(0.26432738549091089, (8, 105, 145))
+(0.26525234198245357, (4, 100, 145))
+(0.26742710235364381, (24, 70, 115))
+(0.26797970593748194, (20, 85, 155))
+(0.26798243933085603, (16, 75, 135))
+(0.27222692246054092, (4, 115, 175))
+(0.27232161179127057, (16, 90, 135))
+(0.27282098282624101, (24, 85, 120))
+(0.27287894089732712, (28, 90, 145))
+(0.27378365525209469, (4, 100, 155))
+(0.27445134143784328, (32, 95, 135))
+(0.27520363822659027, (0, 100, 175))
+(0.27574168093015961, (0, 80, 165))
+(0.27585159709504337, (20, 115, 155))
+(0.27617170902549426, (28, 70, 175))
+(0.27745045338191182, (32, 110, 160))
+(0.27757456102136591, (16, 85, 115))
+(0.28053797034826794, (12, 75, 110))
+(0.28073148588181657, (8, 110, 170))
+(0.28079351041015727, (12, 70, 155))
+(0.2818275738615319, (12, 75, 130))
+(0.28282038791585079, (4, 115, 170))
+(0.28283106203717334, (20, 110, 155))
+(0.28541406954208703, (20, 95, 165))
+(0.28689039534057276, (8, 90, 110))
+(0.2890275447101226, (4, 75, 165))
+(0.28921022567997023, (12, 90, 165))
+(0.2906499511364215, (12, 100, 110))
+(0.29135722670113795, (28, 75, 170))
+(0.29244039105896069, (28, 80, 140))
+(0.29487024022144642, (28, 70, 155))
+(0.29543603671719815, (20, 90, 155))
+(0.29640027555252463, (32, 85, 170))
+(0.2964013725331987, (12, 105, 110))
+(0.29744948710509866, (20, 105, 110))
+(0.29781183025960145, (0, 110, 155))
+(0.29824034965233426, (20, 115, 175))
+(0.29880501841570417, (24, 105, 160))
+(0.298884540199013, (4, 85, 125))
+(0.29945538788890896, (8, 75, 160))
+(0.29957474827170938, (24, 100, 175))
+(0.30058571499600995, (16, 90, 140))
+(0.30073717448648496, (12, 90, 175))
+(0.30108602593199052, (28, 110, 125))
+(0.30138216010822444, (12, 75, 170))
+(0.30186724239291696, (32, 80, 110))
+(0.30268333019753441, (20, 90, 150))
+(0.30433093311209874, (24, 70, 135))
+(0.30436530831331815, (4, 85, 120))
+(0.30469806304786579, (4, 75, 160))
+(0.30508669869065724, (8, 110, 110))
+(0.30512449246891465, (28, 85, 155))
+(0.30573549172885245, (12, 115, 130))
+(0.30579036614406574, (4, 70, 165))
+(0.30650500354717874, (24, 75, 175))
+(0.30654363070066293, (28, 75, 165))
+(0.30702620307190748, (12, 80, 125))
+(0.30710390604000387, (20, 90, 125))
+(0.30756647973779405, (4, 110, 170))
+(0.30820558234194279, (4, 100, 175))
+(0.30833319398386205, (4, 70, 170))
+(0.30888680560873455, (8, 115, 175))
+(0.30924184872744892, (0, 80, 150))
+(0.30928104784167454, (4, 80, 140))
+(0.31011683972902798, (4, 90, 160))
+(0.31142733392057792, (16, 95, 130))
+(0.31160236998518326, (12, 70, 175))
+(0.31170327208058718, (4, 75, 130))
+(0.31193057914617567, (24, 85, 160))
+(0.31197107629056969, (16, 100, 160))
+(0.31327764711143818, (0, 100, 165))
+(0.31411107156125767, (12, 95, 170))
+(0.31470148989403901, (28, 80, 160))
+(0.31484133765830069, (12, 100, 140))
+(0.31536350474994007, (20, 110, 120))
+(0.31544092164345872, (20, 75, 130))
+(0.31649836495872047, (20, 85, 150))
+(0.31676598632493269, (12, 90, 160))
+(0.3168826217993283, (28, 80, 175))
+(0.31736027550340473, (16, 85, 155))
+(0.31743174262434753, (4, 95, 175))
+(0.3174660570626488, (12, 80, 175))
+(0.31871747694254121, (8, 115, 170))
+(0.31877223050931341, (16, 115, 145))
+(0.31897157229240863, (4, 95, 110))
+(0.32024746596956327, (20, 115, 145))
+(0.32125430740598415, (24, 105, 115))
+(0.32177805390886466, (32, 105, 160))
+(0.32212272495876937, (16, 115, 130))
+(0.32265368818383006, (16, 115, 155))
+(0.32270261927952321, (32, 70, 160))
+(0.32276550920391045, (4, 70, 160))
+(0.3230851427253929, (32, 100, 140))
+(0.32340433897514737, (12, 115, 145))
+(0.32361388572107197, (12, 115, 125))
+(0.32412348469250923, (16, 75, 145))
+(0.32425861869109107, (0, 115, 130))
+(0.32475201476076931, (8, 75, 110))
+(0.32487152453325913, (16, 115, 175))
+(0.32524386553696555, (24, 110, 170))
+(0.32633174036576723, (20, 70, 150))
+(0.3263369927096042, (8, 90, 175))
+(0.326559364100664, (24, 105, 130))
+(0.32656533694355644, (0, 95, 135))
+(0.32658151298812443, (0, 85, 135))
+(0.327051353887368, (28, 105, 170))
+(0.32716490135199949, (28, 80, 145))
+(0.32728893040226731, (4, 85, 135))
+(0.32762242525764673, (16, 95, 170))
+(0.32835389914996388, (24, 70, 165))
+(0.32838671887032284, (32, 85, 155))
+(0.3301341480678231, (8, 100, 130))
+(0.33182492351657833, (12, 105, 175))
+(0.33211483378152951, (8, 70, 140))
+(0.33285605322093109, (0, 115, 135))
+(0.33285662561783053, (0, 100, 145))
+(0.33288714888734461, (28, 70, 160))
+(0.3334005578735964, (4, 90, 125))
+(0.33348618502883259, (0, 100, 160))
+(0.33372731903589364, (0, 70, 170))
+(0.33373887539797742, (12, 100, 175))
+(0.33387893681577735, (0, 80, 125))
+(0.33397154361276005, (12, 90, 150))
+(0.33397647136835712, (28, 70, 165))
+(0.3340924669474693, (4, 70, 135))
+(0.33423682943507849, (16, 80, 175))
+(0.33425437591613344, (20, 100, 175))
+(0.33435844247224072, (8, 80, 150))
+(0.33513910406583503, (16, 110, 135))
+(0.33580659907008359, (16, 90, 175))
+(0.33584739646021633, (20, 105, 170))
+(0.33591303428429109, (0, 75, 150))
+(0.33593026388542918, (20, 90, 135))
+(0.33602107795622593, (8, 70, 155))
+(0.3362068122032536, (8, 115, 115))
+(0.33633434782137211, (24, 115, 170))
+(0.33660302602606129, (24, 85, 175))
+(0.33666239279834903, (32, 115, 170))
+(0.33746530032399086, (28, 95, 130))
+(0.33747630027939673, (20, 100, 125))
+(0.33769473062295352, (8, 100, 150))
+(0.33797323113382322, (32, 80, 160))
+(0.33844559134176971, (16, 80, 130))
+(0.33871754647252167, (16, 90, 150))
+(0.3390396018471839, (16, 70, 115))
+(0.33918905400086541, (4, 115, 155))
+(0.33955324956810051, (24, 100, 155))
+(0.33962737043875224, (24, 100, 140))
+(0.33966759212353931, (20, 95, 115))
+(0.34029545552112661, (4, 105, 115))
+(0.34043084424782477, (20, 85, 140))
+(0.3405808211099538, (4, 110, 165))
+(0.34069286847306673, (24, 110, 140))
+(0.34071982409893614, (20, 75, 175))
+(0.34122635278779795, (8, 110, 150))
+(0.34124711838177091, (32, 100, 175))
+(0.34142378820618419, (24, 70, 110))
+(0.34164236697225453, (32, 115, 145))
+(0.34192537805619277, (20, 90, 170))
+(0.34196054168579493, (20, 110, 140))
+(0.34238605694162694, (8, 75, 175))
+(0.34261203679243668, (8, 105, 140))
+(0.34280701368844813, (8, 110, 175))
+(0.34302158479714856, (24, 80, 170))
+(0.34316880965084856, (24, 115, 150))
+(0.34319671897373794, (16, 95, 145))
+(0.3433027376458806, (12, 80, 120))
+(0.34387444473416512, (0, 70, 175))
+(0.34392971989357918, (8, 85, 150))
+(0.34402151692199257, (0, 100, 170))
+(0.34412943191926393, (8, 85, 120))
+(0.34426895245274591, (12, 70, 170))
+(0.34432316855443684, (8, 100, 110))
+(0.34487985350717604, (16, 110, 130))
+(0.34501790181398123, (8, 80, 160))
+(0.34534198992499754, (20, 80, 175))
+(0.34548557600459401, (32, 85, 175))
+(0.34557248401048468, (8, 70, 125))
+(0.34572489184852934, (16, 75, 165))
+(0.34611408112198544, (28, 70, 110))
+(0.34625781717039039, (0, 100, 125))
+(0.34645895897361584, (20, 85, 110))
+(0.34648696397790946, (16, 80, 110))
+(0.34691609741981888, (12, 85, 155))
+(0.34691799388464534, (4, 115, 120))
+(0.34698999545737824, (32, 100, 130))
+(0.34737158853465278, (28, 110, 145))
+(0.34776214864633181, (20, 95, 160))
+(0.34776506302593763, (12, 70, 160))
+(0.34798865180229449, (20, 70, 165))
+(0.34802202847438107, (20, 110, 160))
+(0.34806210613824912, (20, 110, 170))
+(0.34898523734560138, (24, 110, 160))
+(0.349038871831437, (28, 90, 155))
+(0.34914264415985674, (32, 95, 165))
+(0.34940732500191907, (16, 110, 125))
+(0.34942286451119109, (4, 105, 150))
+(0.34997224843118935, (20, 85, 120))
+(0.35000943251953298, (12, 75, 145))
+(0.35045883789304932, (32, 90, 120))
+(0.35081546967464189, (24, 95, 140))
+(0.35093824348802827, (16, 85, 145))
+(0.35105127191032703, (0, 110, 135))
+(0.35152438451019896, (16, 100, 130))
+(0.35153142371629492, (20, 75, 170))
+(0.35162752159719529, (4, 100, 165))
+(0.351628906587381, (0, 95, 160))
+(0.3520714054913478, (24, 105, 150))
+(0.35221568465244096, (0, 90, 165))
+(0.35232588567480339, (8, 70, 115))
+(0.35259998109764579, (4, 115, 135))
+(0.35298830752393268, (28, 105, 155))
+(0.35322142401275591, (8, 105, 175))
+(0.3534763242428931, (32, 90, 150))
+(0.35361126767466294, (32, 115, 155))
+(0.35399476177814593, (28, 115, 110))
+(0.35415651180140784, (0, 110, 170))
+(0.35430882515582451, (12, 105, 145))
+(0.35452415655150743, (16, 105, 160))
+(0.35476406851088832, (8, 75, 135))
+(0.35478076595333707, (4, 80, 160))
+(0.35484437718599238, (24, 95, 120))
+(0.35485041160414588, (20, 105, 150))
+(0.35505203752475595, (0, 115, 115))
+(0.35505650467651423, (28, 90, 150))
+(0.3552166138982461, (8, 80, 155))
+(0.35594443473022092, (28, 70, 145))
+(0.3563737991546943, (16, 115, 125))
+(0.35643332388530485, (12, 75, 120))
+(0.35670189684253917, (20, 85, 135))
+(0.35709380150429215, (12, 85, 170))
+(0.35723517778294778, (28, 115, 145))
+(0.35822063246164204, (24, 100, 165))
+(0.35883950958403438, (12, 85, 150))
+(0.35899084291582817, (4, 90, 175))
+(0.35908507844242332, (16, 85, 175))
+(0.35941480816449156, (4, 110, 115))
+(0.35957141370145579, (28, 100, 170))
+(0.35964754306585356, (4, 110, 145))
+(0.35973242434610253, (24, 105, 170))
+(0.35994077884697995, (20, 105, 155))
+(0.35997514616198634, (4, 90, 140))
+(0.36041886006601337, (32, 100, 110))
+(0.36045966677640645, (32, 110, 115))
+(0.36073275531900262, (28, 100, 175))
+(0.36081455522611783, (8, 75, 130))
+(0.36108939741682677, (12, 80, 140))
+(0.36122582125000269, (4, 90, 135))
+(0.36148791791532542, (0, 110, 160))
+(0.36192980870441649, (28, 110, 170))
+(0.36284742069335957, (0, 75, 160))
+(0.36287137459968372, (20, 90, 130))
+(0.3628921400352112, (12, 110, 125))
+(0.36296109927652137, (32, 90, 165))
+(0.36299335794207416, (32, 85, 120))
+(0.36311465292981598, (28, 115, 170))
+(0.3636610970750393, (8, 100, 140))
+(0.36367647356203647, (16, 105, 170))
+(0.36368582834362512, (0, 75, 155))
+(0.36376143349085416, (20, 80, 125))
+(0.36405729412314619, (28, 95, 170))
+(0.36420240197140519, (8, 75, 155))
+(0.36464348290946247, (16, 95, 135))
+(0.3647874668437322, (28, 115, 140))
+(0.36488594957345449, (20, 75, 165))
+(0.3655985949660524, (12, 105, 130))
+(0.3656819606115238, (32, 80, 150))
+(0.36652717260875622, (24, 110, 135))
+(0.36662928194679911, (12, 95, 120))
+(0.36668891921598434, (28, 90, 120))
+(0.36707977274634462, (32, 70, 155))
+(0.36747185157796614, (8, 75, 120))
+(0.36766741242734463, (12, 85, 135))
+(0.36775753674408757, (12, 90, 130))
+(0.36789552714288765, (24, 90, 125))
+(0.36799057147348552, (12, 70, 125))
+(0.36823431421101749, (28, 85, 130))
+(0.36828728428411256, (8, 100, 160))
+(0.36848315800388159, (32, 70, 135))
+(0.36855420834888813, (24, 90, 175))
+(0.36865314331836146, (12, 70, 165))
+(0.36894786061239238, (24, 75, 135))
+(0.36895746667111701, (24, 115, 175))
+(0.36904810112770775, (32, 100, 115))
+(0.36910902856457734, (28, 80, 110))
+(0.36922321668710711, (28, 90, 130))
+(0.36928100122508495, (20, 75, 160))
+(0.36946444142752288, (28, 90, 160))
+(0.36952102999500763, (8, 80, 165))
+(0.36955149838062329, (28, 90, 140))
+(0.3699317879595182, (8, 70, 110))
+(0.37029152754392658, (0, 105, 140))
+(0.3702962157004262, (32, 105, 145))
+(0.37079643091728465, (8, 105, 165))
+(0.37098344877296768, (4, 115, 130))
+(0.3710169789647304, (24, 110, 115))
+(0.37125481782180342, (28, 85, 150))
+(0.37132017873490686, (12, 95, 135))
+(0.37146370010385821, (24, 80, 155))
+(0.3717137194305869, (28, 105, 175))
+(0.37179849127504366, (32, 105, 110))
+(0.37213844905238058, (12, 85, 115))
+(0.3722206372308699, (32, 70, 115))
+(0.37232959927777143, (32, 85, 165))
+(0.3723825858054976, (32, 75, 165))
+(0.37252492158171879, (12, 80, 170))
+(0.3727344970167909, (32, 100, 165))
+(0.37312514358112836, (16, 75, 170))
+(0.37332893532360761, (28, 115, 155))
+(0.37362880838813023, (28, 95, 175))
+(0.37363708080626928, (0, 90, 175))
+(0.37365748055674086, (28, 115, 150))
+(0.37376901301168486, (24, 105, 155))
+(0.374053727832174, (32, 80, 155))
+(0.37416216800458968, (4, 80, 150))
+(0.37417836541250848, (32, 115, 160))
+(0.37459827974937099, (0, 85, 170))
+(0.37461596395952884, (20, 85, 130))
+(0.3749814310120323, (20, 80, 110))
+(0.37500341627327505, (32, 70, 170))
+(0.37509034862771662, (24, 85, 150))
+(0.37509781948150051, (24, 100, 135))
+(0.37513536989571733, (4, 105, 170))
+(0.37526651665123445, (16, 110, 165))
+(0.37534151890480688, (0, 75, 130))
+(0.37535855528262352, (8, 105, 120))
+(0.3753765880806616, (0, 100, 135))
+(0.37551499129167437, (16, 75, 175))
+(0.3755275788486645, (28, 75, 135))
+(0.37575128743577962, (28, 80, 120))
+(0.37577903487061498, (32, 115, 125))
+(0.37588139196102205, (24, 110, 150))
+(0.37591324854748687, (24, 75, 170))
+(0.37622027602380653, (0, 105, 110))
+(0.37622316091835922, (0, 75, 170))
+(0.37645841443293721, (0, 85, 175))
+(0.37653351547948766, (32, 95, 170))
+(0.37667950379192183, (8, 70, 150))
+(0.37668176645474971, (4, 100, 130))
+(0.3769525759499896, (20, 100, 135))
+(0.37698725003382066, (8, 95, 165))
+(0.37741185639212371, (32, 75, 175))
+(0.37747175184802861, (24, 100, 145))
+(0.3776887133164965, (16, 80, 115))
+(0.37770359492103306, (12, 105, 150))
+(0.37784276577265524, (0, 95, 165))
+(0.37788557541314799, (12, 70, 145))
+(0.37797159452988893, (12, 95, 150))
+(0.37808575068929073, (4, 85, 145))
+(0.37824608549454952, (0, 70, 130))
+(0.37828547695640646, (20, 115, 125))
+(0.37859225250118145, (28, 75, 175))
+(0.37879338096558035, (28, 70, 125))
+(0.37899280372889388, (4, 90, 130))
+(0.37906564159637018, (16, 95, 165))
+(0.37944646488916461, (12, 95, 140))
+(0.37949369773966257, (32, 110, 145))
+(0.37955839097014099, (24, 75, 125))
+(0.37971475797869114, (8, 85, 165))
+(0.38026513908580634, (24, 115, 145))
+(0.38030252994495339, (32, 110, 125))
+(0.38030926446786439, (28, 105, 165))
+(0.38105782001266136, (28, 75, 115))
+(0.38107021894497145, (16, 115, 120))
+(0.38114905532002702, (28, 110, 155))
+(0.38119865555499111, (4, 70, 145))
+(0.38131638537012535, (32, 95, 130))
+(0.38161687664330779, (8, 70, 165))
+(0.38174161220071423, (24, 90, 165))
+(0.381838710431464, (24, 80, 145))
+(0.38204853819353529, (0, 115, 145))
+(0.3820601615552332, (32, 110, 110))
+(0.3825518998823052, (4, 115, 165))
+(0.38331008207566669, (16, 95, 125))
+(0.38341826544807323, (16, 90, 170))
+(0.38360509891242478, (28, 75, 145))
+(0.38373935322002778, (16, 70, 175))
+(0.38385122967808066, (4, 75, 150))
+(0.38396125422433613, (4, 85, 175))
+(0.3841090035261302, (16, 100, 155))
+(0.38447068314651811, (8, 95, 160))
+(0.38460435914791158, (8, 85, 115))
+(0.38482148074511557, (24, 85, 135))
+(0.38492647638166066, (8, 90, 160))
+(0.38503747766082586, (8, 115, 130))
+(0.38517067516690662, (28, 75, 150))
+(0.38518019326093261, (24, 105, 175))
+(0.38523904144493554, (24, 110, 165))
+(0.38526545039800231, (20, 100, 150))
+(0.38546968905421863, (20, 100, 145))
+(0.38582484743861856, (8, 100, 175))
+(0.3859965290028276, (24, 70, 120))
+(0.38599803553702672, (20, 115, 120))
+(0.38635801615082749, (4, 75, 170))
+(0.38640914607504828, (20, 115, 130))
+(0.38651380195039114, (16, 80, 160))
+(0.38663910107818056, (28, 105, 160))
+(0.38677548083378643, (0, 85, 115))
+(0.38704019582950688, (0, 70, 165))
+(0.38708876305996115, (8, 85, 140))
+(0.38711390658833567, (24, 75, 115))
+(0.38728839682768879, (8, 80, 145))
+(0.38742331546624564, (16, 100, 140))
+(0.38776433951027683, (16, 80, 170))
+(0.38791983396600127, (20, 95, 135))
+(0.38801340725239181, (28, 115, 175))
+(0.38805337255247635, (20, 105, 135))
+(0.38819565112919546, (16, 115, 135))
+(0.38826864835216357, (20, 70, 160))
+(0.38856834398873952, (32, 105, 120))
+(0.38862761881283664, (8, 80, 175))
+(0.38864874753128709, (8, 100, 165))
+(0.38880860655526622, (20, 110, 165))
+(0.38894285565497605, (20, 85, 165))
+(0.38904353989666474, (12, 95, 165))
+(0.38911386364750727, (12, 110, 145))
+(0.38914959127311022, (28, 100, 140))
+(0.38918456662786849, (12, 115, 135))
+(0.38922210403760332, (4, 75, 120))
+(0.38924195385526367, (12, 85, 145))
+(0.38959112173496191, (32, 85, 125))
+(0.38965609249590433, (24, 90, 145))
+(0.38972347279377706, (8, 105, 170))
+(0.38974433438000688, (32, 75, 135))
+(0.38985243641339917, (4, 105, 140))
+(0.38993367364107806, (24, 90, 155))
+(0.39000314041138162, (8, 115, 125))
+(0.39002110270846785, (20, 75, 110))
+(0.39027699396344456, (20, 100, 140))
+(0.39035659280641533, (24, 80, 150))
+(0.39039650893517758, (32, 75, 160))
+(0.39044497285020802, (28, 110, 115))
+(0.39096764409951829, (0, 105, 150))
+(0.39135938059211051, (20, 85, 175))
+(0.3916588560021329, (28, 105, 135))
+(0.39190202193501916, (16, 100, 115))
+(0.39211673774090916, (8, 110, 125))
+(0.39231106084820772, (12, 70, 135))
+(0.39232908995418336, (28, 105, 150))
+(0.39251416702021669, (4, 110, 150))
+(0.392612885771781, (8, 85, 130))
+(0.39265979492192271, (4, 110, 120))
+(0.3926652084722701, (8, 95, 115))
+(0.39267153473916766, (16, 75, 130))
+(0.39267792469514401, (20, 100, 115))
+(0.39280122208063406, (0, 105, 120))
+(0.39281119392889507, (0, 90, 170))
+(0.39315335338360841, (28, 85, 165))
+(0.39341754205302354, (4, 100, 150))
+(0.39344925735450953, (16, 115, 160))
+(0.3937395206119676, (24, 95, 170))
+(0.39396892624454882, (12, 85, 175))
+(0.3939717164778882, (16, 70, 110))
+(0.39401627026075475, (24, 80, 110))
+(0.39418521898711828, (28, 100, 160))
+(0.39420058748427045, (20, 80, 160))
+(0.39425870994102757, (4, 110, 160))
+(0.3942983922808439, (8, 115, 165))
+(0.39457972861203677, (12, 80, 110))
+(0.39506092666427683, (8, 100, 125))
+(0.39507401328179337, (32, 80, 115))
+(0.39515764128642739, (4, 95, 165))
+(0.39539236735767158, (8, 105, 150))
+(0.39560669082145555, (4, 100, 160))
+(0.39566116083639719, (16, 105, 110))
+(0.39570429235062354, (24, 80, 140))
+(0.39605632376391642, (12, 115, 110))
+(0.39607554863732858, (20, 110, 150))
+(0.39652591555918126, (12, 110, 150))
+(0.39664607560717158, (8, 90, 140))
+(0.39669038174731319, (0, 80, 175))
+(0.39696946759060098, (12, 90, 140))
+(0.39701988580313885, (4, 85, 165))
+(0.3970882041292067, (12, 105, 155))
+(0.39714648415514714, (24, 115, 140))
+(0.39718403169536948, (12, 110, 165))
+(0.3973333502844037, (4, 110, 135))
+(0.39733794410494488, (32, 85, 145))
+(0.39764426894878352, (16, 80, 165))
+(0.39766788183255841, (24, 70, 140))
+(0.39773237888840618, (4, 80, 125))
+(0.39795675773292544, (0, 110, 125))
+(0.39795786036506053, (8, 115, 110))
+(0.3979673694452604, (8, 110, 165))
+(0.39798358497912267, (12, 70, 110))
+(0.39812928505403905, (16, 95, 140))
+(0.39815292916726142, (24, 80, 165))
+(0.39823773635885373, (32, 110, 150))
+(0.39824072186558568, (12, 110, 155))
+(0.39857613273314285, (16, 105, 140))
+(0.3986056843947387, (4, 100, 120))
+(0.39878503053787406, (28, 95, 150))
+(0.39884333117425647, (24, 115, 130))
+(0.39924707193313763, (0, 70, 115))
+(0.3995959807396024, (0, 80, 135))
+(0.39980586803112428, (8, 110, 145))
+(0.39993961849983412, (4, 105, 175))
+(0.40001438275051754, (12, 90, 170))
+(0.4001010137695914, (24, 90, 130))
+(0.40015334312757023, (4, 85, 160))
+(0.40020254969397095, (32, 95, 110))
+(0.40028578379908103, (32, 115, 140))
+(0.40051100173228876, (32, 75, 150))
+(0.40094183170946268, (12, 70, 140))
+(0.40109729355959811, (8, 115, 145))
+(0.40111429351732286, (8, 115, 150))
+(0.40121605840148428, (24, 70, 175))
+(0.40131864808921919, (12, 70, 115))
+(0.40136964933845504, (8, 80, 170))
+(0.40166792849895261, (8, 110, 120))
+(0.40182540606719774, (12, 85, 120))
+(0.40187735828966736, (0, 95, 155))
+(0.40201450578159265, (8, 100, 135))
+(0.40213688174950007, (12, 80, 160))
+(0.40231928383772914, (24, 80, 135))
+(0.40239045088547576, (24, 85, 165))
+(0.40273030916433705, (12, 85, 160))
+(0.40273776273817108, (32, 115, 175))
+(0.40303366342491448, (0, 80, 170))
+(0.40308866954669009, (28, 110, 160))
+(0.40327123338013476, (12, 75, 140))
+(0.40333684380733953, (8, 90, 125))
+(0.4037270442864444, (32, 80, 165))
+(0.4041052174739253, (20, 95, 145))
+(0.40412862960277918, (0, 75, 110))
+(0.40415241699639487, (28, 115, 130))
+(0.4042897975037143, (24, 95, 130))
+(0.40439561411738328, (4, 90, 120))
+(0.40453525230864279, (8, 95, 140))
+(0.40455437645276193, (16, 105, 165))
+(0.40456884726336662, (4, 95, 145))
+(0.40466491923030634, (20, 80, 140))
+(0.40478464448104245, (32, 115, 130))
+(0.40485439214426666, (24, 70, 150))
+(0.4051892508284119, (4, 95, 160))
+(0.40521382241858261, (16, 100, 110))
+(0.40530563774646466, (32, 70, 175))
+(0.40535094036670272, (20, 95, 175))
+(0.40546858615433529, (16, 100, 145))
+(0.4054804983767733, (28, 105, 145))
+(0.40553323891552034, (16, 115, 170))
+(0.4056211693224222, (4, 70, 155))
+(0.40571327278260844, (24, 100, 120))
+(0.40577961601876394, (20, 80, 165))
+(0.40584203515664125, (28, 85, 145))
+(0.40585091842376159, (24, 90, 140))
+(0.4059155879757822, (28, 115, 160))
+(0.40626682791460944, (32, 105, 125))
+(0.40631367717885458, (0, 90, 155))
+(0.40631973855897541, (12, 110, 160))
+(0.40659616707214824, (16, 115, 165))
+(0.40664792945957667, (0, 100, 150))
+(0.40677505607499315, (32, 90, 140))
+(0.4068937873309374, (4, 100, 170))
+(0.40709443006369611, (20, 75, 155))
+(0.40715083373610439, (32, 115, 150))
+(0.40733210623078581, (28, 105, 130))
+(0.4073391608218766, (32, 85, 135))
+(0.40738371395808542, (24, 105, 145))
+(0.40742640515949546, (32, 75, 155))
+(0.40752105432664754, (16, 70, 170))
+(0.4075733705392815, (16, 85, 160))
+(0.4078356716460893, (20, 70, 120))
+(0.40791177417988866, (12, 110, 170))
+(0.40791576253306305, (0, 90, 140))
+(0.40795976117693339, (16, 75, 115))
+(0.4079797304286395, (24, 75, 145))
+(0.40800178512512664, (12, 95, 160))
+(0.40827597852182906, (8, 115, 155))
+(0.40829052354529199, (32, 100, 150))
+(0.4083278925167011, (20, 100, 155))
+(0.40836513500250943, (20, 80, 145))
+(0.40836632890994795, (28, 95, 165))
+(0.4084867742158087, (20, 100, 130))
+(0.40860609289572886, (24, 100, 160))
+(0.40866077864879169, (12, 100, 145))
+(0.40887828737044402, (12, 90, 135))
+(0.40922554523758725, (24, 110, 120))
+(0.40924114150165319, (16, 70, 150))
+(0.40924468304116807, (16, 110, 115))
+(0.40926499119449905, (8, 90, 130))
+(0.40979762172541917, (0, 85, 110))
+(0.40982537033107902, (24, 100, 110))
+(0.41008201117961857, (0, 85, 130))
+(0.41012068275935054, (20, 95, 150))
+(0.41029083266775285, (4, 80, 135))
+(0.41038320010401602, (4, 90, 170))
+(0.41095028000891348, (20, 90, 145))
+(0.41108807641073342, (12, 100, 165))
+(0.41148455722531496, (16, 110, 170))
+(0.41165292194117675, (0, 80, 110))
+(0.41180679034840034, (20, 80, 120))
+(0.41212159373013568, (16, 75, 155))
+(0.41230672423747344, (28, 90, 125))
+(0.41255597270668559, (28, 115, 165))
+(0.4127226757556488, (0, 95, 130))
+(0.4127481030963876, (12, 75, 175))
+(0.41284234093373656, (32, 80, 135))
+(0.41314888694066404, (28, 70, 115))
+(0.41324308200253057, (8, 75, 165))
+(0.41327849833392566, (16, 105, 125))
+(0.41333836392600226, (32, 85, 115))
+(0.4133572776147092, (32, 115, 135))
+(0.41338525959986994, (28, 110, 150))
+(0.41351431165739172, (24, 85, 140))
+(0.41380680196625852, (32, 100, 145))
+(0.41386527890156599, (8, 80, 125))
+(0.41392072770667082, (16, 70, 135))
+(0.41403465206807016, (12, 75, 165))
+(0.41411365044199999, (24, 115, 160))
+(0.41428643332520443, (28, 75, 125))
+(0.41432399764210431, (8, 70, 175))
+(0.41441165144550057, (24, 75, 165))
+(0.41443979211992804, (24, 70, 160))
+(0.41495384315535072, (8, 105, 160))
+(0.41513430737158424, (4, 75, 135))
+(0.4151518196213404, (12, 90, 120))
+(0.41532475142930725, (32, 90, 125))
+(0.41547527243981935, (20, 100, 170))
+(0.41549261578919816, (28, 75, 120))
+(0.41556037800275936, (24, 85, 130))
+(0.41559851088218625, (20, 95, 155))
+(0.41560145787457292, (24, 90, 170))
+(0.41570952870953443, (24, 100, 150))
+(0.41592997062001769, (16, 90, 120))
+(0.41605462611604915, (20, 95, 140))
+(0.41627753619299229, (16, 100, 170))
+(0.41628358888271338, (4, 80, 130))
+(0.41637230219959731, (32, 110, 140))
+(0.41649792993998336, (20, 100, 120))
+(0.41694060538650429, (32, 105, 170))
+(0.41704902039746627, (20, 90, 160))
+(0.41707091138487057, (24, 75, 160))
+(0.4171097055687637, (20, 110, 115))
+(0.41711168397548326, (28, 95, 145))
+(0.41717244634385892, (24, 95, 115))
+(0.41731207050367647, (4, 100, 135))
+(0.4174103979175402, (20, 70, 110))
+(0.41745373843579903, (28, 100, 130))
+(0.41751586061662799, (16, 85, 135))
+(0.41753859933629717, (4, 95, 115))
+(0.41762786218985748, (0, 105, 165))
+(0.41763995955960354, (8, 70, 145))
+(0.41785045202355053, (28, 80, 170))
+(0.41811769766328327, (28, 95, 110))
+(0.41822473474356736, (24, 95, 150))
+(0.41849813238382533, (28, 85, 170))
+(0.41869745128501767, (8, 85, 155))
+(0.41892608537724485, (24, 105, 125))
+(0.41901176570824133, (0, 110, 150))
+(0.41911799322173132, (16, 100, 150))
+(0.41924997814830717, (0, 110, 140))
+(0.41945216232236471, (4, 75, 125))
+(0.41950196736447909, (16, 95, 160))
+(0.41961984079527298, (4, 105, 135))
+(0.4196446719432152, (28, 115, 115))
+(0.41982659288203689, (24, 115, 165))
+(0.42015380152881676, (28, 70, 130))
+(0.42023894013305513, (0, 70, 155))
+(0.42058199976111504, (8, 90, 135))
+(0.42061688842067863, (32, 90, 170))
+(0.42073546390727878, (12, 110, 175))
+(0.42082017618748069, (0, 80, 145))
+(0.42132199163044942, (20, 75, 150))
+(0.4215367951815045, (24, 85, 145))
+(0.42158776543708781, (20, 115, 135))
+(0.42175463576093053, (24, 100, 115))
+(0.42175656400537126, (32, 110, 170))
+(0.42179756417313635, (32, 90, 110))
+(0.42192002415575236, (24, 115, 115))
+(0.42196547058775474, (12, 80, 135))
+(0.42204024455535044, (24, 75, 120))
+(0.42231181019232705, (12, 110, 140))
+(0.42240449986413681, (24, 85, 110))
+(0.42252259877868048, (8, 85, 135))
+(0.42256338949603028, (8, 90, 115))
+(0.42271173575012222, (28, 85, 110))
+(0.42276466389083545, (16, 105, 150))
+(0.42279708076534844, (16, 85, 130))
+(0.42302499514764924, (28, 100, 110))
+(0.42309411922870332, (32, 115, 110))
+(0.42332288833971582, (0, 105, 135))
+(0.42342959507542099, (28, 85, 115))
+(0.42362324359987646, (8, 95, 155))
+(0.42364939066560947, (24, 70, 145))
+(0.42370266400457457, (4, 70, 110))
+(0.4237185658969268, (32, 75, 125))
+(0.42376939765149796, (28, 80, 125))
+(0.42391621923501033, (12, 75, 160))
+(0.42407435934043036, (24, 75, 130))
+(0.42414437932989585, (12, 80, 150))
+(0.42445758446553145, (32, 90, 155))
+(0.4244737091702217, (32, 110, 165))
+(0.42451000077221529, (28, 90, 110))
+(0.42453164089823453, (8, 70, 120))
+(0.42458576131899167, (0, 105, 160))
+(0.42466741480556314, (16, 90, 155))
+(0.42468480615869458, (24, 90, 160))
+(0.42469696034136523, (32, 75, 170))
+(0.42472457469236025, (28, 70, 135))
+(0.42473285151457474, (12, 100, 170))
+(0.42473501740589986, (32, 85, 130))
+(0.42476791040131356, (32, 70, 120))
+(0.42496491302139261, (0, 80, 160))
+(0.42510632893696465, (20, 90, 120))
+(0.4251624732325554, (4, 110, 130))
+(0.42517287161022138, (32, 90, 135))
+(0.42526824022699139, (28, 90, 170))
+(0.42539692318939099, (4, 80, 165))
+(0.42616117595720521, (32, 100, 160))
+(0.42626838422532504, (4, 105, 160))
+(0.42634294163421699, (4, 110, 125))
+(0.42647543065167048, (24, 85, 155))
+(0.42654319202948698, (28, 105, 115))
+(0.42663749644915377, (28, 110, 175))
+(0.42683361692704902, (8, 75, 150))
+(0.4269461584248031, (16, 110, 175))
+(0.4270312913021464, (32, 105, 130))
+(0.42714990508721079, (32, 80, 170))
+(0.42751571343378392, (32, 95, 160))
+(0.42771700912607657, (32, 100, 135))
+(0.42793306686298405, (12, 105, 160))
+(0.42798523815084333, (16, 95, 120))
+(0.42829486284416607, (28, 70, 140))
+(0.42835555288603061, (4, 80, 175))
+(0.42844536748604994, (8, 105, 155))
+(0.42869509988493448, (8, 90, 145))
+(0.42883752202243924, (16, 85, 140))
+(0.42893264179609542, (4, 95, 130))
+(0.42894860445170474, (24, 105, 165))
+(0.42911721711530493, (0, 115, 170))
+(0.42939030192399524, (32, 90, 115))
+(0.42953588452043334, (20, 90, 165))
+(0.42987596796280203, (12, 100, 120))
+(0.42987643020978639, (4, 110, 175))
+(0.42996958343279973, (28, 95, 125))
+(0.42997643790126222, (12, 115, 115))
+(0.43004939727132707, (16, 115, 140))
+(0.43038058062361673, (4, 105, 110))
+(0.43053140421033337, (32, 95, 145))
+(0.43066758038316444, (0, 80, 130))
+(0.43067283581301319, (20, 115, 165))
+(0.43068443578110899, (16, 80, 120))
+(0.43084917374214349, (8, 70, 170))
+(0.43101942948358662, (28, 85, 135))
+(0.43123207826739707, (32, 95, 115))
+(0.43126436359623355, (32, 75, 115))
+(0.43136094828141147, (12, 115, 150))
+(0.43145413100611224, (16, 70, 140))
+(0.43146070426108551, (12, 75, 115))
+(0.43179100414016791, (32, 70, 130))
+(0.43192725414919081, (16, 70, 120))
+(0.4319808190055297, (32, 110, 175))
+(0.43216563917185147, (16, 105, 155))
+(0.43218612150228231, (24, 90, 120))
+(0.43228159270733313, (0, 75, 145))
+(0.43240242732425055, (20, 105, 120))
+(0.43242237564909269, (4, 70, 140))
+(0.43255095222760814, (24, 95, 125))
+(0.43273566527872531, (32, 90, 175))
+(0.43302766490216105, (28, 80, 165))
+(0.43349527170580882, (28, 110, 110))
+(0.43361944312310025, (12, 110, 110))
+(0.43375852104440837, (20, 70, 175))
+(0.43382855658007657, (12, 105, 125))
+(0.43388747127662741, (8, 75, 170))
+(0.43392044868422336, (8, 110, 140))
+(0.43401244613883894, (20, 105, 145))
+(0.43424368902422011, (12, 110, 135))
+(0.43433251516406401, (8, 85, 170))
+(0.43433747885016893, (20, 115, 160))
+(0.43462147065997725, (8, 110, 160))
+(0.43467905794387851, (8, 115, 160))
+(0.43480452534906239, (12, 70, 130))
+(0.43480696696507737, (0, 75, 135))
+(0.43495592680958284, (0, 85, 125))
+(0.43516108697827882, (20, 105, 175))
+(0.43522305211272705, (16, 110, 120))
+(0.43529826188031678, (0, 110, 165))
+(0.43542862549144085, (20, 85, 170))
+(0.43548691420880764, (4, 70, 115))
+(0.43555329551249194, (16, 90, 125))
+(0.43559144566653957, (8, 100, 170))
+(0.43574542643636505, (8, 75, 145))
+(0.43580942844679382, (8, 105, 130))
+(0.43585936280073728, (0, 110, 175))
+(0.43586971493566068, (24, 75, 150))
+(0.43588056261245867, (16, 70, 155))
+(0.43602827420825763, (16, 70, 130))
+(0.43607414148298906, (12, 95, 115))
+(0.43625011122413754, (28, 105, 120))
+(0.43628108511213753, (32, 70, 140))
+(0.43630087724713496, (8, 115, 140))
+(0.43640681408901277, (4, 90, 115))
+(0.43646153167463009, (8, 105, 135))
+(0.43667761416074741, (24, 100, 130))
+(0.43700778618263902, (4, 75, 175))
+(0.43706495084338776, (0, 75, 140))
+(0.43722358459909871, (20, 100, 160))
+(0.43752443115940526, (20, 70, 115))
+(0.43762037599156578, (8, 105, 110))
+(0.43770740809525654, (0, 70, 145))
+(0.43793399297543001, (12, 80, 145))
+(0.43798482831783275, (20, 70, 155))
+(0.43803661171325281, (0, 85, 165))
+(0.43806167382594302, (24, 75, 110))
+(0.4382030602341907, (24, 110, 130))
+(0.4383988511494803, (4, 115, 150))
+(0.43842835292844407, (32, 95, 140))
+(0.4388551184487075, (12, 105, 165))
+(0.43904631656244758, (32, 80, 130))
+(0.43915470358498621, (4, 105, 155))
+(0.43950532015492855, (12, 105, 140))
+(0.43970820342615419, (12, 115, 170))
+(0.43973148412247798, (12, 85, 125))
+(0.43977134891208869, (8, 110, 130))
+(0.43983034480478295, (28, 80, 115))
+(0.43983069450262607, (12, 95, 110))
+(0.43990541206520289, (0, 85, 155))
+(0.44032089471956637, (20, 75, 135))
+(0.44054940755952238, (4, 70, 120))
+(0.44054999889797636, (20, 110, 130))
+(0.44070685555569916, (32, 85, 150))
+(0.44072644965339836, (32, 75, 110))
+(0.44073070048127222, (16, 80, 125))
+(0.44096410621997162, (16, 85, 150))
+(0.44110997679254976, (0, 85, 120))
+(0.44115314061414479, (20, 95, 120))
+(0.44121848454180956, (0, 95, 110))
+(0.44123875343458779, (32, 85, 160))
+(0.44130743268838724, (28, 95, 120))
+(0.44140622294696635, (20, 105, 125))
+(0.44154737145110834, (4, 115, 125))
+(0.44165959072056543, (0, 70, 140))
+(0.44190022765297526, (8, 70, 130))
+(0.44222305326862854, (28, 85, 120))
+(0.4422572698233555, (32, 105, 165))
+(0.44229393685174401, (28, 110, 130))
+(0.4422962130894047, (8, 100, 145))
+(0.44251259646135832, (4, 90, 155))
+(0.44275200568602158, (4, 85, 150))
+(0.44318882479758182, (20, 105, 160))
+(0.4431968206981482, (8, 105, 115))
+(0.44329004120549376, (20, 80, 130))
+(0.44341861729424825, (12, 100, 130))
+(0.44344796288182387, (20, 95, 130))
+(0.44350107197562483, (4, 85, 170))
+(0.44358999445363922, (28, 115, 120))
+(0.44384753987365244, (4, 115, 115))
+(0.44385449448478537, (8, 100, 115))
+(0.44390675832358761, (32, 105, 150))
+(0.44399577078139424, (24, 100, 125))
+(0.44401943773970498, (20, 105, 115))
+(0.44405225444689717, (0, 95, 175))
+(0.44405453282252305, (28, 95, 140))
+(0.44411762016679524, (4, 95, 135))
+(0.44424220810733989, (0, 70, 120))
+(0.44478686894953712, (4, 95, 155))
+(0.44503700489642889, (28, 90, 175))
+(0.44515937855032678, (0, 105, 125))
+(0.44516003228274781, (28, 75, 140))
+(0.44561781559580399, (0, 115, 150))
+(0.44574183450180588, (20, 90, 175))
+(0.44590895164416644, (28, 100, 115))
+(0.44594595719196861, (28, 80, 135))
+(0.44618390901646576, (20, 80, 170))
+(0.44622124119842765, (16, 85, 125))
+(0.44637711233716909, (12, 80, 165))
+(0.44646249054378934, (12, 115, 175))
+(0.44646816935610617, (8, 80, 115))
+(0.44648003997669017, (24, 95, 110))
+(0.44683084026857839, (4, 110, 110))
+(0.44690004506843234, (0, 75, 175))
+(0.44693630496644299, (32, 105, 155))
+(0.44696724453946529, (4, 75, 140))
+(0.4470946215725573, (32, 70, 145))
+(0.447218937430029, (4, 90, 150))
+(0.44727824377438002, (16, 95, 175))
+(0.44750675100727627, (28, 115, 135))
+(0.44777986727150665, (24, 80, 125))
+(0.44791754123405142, (4, 95, 140))
+(0.44794052742401763, (12, 105, 170))
+(0.44801894831721728, (28, 75, 130))
+(0.44812155109987967, (8, 90, 155))
+(0.44845452556650661, (28, 100, 125))
+(0.44913876551104986, (8, 95, 110))
+(0.44923896181489503, (16, 105, 175))
+(0.44929848976063047, (0, 85, 150))
+(0.44942428429643566, (4, 110, 140))
+(0.44947487947472681, (24, 110, 110))
+(0.44949033623378809, (20, 75, 140))
+(0.44983082724104245, (32, 95, 175))
+(0.45002462474148275, (28, 95, 115))
+(0.45007215606444767, (28, 105, 140))
+(0.45025746895970908, (8, 70, 160))
+(0.45029797294782764, (24, 95, 160))
+(0.45040612388533846, (8, 95, 130))
+(0.45046405515013532, (16, 115, 150))
+(0.45056151701250097, (32, 105, 115))
+(0.45097299751691222, (24, 115, 155))
+(0.45113760596770158, (16, 100, 120))
+(0.45123472360704736, (16, 105, 120))
+(0.45135110824957636, (0, 115, 125))
+(0.45135376289581763, (0, 115, 155))
+(0.45146984358952447, (16, 100, 175))
+(0.45152908281714715, (20, 100, 165))
+(0.45161058329619785, (8, 80, 120))
+(0.45170204228418498, (4, 115, 140))
+(0.45181181270262405, (4, 90, 165))
+(0.45181187823604818, (4, 70, 130))
+(0.45181638628732124, (28, 100, 120))
+(0.45232594388477565, (24, 90, 150))
+(0.45233078238747149, (4, 95, 170))
+(0.45250500762168788, (16, 105, 130))
+(0.452575117089069, (12, 90, 115))
+(0.45275310590911899, (28, 105, 125))
+(0.45291320604644025, (24, 115, 135))
+(0.45302933387580474, (16, 90, 165))
+(0.45310224634167734, (28, 80, 130))
+(0.45310458467603038, (0, 115, 175))
+(0.45342797982803779, (0, 110, 110))
+(0.45363402389551682, (16, 70, 125))
+(0.45384307749554775, (4, 70, 150))
+(0.45388123676018571, (4, 115, 110))
+(0.45410263870832229, (12, 115, 165))
+(0.45453649254034478, (28, 90, 115))
+(0.45458726055870419, (4, 75, 155))
+(0.4546155750803893, (28, 75, 155))
+(0.45466528289048347, (16, 90, 110))
+(0.45479605160375147, (32, 90, 160))
+(0.45488032267076467, (32, 110, 120))
+(0.45505508681619722, (4, 85, 130))
+(0.45560267443415425, (16, 110, 160))
+(0.45562228060482002, (8, 85, 145))
+(0.45565583559461004, (28, 75, 160))
+(0.45579461998785076, (4, 85, 140))
+(0.45620736354103164, (8, 95, 120))
+(0.45622570200846652, (20, 90, 110))
+(0.45696792719034085, (12, 100, 125))
+(0.45706940647935551, (16, 90, 130))
+(0.45772998095591955, (0, 90, 130))
+(0.45787859017846977, (12, 100, 150))
+(0.45791040618767476, (8, 110, 135))
+(0.45808810862076449, (12, 100, 135))
+(0.45810692098172445, (32, 70, 125))
+(0.45816618419400701, (16, 95, 110))
+(0.45817555885053107, (16, 85, 120))
+(0.45831783485354499, (20, 115, 150))
+(0.45838244651824378, (20, 70, 170))
+(0.4586945698161376, (24, 85, 115))
+(0.45877851299713612, (12, 110, 115))
+(0.45880091402381934, (24, 80, 160))
+(0.45890957823729389, (20, 115, 140))
+(0.4589386743158288, (16, 90, 115))
+(0.45940134730463927, (16, 95, 150))
+(0.45952772851840717, (28, 80, 155))
+(0.45959562844716906, (20, 110, 135))
+(0.45964982673261967, (16, 110, 150))
+(0.45965773954038264, (32, 90, 145))
+(0.45985689174588229, (0, 80, 140))
+(0.45986679771097561, (32, 85, 110))
+(0.46005920706179881, (0, 70, 110))
+(0.46008114313526066, (20, 90, 140))
+(0.46010335953647447, (12, 105, 120))
+(0.46010947486449005, (28, 70, 120))
+(0.46017360804088198, (12, 115, 160))
+(0.4603757610688412, (16, 105, 135))
+(0.46041608266391015, (0, 115, 140))
+(0.4608927900248681, (20, 105, 130))
+(0.46175238739192093, (20, 110, 125))
+(0.46179461882370659, (4, 90, 145))
+(0.46201017667744554, (32, 75, 120))
+(0.46211153282405676, (8, 85, 110))
+(0.46262361989037509, (32, 80, 145))
+(0.46277140440283931, (12, 85, 140))
+(0.46310163539119137, (32, 80, 125))
+(0.46326539593015226, (24, 90, 110))
+(0.46353972268611393, (0, 90, 135))
+(0.46355645393822265, (24, 105, 110))
+(0.46367201506494676, (32, 95, 125))
+(0.4637736571653216, (32, 105, 175))
+(0.46387117771994751, (12, 75, 150))
+(0.46400463233705863, (12, 85, 130))
+(0.46415067489714296, (16, 70, 165))
+(0.46440618163630104, (8, 90, 170))
+(0.46465605806158911, (0, 95, 150))
+(0.46470345142639607, (0, 100, 155))
+(0.46479040706891644, (4, 85, 155))
+(0.46494684554043231, (8, 110, 115))
+(0.4651195611154989, (8, 110, 155))
+(0.46532922240870195, (28, 115, 125))
+(0.46575453525856114, (0, 105, 115))
+(0.46598572293453394, (0, 95, 140))
+(0.46616194286697649, (28, 80, 150))
+(0.46617376283570844, (0, 70, 135))
+(0.46625646222893935, (28, 95, 135))
+(0.4664347537723893, (4, 80, 170))
+(0.46656901660377714, (32, 75, 130))
+(0.46657228818458812, (24, 110, 175))
+(0.4669208728701057, (12, 95, 175))
+(0.46696826936555219, (16, 70, 145))
+(0.46719052789165272, (16, 105, 115))
+(0.46751921929973939, (12, 80, 130))
+(0.46761126933875657, (32, 115, 120))
+(0.46769762645030449, (0, 90, 115))
+(0.46777749070291075, (24, 95, 165))
+(0.46847808824660558, (12, 70, 150))
+(0.46854036889106188, (24, 95, 145))
+(0.46855171827670827, (0, 100, 130))
+(0.46861064493417581, (28, 95, 160))
+(0.46873314180367026, (8, 95, 150))
+(0.46874890202655445, (20, 80, 150))
+(0.46880276964548606, (4, 105, 125))
+(0.46882434737405138, (20, 75, 125))
+(0.46901307021119104, (24, 75, 155))
+(0.46902953982159673, (12, 115, 140))
+(0.4691421841580164, (24, 105, 140))
+(0.46916261421091632, (32, 110, 130))
+(0.46954126419088332, (4, 80, 155))
+(0.46956190618758148, (20, 105, 165))
+(0.47023665487461863, (16, 75, 110))
+(0.47037684123815593, (12, 85, 165))
+(0.47104742346819228, (16, 80, 135))
+(0.47124762999957115, (0, 100, 140))
+(0.47155833071111375, (8, 95, 145))
+(0.47203767520310835, (16, 90, 145))
+(0.47213281489978182, (4, 95, 125))
+(0.47230197646488375, (16, 110, 110))
+(0.47245582519648566, (4, 75, 145))
+(0.4725535632361349, (12, 75, 155))
+(0.47283298711555383, (32, 80, 140))
+(0.47293950493877474, (32, 100, 170))
+(0.47352641681474689, (0, 90, 125))
+(0.47359596059747344, (8, 75, 125))
+(0.47363566559905801, (20, 95, 170))
+(0.47364207729780988, (24, 70, 155))
+(0.47384455540166315, (32, 105, 135))
+(0.47403239725874963, (32, 95, 155))
+(0.47414396661457364, (0, 90, 145))
+(0.47433107434166072, (0, 115, 120))
+(0.47440342828537768, (24, 105, 135))
+(0.47442150962965418, (4, 80, 115))
+(0.47446307131107524, (24, 85, 125))
+(0.47471962564888909, (28, 100, 155))
+(0.47495371130154307, (20, 80, 135))
+(0.47514250801144442, (32, 100, 125))
+(0.47529959644466224, (28, 75, 110))
+(0.47530166652353739, (24, 70, 130))
+(0.47608437914364343, (32, 115, 165))
+(0.47615178860908908, (16, 75, 150))
+(0.47616299852264554, (28, 85, 175))
+(0.47624737997774519, (12, 100, 115))
+(0.47649684331161662, (16, 70, 160))
+(0.4765359136095027, (32, 80, 175))
+(0.47659072404878366, (12, 90, 145))
+(0.47669471773281741, (4, 75, 110))
+(0.47691482890460585, (16, 75, 160))
+(0.4772742695333228, (12, 105, 135))
+(0.47734887604385745, (28, 85, 125))
+(0.47743150452563615, (12, 105, 115))
+(0.47749632586943763, (0, 85, 160))
+(0.47750845110479051, (20, 110, 110))
+(0.47763157179815624, (16, 85, 165))
+(0.47804712368323327, (12, 115, 155))
+(0.47808051546909719, (28, 110, 165))
+(0.47817102307492615, (24, 90, 135))
+(0.47821634250215894, (0, 75, 125))
+(0.47827541275779145, (24, 85, 170))
+(0.47833518956561066, (24, 95, 175))
+(0.47839729438796946, (12, 75, 125))
+(0.47899964430804859, (0, 95, 125))
+(0.47925396400100667, (16, 105, 145))
+(0.47937601358844861, (8, 90, 120))
+(0.47970670979773189, (24, 80, 175))
+(0.48015672968957557, (24, 110, 155))
+(0.48027457256485867, (8, 95, 175))
+(0.4807365935329776, (32, 95, 150))
+(0.48080731204955146, (20, 90, 115))
+(0.48098633865673907, (32, 70, 150))
+(0.4809963668265439, (0, 75, 165))
+(0.48100299604698288, (0, 100, 110))
+(0.48109589996667235, (20, 75, 120))
+(0.4812223316427674, (32, 70, 165))
+(0.48149558516890173, (0, 95, 170))
+(0.48207999123248324, (28, 85, 140))
+(0.48274632537747564, (8, 80, 110))
+(0.48297360929799454, (16, 75, 140))
+(0.48301229281221314, (16, 95, 115))
+(0.48316747959814499, (4, 90, 110))
+(0.48335027608227998, (24, 115, 120))
+(0.48366317897580763, (12, 115, 120))
+(0.48369368395101114, (32, 95, 120))
+(0.48382587194206422, (8, 100, 120))
+(0.48427149284571447, (20, 70, 145))
+(0.48435966974604983, (32, 105, 140))
+(0.48445129823380106, (12, 75, 135))
+(0.48458549823699892, (32, 80, 120))
+(0.48459117508162897, (28, 85, 160))
+(0.4847503022152243, (8, 75, 115))
+(0.48529309129812637, (16, 80, 155))
+(0.48569343085676603, (24, 110, 125))
+(0.48681502318023434, (24, 115, 125))
+(0.48700781055338949, (12, 90, 125))
+(0.48730591890182756, (24, 95, 135))
+(0.48757165352950582, (24, 75, 140))
+(0.48769992639386928, (20, 115, 170))
+(0.48812157606809981, (8, 70, 135))
+(0.4883763585894712, (28, 70, 170))
+(0.48858478887763718, (28, 100, 165))
+(0.48872224346857857, (32, 110, 135))
+(0.48873200522065297, (12, 100, 160))
+(0.48942851324176934, (4, 70, 175))
+(0.48985127214789481, (4, 70, 125))
+(0.48995826601222392, (24, 110, 145))
+(0.49040612359840213, (12, 95, 155))
+(0.49063962447302956, (16, 95, 155))
+(0.49117211641059128, (8, 80, 135))
+(0.49125021954861753, (28, 90, 165))
+(0.49166022067649612, (16, 110, 145))
+(0.49194515818911239, (4, 110, 155))
+(0.4919897108229877, (32, 100, 155))
+(0.49200032794984855, (20, 80, 115))
+(0.49204287827599208, (20, 95, 125))
+(0.49222653462018445, (8, 115, 120))
+(0.49225759612550823, (20, 95, 110))
+(0.49243647658586792, (12, 85, 110))
+(0.49314949397910568, (8, 80, 140))
+(0.49326790675947818, (0, 95, 115))
+(0.49399807477986196, (16, 115, 110))
+(0.49418126274737662, (8, 95, 125))
+(0.49456962345180555, (16, 75, 120))
+(0.49483841595323236, (20, 100, 110))
+(0.49486179119050533, (16, 90, 160))
+(0.49496514421172927, (24, 105, 120))
+(0.49520870616277785, (8, 75, 140))
+(0.49523858793795311, (28, 110, 120))
+(0.49536416962909036, (20, 105, 140))
+(0.49550671168803062, (0, 100, 120))
+(0.49560831465737282, (0, 110, 120))
+(0.49600747092949354, (32, 85, 140))
+(0.4962093317276059, (16, 115, 115))
+(0.49675014602300438, (4, 115, 145))
+(0.49739028350716397, (4, 100, 140))
+(0.49747399984389012, (8, 100, 155))
+(0.49758675528485208, (0, 115, 160))
+(0.49769395897054836, (0, 105, 130))
+(0.49824613880384711, (4, 100, 110))
+(0.49831275859277718, (0, 70, 150))
+(0.49852527472876135, (4, 85, 110))
+(0.49944299869009401, (32, 70, 110))
+(0.49961102585864453, (20, 85, 145))
+(0.50076946515479892, (0, 80, 155))
+(0.50087045095519866, (16, 80, 140))
+(0.50115625836590449, (0, 105, 145))
+(0.50122245266758547, (4, 85, 115))
+(0.50161081918419259, (24, 80, 130))
+(0.50184086290650431, (32, 75, 140))
+(0.50238616469175157, (20, 85, 125))
+(0.50245671882374909, (16, 100, 165))
+(0.50263756756311206, (0, 115, 165))
+(0.50313400412409692, (8, 95, 170))
+(0.50318786274316762, (24, 100, 170))
+(0.50409155348454815, (20, 75, 115))
+(0.50453367476090438, (0, 75, 115))
+(0.50473897670970502, (16, 85, 170))
+(0.50553035241984767, (20, 115, 110))
+(0.50582043505431229, (8, 85, 160))
+(0.50611022493535629, (28, 90, 135))
+(0.50642368541635074, (12, 110, 120))
+(0.50650348950944124, (24, 90, 115))
+(0.50719764609094431, (8, 85, 125))
+(0.50761604301707386, (16, 80, 150))
+(0.50779043769524412, (4, 105, 120))
+(0.50802558044145218, (12, 80, 115))
+(0.5080337300772434, (28, 100, 135))
+(0.50814340174944761, (0, 80, 120))
+(0.50853148376127166, (20, 110, 145))
+(0.50870306625485051, (20, 115, 115))
+(0.50876455542307109, (28, 95, 155))
+(0.50877066145855876, (4, 80, 110))
+(0.50942289159684795, (32, 110, 155))
+(0.51015900084718124, (12, 90, 110))
+(0.51101667626447489, (8, 80, 130))
+(0.51116499639155122, (28, 100, 145))
+(0.51126344103969723, (16, 110, 155))
+(0.51211862553175924, (20, 70, 135))
+(0.5125326822691022, (28, 110, 140))
+(0.5125438858156991, (12, 100, 155))
+(0.51257007285975098, (12, 95, 145))
+(0.51288956338892155, (0, 110, 115))
+(0.5140687809120803, (28, 110, 135))
+(0.51432992946635259, (28, 100, 150))
+(0.51434500543546524, (4, 75, 115))
+(0.51493944096525757, (0, 105, 155))
+(0.51624474020947109, (20, 85, 160))
+(0.51777805027081247, (28, 70, 150))
+(0.51790181965654336, (4, 105, 130))
+(0.51808817971054411, (24, 70, 125))
+(0.51821920526516907, (8, 115, 135))
+(0.51940037420771057, (24, 115, 110))
+(0.5195651012429926, (0, 75, 120))
+(0.5198490517937312, (24, 80, 120))
+(0.5200191150374629, (4, 100, 125))
+(0.52008872827273156, (16, 110, 140))
+(0.5204441976679105, (16, 75, 125))
+(0.52144606795879433, (4, 95, 150))
+(0.5217781221040948, (20, 70, 130))
+(0.52197616345265707, (16, 100, 125))
+(0.52248976635080713, (20, 70, 125))
+(0.52303462167604298, (0, 85, 140))
+(0.525212993033776, (12, 80, 155))
+(0.52650235891506381, (0, 90, 120))
+(0.52770218761241006, (12, 70, 120))
+(0.52895803576059719, (20, 85, 115))
+(0.52913911367102784, (32, 100, 120))
+(0.52921090619377031, (0, 70, 160))
+(0.53269053510322284, (12, 90, 155))
+(0.53460345706057821, (32, 90, 130))
+(0.53492296426806518, (0, 110, 145))
+(0.53627662392790809, (4, 95, 120))
+(0.53684486021994215, (8, 105, 125))
+(0.53714660633537537, (0, 80, 115))
+(0.53778814095901561, (4, 80, 120))
+(0.53936195384150287, (8, 85, 175))
+(0.53960097751244385, (4, 105, 145))
+(0.54016292018229839, (24, 80, 115))
+(0.54112735680638691, (28, 105, 110))
+(0.54160224440373739, (20, 80, 155))
+(0.54187410239316458, (4, 100, 115))
+(0.54260803578406269, (20, 70, 140))
+(0.54487814034229043, (8, 95, 135))
+(0.54534345289636321, (0, 95, 145))
+(0.54712548925045501, (32, 115, 115))
+(0.54924943099647594, (12, 110, 130))
+(0.5511793115231548, (0, 100, 115))
+(0.55252991185420475, (0, 105, 170))
+(0.55784707624427843, (0, 105, 175))
+(0.55859106507972489, (0, 90, 150))
+(0.5589799868099119, (0, 90, 110))
+(0.56178136886466723, (24, 95, 155))
+(0.56218791148784386, (12, 95, 125))
+(0.5631153967579815, (0, 115, 110))
+(0.5669435399333751, (0, 110, 130))
+(0.5670886346410835, (16, 85, 110))
+(0.56804647708844824, (4, 80, 145))
+(0.5733010866298629, (0, 85, 145))
+(0.57497458256634215, (0, 95, 120))
+(0.5827622216317333, (16, 80, 145))
+(0.6008566903143604, (12, 95, 130))
+(0.62479855993241196, (8, 90, 165))
