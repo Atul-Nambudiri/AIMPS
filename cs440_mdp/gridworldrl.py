@@ -57,11 +57,11 @@ def successorState(i, j, dir):
 	"""
 	wanted = chosenDir()
 	if dir == 0:
-		if wanted == 0:
-			return (i -1, j)
-		elif wanted == -1:
+		if wanted == 0:				#The wanted direction
+			return (i -1, j)	
+		elif wanted == -1:			#Right angle - Left
 			return (i, j - 1)
-		else:
+		else:						#Right angle - Right
 			return (i, j + 1)
 	elif dir == 1:
 		if wanted == 0:
@@ -125,7 +125,7 @@ def calcUtility(Ne, Rp, alphaNum):
 			else:
 				bestScore = -100000000
 				bestA = -1
-				for t in range(4):
+				for t in range(4):			#Run the exploration function of all the actions
 					curr = exploration_function(Q[i][j][t], N[i][j][t], Ne, Rp)
 					if curr > bestScore:
 						bestScore = curr
@@ -134,14 +134,14 @@ def calcUtility(Ne, Rp, alphaNum):
 				for t in range(4):
 					if exploration_function(Q[i][j][t], N[i][j][t], Ne, Rp) == bestScore:
 						best.append(t)
-				bestA = random.choice(best)
+				bestA = random.choice(best)			#If there are duplicates, pick at random what we choose to do
 				N[i][j][bestA] += 1
 				nextState = successorState(i, j, bestA)
 				if ((nextState[0] >= len(N) or nextState[1] >= len(N[0]) or nextState[0] < 0 or nextState[1] < 0) or reward_map[nextState[0]][nextState[1]] == "W"):
 					nextState = (i, j)
 				bestNextState = max(Q[nextState[0]][nextState[1]])
-				alpha = alphaNum/((alphaNum-1) + v)
-				Q[i][j][bestA] = (Q[i][j][bestA] + alpha * (reward_map[i][j] + (0.99 * bestNextState) - Q[i][j][bestA]))
+				alpha = alphaNum/((alphaNum-1) + v)			#Calculate the alpha
+				Q[i][j][bestA] = (Q[i][j][bestA] + alpha * (reward_map[i][j] + (0.99 * bestNextState) - Q[i][j][bestA]))   #Update the Q value for the square using the TD learning method
 				i = nextState[0]
 				j = nextState[1]
 		number = 0
@@ -149,7 +149,7 @@ def calcUtility(Ne, Rp, alphaNum):
 		subset = []
 		for l in range(len(Q)):
 			for m in range(len(Q[0])):
-				if v % 20 == 0 and (l * 6 + m) % 5 == 0:
+				if v % 20 == 0 and (l * 6 + m) % 5 == 0:	#Add utilites to graph eveyr 20 iterations
 					subset.append(((l, m), max(Q[l][m])))
 				summation += (max(Q[l][m]) - actual[l][m])**2
 				for n in range(4):
@@ -157,8 +157,8 @@ def calcUtility(Ne, Rp, alphaNum):
 						if abs(Q_prev[l][m][n] - Q[l][m][n]) < 0.01:
 							number += 1
 						Q_prev[l][m][n] = Q[l][m][n]
-		rmse = (summation/36)**(0.5)
-		if number == 144:
+		rmse = (summation/36)**(0.5)		#Calculate the rmse
+		if number == 144:					#We have converged
 			print("RMSE: %f" % rmse)
 			done = True
 		if v % 20 == 0:
@@ -166,12 +166,12 @@ def calcUtility(Ne, Rp, alphaNum):
 			rmses.append(rmse)
 			items.append(v)
 			utilities.append(subset)
-	plot.plot(items, rmses)
+	plot.plot(items, rmses)			#Plot everything
 	plot.xlabel('Trial')
 	plot.ylabel('RMSE')
 	plot.title('RMSE over tine')
-	#plot.show()
-	#plot.figure()
+	plot.show()
+	plot.figure()
 	for i in range(len(utilities[0])):
 		print(i)
 		plot.plot(items, [item[i][1] for item in utilities], label=str(utilities[0][i][0]))
@@ -179,7 +179,7 @@ def calcUtility(Ne, Rp, alphaNum):
 	plot.ylabel("Utilities")
 	plot.title('Utilities over time')
 	plot.legend(loc='lower right', ncol=3, fancybox=True, shadow=True)
-	#plot.show()
+	plot.show()
 
 
 	return Q
